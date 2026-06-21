@@ -1,0 +1,4342 @@
+[
+  {
+    "id": 0,
+    "title": "Administrative Law",
+    "fullTitle": "Administrative Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harrison, John C."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL298",
+    "examType": "Flex Exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 1,
+    "title": "Advanced Legal Research",
+    "fullTitle": "Advanced Legal Research (Section 1)",
+    "section": 1,
+    "professors": [
+      "Radthorne, Daniel"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:18:00",
+    "classroom": "WB278",
+    "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 2,
+    "title": "Advanced Legal Research",
+    "fullTitle": "Advanced Legal Research (Section 2)",
+    "section": 2,
+    "professors": [
+      "Radthorne, Daniel"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:18:00",
+    "classroom": "WB278",
+    "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 3,
+    "title": "Advanced Patent Law",
+    "fullTitle": "Advanced Patent Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Duffy, John F."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Flex Exam: 80%\n20% 1 page (600 words max) written critique of a case/doctrine studied in class, of the student's choice",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 4,
+    "title": "Advising Boards of Directors (Public and Private Equity) Under Siege (SC)",
+    "fullTitle": "Advising Boards of Directors (Public and Private Equity) Under Siege (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kaufman, Peter S."
+    ],
+    "daysRaw": "Mon, August 24\nTue, August 25\nWed, August 26\nMon, August 31\nTue, September 1\nWed, September 2",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: Take-home, team exercise due on expo by 9/16 at noon",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 5,
+    "title": "AI and Employment Law (SC)",
+    "fullTitle": "AI and Employment Law (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Wilkinson, Christopher B."
+    ],
+    "daysRaw": "Mon, August 24 - October 5",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "WB116",
+    "examType": "Paper: Final paper due by noon on 10/19 on expo",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 6,
+    "title": "AI and IP",
+    "fullTitle": "AI and IP (Section 1)",
+    "section": 1,
+    "professors": [
+      "Duffy, John F."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1335-1535",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 815,
+        "end": 935
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: Class participation + 5 short papers on legal & policy implications of AI",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 7,
+    "title": "AI and Legal Tools Lab",
+    "fullTitle": "AI and Legal Tools Lab (Section 1)",
+    "section": 1,
+    "professors": [
+      "Curtis, Quinn"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB278",
+    "examType": "Paper: Two main grading components: \n1. lab notebook on process of designing/panning/creating tools \n2. formal memo on tool created (due Dec. 17)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 8,
+    "title": "Antitrust",
+    "fullTitle": "Antitrust (Section 1)",
+    "section": 1,
+    "professors": [
+      "Fischman, Joshua"
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL258",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 9,
+    "title": "Appellate Litigation Clinic (YR)",
+    "fullTitle": "Appellate Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "McGill, Lori Alvino",
+      "Ballenger, Scott",
+      "Stetson, Cate"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1300-1430",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 780,
+        "end": 870
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:12:00",
+    "classroom": "WB114",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 10,
+    "title": "Artificial Intelligence and Empirical Legal Studies (YR)",
+    "fullTitle": "Artificial Intelligence and Empirical Legal Studies (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cope, Kevin",
+      "Hynes, Rich"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:14:00",
+    "classroom": "WB116",
+    "examType": "Paper: First semester: problem sets + research plan for spring paper \nSecond semester: research paper development & presentation",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 11,
+    "title": "Artificial Intelligence and Machine Learning",
+    "fullTitle": "Artificial Intelligence and Machine Learning (Section 1)",
+    "section": 1,
+    "professors": [
+      "Evans, David",
+      "Nachbar, Thomas B."
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "0900-1130",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 540,
+        "end": 690
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:30:00",
+    "classroom": "WB152",
+    "examType": "Paper: Short homework/writing assignments, flex midterm, and group project presentation",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 12,
+    "title": "Authoritarianism and the Rule of Law",
+    "fullTitle": "Authoritarianism and the Rule of Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cope, Kevin",
+      "Versteeg, Mila"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:14:00",
+    "classroom": "SL268",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 13,
+    "title": "Banking and Financial Institutions",
+    "fullTitle": "Banking and Financial Institutions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Verdier, Pierre-Hugues"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL262",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 14,
+    "title": "Bankruptcy",
+    "fullTitle": "Bankruptcy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Francus, Michael"
+    ],
+    "daysRaw": "Mon, Tue",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 900
+      },
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL278",
+    "examType": "Flex exam",
+    "notes": "No laptops",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 15,
+    "title": "BigLaw and the Profession (and Business) of Law",
+    "fullTitle": "BigLaw and the Profession (and Business) of Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Duncan, Robert B."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1330-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 810,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:20:00",
+    "classroom": "WB121",
+    "examType": "Paper: 2 short paprs & longer final paper (not substantial)",
+    "notes": "No laptops",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 16,
+    "title": "Biotechnology and the Law",
+    "fullTitle": "Biotechnology and the Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Riley, Margaret Foster"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 17,
+    "title": "Civil Rights Clinic (YR)",
+    "fullTitle": "Civil Rights Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bradshaw, Helen",
+      "Fenster, Andrea",
+      "Osteen, Maisie B.",
+      "Zemel, Daniel"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1030-1230",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 630,
+        "end": 750
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 18,
+    "title": "Civil Rights Litigation",
+    "fullTitle": "Civil Rights Litigation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Jeffries, John C."
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1300-1400",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 840
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:80",
+    "classroom": "WB102",
+    "examType": "Flex exam",
+    "notes": "no laptops",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 19,
+    "title": "Community Organization and Social Enterprise Clinic I",
+    "fullTitle": "Community Organization and Social Enterprise Clinic I (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shalf, Sarah"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:08:00",
+    "classroom": "SL284",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 20,
+    "title": "Congressional Power",
+    "fullTitle": "Congressional Power (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ahdout, Payvand",
+      "Apelbaum, Perry"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1400-1700",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 840,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:18:00",
+    "classroom": "WB278",
+    "examType": "Paper: short papers during semester + final paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 21,
+    "title": "Constitutional Law and Economics",
+    "fullTitle": "Constitutional Law and Economics (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gilbert, Michael D."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: final paper (not substantial)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 22,
+    "title": "Constitutional Law II: Freedom of Religion",
+    "fullTitle": "Constitutional Law II: Freedom of Religion (Section 1)",
+    "section": 1,
+    "professors": [
+      "Schwartzman, Micah J."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:70",
+    "classroom": "WB154",
+    "examType": "Flex exam w/ substantial research paper option",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 23,
+    "title": "Constitutional Law II: Freedom of Speech and Press",
+    "fullTitle": "Constitutional Law II: Freedom of Speech and Press (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bayefsky, Rachel"
+    ],
+    "daysRaw": "Wed, Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB102",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 24,
+    "title": "Constitutional Reform",
+    "fullTitle": "Constitutional Reform (Section 1)",
+    "section": 1,
+    "professors": [
+      "Law, David S.",
+      "Mahoney, Julia D."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 780
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:18:00",
+    "classroom": "WB114",
+    "examType": "Paper: Divided into teams to discuss, negotiate, and draft constitutional amendments they will then propose, debate, and ratify as a class.",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 25,
+    "title": "Contract Drafting",
+    "fullTitle": "Contract Drafting (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bigoness, Celia"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:14:00",
+    "classroom": "WB114",
+    "examType": "Flex exam",
+    "notes": "No laptops",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 26,
+    "title": "Copyright Law",
+    "fullTitle": "Copyright Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Oliar, Dotan"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "0800-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 480,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 480,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:44:00",
+    "classroom": "WB103",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 27,
+    "title": "Corporate Governance Colloquium",
+    "fullTitle": "Corporate Governance Colloquium (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzuza, Michal",
+      "Hu, Edwin"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper: reaction papers",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 28,
+    "title": "Corporations",
+    "fullTitle": "Corporations (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzuza, Michal"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL262",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 29,
+    "title": "Corporations",
+    "fullTitle": "Corporations (Section 2)",
+    "section": 2,
+    "professors": [
+      "Geis, George S."
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB126",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 30,
+    "title": "Courts",
+    "fullTitle": "Courts (Section 1)",
+    "section": 1,
+    "professors": [
+      "Law, David S."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1130-1430",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 870
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:19:00",
+    "classroom": "WB114",
+    "examType": "Flex exam w/ substantial research paper option",
+    "notes": "No laptops",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 31,
+    "title": "Criminal Adjudication",
+    "fullTitle": "Criminal Adjudication (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bratt, Jay"
+    ],
+    "daysRaw": "Wed, Fri",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL262",
+    "examType": "Flex exam + midterm bench memo",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 32,
+    "title": "Criminal Defense Clinic",
+    "fullTitle": "Criminal Defense Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Carlton, Heather L.",
+      "Hemenway, Michael",
+      "Murtagh, Elizabeth P.",
+      "Parker, Lacey R.",
+      "Reese, Lauren"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1710-1830",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1030,
+        "end": 1110
+      },
+      {
+        "day": "Thu",
+        "start": 1030,
+        "end": 1110
+      }
+    ],
+    "units": 5,
+    "enrollment": "00:14:00",
+    "classroom": "WB127",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 33,
+    "title": "Criminal Investigation",
+    "fullTitle": "Criminal Investigation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Armacost, Barbara E."
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB102",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 34,
+    "title": "Criminal Procedure Survey",
+    "fullTitle": "Criminal Procedure Survey (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harmon, Rachel"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB102",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 35,
+    "title": "Data Use, AI Ethics, and Governance",
+    "fullTitle": "Data Use, AI Ethics, and Governance (Section 1)",
+    "section": 1,
+    "professors": [
+      "Edwards, Kenneth W."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: 2 writing assignments, one of which is a final paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 36,
+    "title": "Domestic Violence and the Law (SC)",
+    "fullTitle": "Domestic Violence and the Law (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cahn, Naomi R.",
+      "McLean Johnson, Courtenay"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper:\n1) class participation (25%), including discussion prompts on Canvas\n2) a class presentation/paper (75% -- presentation (20%) and final 10-page paper (55%) (not a substantial)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 37,
+    "title": "Drug Product Liability Litigation Seminar",
+    "fullTitle": "Drug Product Liability Litigation Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Grossi, Peter T."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1330-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 810,
+        "end": 930
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:12:00",
+    "classroom": "WB105",
+    "examType": "Paper: Short bench memo & final assignment prompt (short paper)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 38,
+    "title": "Drug Product Liability Litigation: Principles and Practice",
+    "fullTitle": "Drug Product Liability Litigation: Principles and Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Grossi, Peter T."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1330-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 810,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:18:00",
+    "classroom": "NRN",
+    "examType": "Paper: Short bench memo at midterm & final jury presentation",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 39,
+    "title": "Economic and Consumer Justice Clinic (YR)",
+    "fullTitle": "Economic and Consumer Justice Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Klosko, Caroline"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 40,
+    "title": "Emerging Growth Companies and Venture Capital Financing: Principles and Practice",
+    "fullTitle": "Emerging Growth Companies and Venture Capital Financing: Principles and Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Lincoln, Mike"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1815-2015",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1095,
+        "end": 1215
+      },
+      {
+        "day": "Thu",
+        "start": 1095,
+        "end": 1215
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:50:00",
+    "classroom": "WB102",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 41,
+    "title": "Employment Discrimination",
+    "fullTitle": "Employment Discrimination (Section 1)",
+    "section": 1,
+    "professors": [
+      "Rutherglen, George"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:44:00",
+    "classroom": "WB103",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 42,
+    "title": "Energy Regulation and Policy",
+    "fullTitle": "Energy Regulation and Policy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gocke, Alison"
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:44:00",
+    "classroom": "WB104",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 43,
+    "title": "Environmental Law and Community Engagement Clinic",
+    "fullTitle": "Environmental Law and Community Engagement Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Jaffe, Cale"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "SL276",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 44,
+    "title": "Evidence",
+    "fullTitle": "Evidence (Section 1)",
+    "section": 1,
+    "professors": [
+      "Brown, Darryl K."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB101",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 45,
+    "title": "Evidence",
+    "fullTitle": "Evidence (Section 2)",
+    "section": 2,
+    "professors": [
+      "Collins, Michael G."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB152",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 46,
+    "title": "Evidence",
+    "fullTitle": "Evidence (Section 3)",
+    "section": 3,
+    "professors": [
+      "Mitchell, Gregory"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "WB154",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 47,
+    "title": "Evolution of Holistic Defense (SC)",
+    "fullTitle": "Evolution of Holistic Defense (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "McWeay, Aisha"
+    ],
+    "daysRaw": "Mon, September 21\nTue, September 22\nWed, September 23\nMon, September 28\nTue, September 29\nWed, September 30",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Paper: final paper due Oct. 14 at noon to expo",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 48,
+    "title": "Family Law",
+    "fullTitle": "Family Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cahn, Naomi R."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL262",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 49,
+    "title": "Federal Courts",
+    "fullTitle": "Federal Courts (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ahdout, Payvand"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:70",
+    "classroom": "SL278",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 50,
+    "title": "Federal Criminal Sentencing Advocacy Clinic",
+    "fullTitle": "Federal Criminal Sentencing Advocacy Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harris, Andrea",
+      "Pender, Donald"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1710-1910",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1030,
+        "end": 1150
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:06:00",
+    "classroom": "WB104A",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 51,
+    "title": "Federal Income Tax",
+    "fullTitle": "Federal Income Tax (Section 1)",
+    "section": 1,
+    "professors": [
+      "Yale, Ethan"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "0800-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 480,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 480,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL294",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 52,
+    "title": "Federal White Collar Investigations and Enforcement Lecture",
+    "fullTitle": "Federal White Collar Investigations and Enforcement Lecture (Section 1)",
+    "section": 1,
+    "professors": [
+      "Benjamin, James",
+      "Cary, Robert"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:44:00",
+    "classroom": "WB104",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 53,
+    "title": "Federalism and the Constitution",
+    "fullTitle": "Federalism and the Constitution (Section 1)",
+    "section": 1,
+    "professors": [
+      "Somin, Ilya"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:44:00",
+    "classroom": "WB105",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 54,
+    "title": "Feminism in Practice and Theory",
+    "fullTitle": "Feminism in Practice and Theory (Section 1)",
+    "section": 1,
+    "professors": [
+      "Coughlin, Anne M."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB162",
+    "examType": "Paper: 10-12 page paper on topic related to class (of student's choosing)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 55,
+    "title": "First Amendment Clinic (YR)",
+    "fullTitle": "First Amendment Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kalish, Ian C.",
+      "Rottman, Gabe",
+      "Weeks, Lin"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "WB127",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 56,
+    "title": "Global Transactions: Key Issues and Contract Drafting (SC)",
+    "fullTitle": "Global Transactions: Key Issues and Contract Drafting (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sion, L. Gilles"
+    ],
+    "daysRaw": "Tue, September 1\nWed, September 2\nThu, September 3\nFri, September 4\nTue, September 8\nWed, September 9\nThu, September 10\nMon, September 14\nTue, September 15\nWed, September 16\nThu, September 17",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Fri",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Paper: Short memo addressed to CEO of fake company they work with throughout the course.",
+    "notes": "work in teams. real-life simulation",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 57,
+    "title": "Globalization and Private Dispute Resolution (SC) (Judge-Taught)",
+    "fullTitle": "Globalization and Private Dispute Resolution (SC) (Judge-Taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "McEvoy, Timothy J."
+    ],
+    "daysRaw": "Mon-Thu, August 24 - September 3",
+    "timesRaw": "0820-0900",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 500,
+        "end": 540
+      },
+      {
+        "day": "Tue",
+        "start": 500,
+        "end": 540
+      },
+      {
+        "day": "Wed",
+        "start": 500,
+        "end": 540
+      },
+      {
+        "day": "Thu",
+        "start": 500,
+        "end": 540
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Paper: 2 short (max 4 page) interpretive essays & lead discussion on those. 50% of grade is participation",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 58,
+    "title": "Governing the World Seminar",
+    "fullTitle": "Governing the World Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Verdier, Pierre-Hugues"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:15:00",
+    "classroom": "WB116",
+    "examType": "Paper: series of assignments on class readings OR substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 59,
+    "title": "Government Secrecy",
+    "fullTitle": "Government Secrecy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Deeks, Ashley S."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: 5 papers during semester (3-4 pages each)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 60,
+    "title": "Graduate Legal Research and Writing I",
+    "fullTitle": "Graduate Legal Research and Writing I (Section 1)",
+    "section": 1,
+    "professors": [
+      "Moran, Karen"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1410-1510",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 910
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:30:00",
+    "classroom": "SL294",
+    "examType": "Paper: research exercises & short writing assignments",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 61,
+    "title": "Hallmarks of Distinguished Advocacy",
+    "fullTitle": "Hallmarks of Distinguished Advocacy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "SL290",
+    "examType": "Paper: write & perform multiple oral presentations",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 62,
+    "title": "Health and Disability Law Clinic (YR)",
+    "fullTitle": "Health and Disability Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Legnini, Majesta-Doré",
+      "Liu, Patrick"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 63,
+    "title": "Health Law and the Constitution",
+    "fullTitle": "Health Law and the Constitution (Section 1)",
+    "section": 1,
+    "professors": [
+      "Konnoth, Craig"
+    ],
+    "daysRaw": "Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: final paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 64,
+    "title": "Housing Law and Poverty Seminar",
+    "fullTitle": "Housing Law and Poverty Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Leiter-White, Robin"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 65,
+    "title": "Housing Litigation Clinic (YR)",
+    "fullTitle": "Housing Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Horrock, Victoria",
+      "Smith, Emily"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 66,
+    "title": "Human Rights Study Project (YR)",
+    "fullTitle": "Human Rights Study Project (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1330-1430",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 810,
+        "end": 870
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:06:00",
+    "classroom": "SL276",
+    "examType": "Paper: Prepare for human rights fieldwork. Final in spring is a paper.",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 67,
+    "title": "Immigration Law Clinic (YR)",
+    "fullTitle": "Immigration Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Schmelzel, Elizabeth"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 68,
+    "title": "Innocence Project Clinic (YR)",
+    "fullTitle": "Innocence Project Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Givens, Jennifer L.",
+      "Hatchett, Juliet"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1410-1610",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 970
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:14:00",
+    "classroom": "WB116",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 69,
+    "title": "International Civil Litigation",
+    "fullTitle": "International Civil Litigation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bayefsky, Rachel"
+    ],
+    "daysRaw": "Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL294",
+    "examType": "Flex exam w/ substantial research paper option",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 70,
+    "title": "International Debt Transactions",
+    "fullTitle": "International Debt Transactions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gulati, Mitu"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1840",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1120
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:16:00",
+    "classroom": "WB121",
+    "examType": "Paper: Memo at midterm & end of term paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 71,
+    "title": "International Human Rights Law Clinic (YR)",
+    "fullTitle": "International Human Rights Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:09:00",
+    "classroom": "SL284",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 72,
+    "title": "International Law",
+    "fullTitle": "International Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Butler, Jay"
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:44:00",
+    "classroom": "WB104",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 73,
+    "title": "International Tax Practicum - Fall (YR)",
+    "fullTitle": "International Tax Practicum - Fall (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Mason, Ruth"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 2,
+    "enrollment": "00:04:00",
+    "classroom": "",
+    "examType": "Varied: Draft briefs for both gov. and taxpayer in mock litigation.",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 74,
+    "title": "Introduction to American Law for LLMs",
+    "fullTitle": "Introduction to American Law for LLMs (Section 1)",
+    "section": 1,
+    "professors": [
+      "Rosenberg, Ronald"
+    ],
+    "daysRaw": "Tues, Fri, August 25 - October 6",
+    "timesRaw": "1125-1255",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 685,
+        "end": 775
+      },
+      {
+        "day": "Fri",
+        "start": 685,
+        "end": 775
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:35:00",
+    "classroom": "SL294",
+    "examType": "Flex Exam: Flex exam & short answer written assignment",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 75,
+    "title": "Introduction to Negotiation (SC)",
+    "fullTitle": "Introduction to Negotiation (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Pruett, Amy"
+    ],
+    "daysRaw": "Mon, August 24\nTue, August 25\nWed, August 26\nThu, August 27\nTue, September 1\nWed, September 2\nThu, September 3\nFri, September 4",
+    "timesRaw": "0820-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Fri",
+        "start": 500,
+        "end": 590
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Varied: final project",
+    "notes": "daily assignments and simulations",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 76,
+    "title": "Investigating Presidents (SC)",
+    "fullTitle": "Investigating Presidents (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Goldstein, Andrew",
+      "Zebley, Aaron"
+    ],
+    "daysRaw": "Fri-Sat, September 18 - October 31",
+    "timesRaw": "1500-1700",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 900,
+        "end": 1020
+      },
+      {
+        "day": "Sat",
+        "start": 900,
+        "end": 1020
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:20:00",
+    "classroom": "WB104",
+    "examType": "Paper: short papers + final paper due Nov. 14 on expo",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 77,
+    "title": "Investment Treaty Arbitration (SC)",
+    "fullTitle": "Investment Treaty Arbitration (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Laazouzi, Malik"
+    ],
+    "daysRaw": "Mon, Tue, Wed, Thu, Fri",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Fri",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB278",
+    "examType": "Paper: paper due oct. 2 on expo",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 78,
+    "title": "Law and Literature: Storytelling",
+    "fullTitle": "Law and Literature: Storytelling (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kim, Annie"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1335-1535",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 815,
+        "end": 935
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Varied: brief papers responding to units.",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 79,
+    "title": "Law and Theories of Justice Lecture",
+    "fullTitle": "Law and Theories of Justice Lecture (Section 1)",
+    "section": 1,
+    "professors": [
+      "Strauss, Gregg"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:20:00",
+    "classroom": "WB121",
+    "examType": "Paper: final paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 80,
+    "title": "Law of Public-Private Partnerships",
+    "fullTitle": "Law of Public-Private Partnerships (Section 1)",
+    "section": 1,
+    "professors": [
+      "Martin, George Keith"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: research memo",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 81,
+    "title": "Law of the Police I: Rules, Rights, and Regulation",
+    "fullTitle": "Law of the Police I: Rules, Rights, and Regulation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harmon, Rachel"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL298",
+    "examType": "Flex exam",
+    "notes": "no laptops allowed",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 82,
+    "title": "Law Reform and Impact Litigation Seminar",
+    "fullTitle": "Law Reform and Impact Litigation Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Le, Chinh Q."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "WB116",
+    "examType": "Paper: short written assignments + draft complaint & final paper of approx. 4000 words",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 83,
+    "title": "Law, Gender and Sexuality: Global Litigation and Advocacy (SC)",
+    "fullTitle": "Law, Gender and Sexuality: Global Litigation and Advocacy (SC) (Section 3)",
+    "section": 3,
+    "professors": [
+      "Jain, Dipika"
+    ],
+    "daysRaw": "Mon-Fri, November 9 - November 13",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Fri",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Varied: presentation at end of course",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 84,
+    "title": "Leadership for Lawyers: Practice, Theory, & the Public Interest",
+    "fullTitle": "Leadership for Lawyers: Practice, Theory, & the Public Interest (Section 1)",
+    "section": 1,
+    "professors": [
+      "Le, Chinh Q."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:12:00",
+    "classroom": "WB116",
+    "examType": "Varied: keeping of a personal journal + short presentation to class + final summation journal assignment",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 85,
+    "title": "Legal Storytelling",
+    "fullTitle": "Legal Storytelling (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kim, Annie"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1335-1535",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 815,
+        "end": 935
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:12:00",
+    "classroom": "WB127",
+    "examType": "Varied: portfolio of legal drafting exercise",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 86,
+    "title": "Legislation",
+    "fullTitle": "Legislation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gilbert, Michael D."
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1300-1400",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 840
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:70",
+    "classroom": "WB101",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 87,
+    "title": "Litigating the Unitary Executive",
+    "fullTitle": "Litigating the Unitary Executive (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ortiz, Daniel R."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1840",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1120
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:10:00",
+    "classroom": "SL276",
+    "examType": "Varied: presentations on recent trump admin litigation + paper of approx. 6500 words (not substantial)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 88,
+    "title": "Medical Discrimination and the Law",
+    "fullTitle": "Medical Discrimination and the Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Konnoth, Craig"
+    ],
+    "daysRaw": "Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Varied: Flex exam, but if enrollment is seminar-sized\" final paper instead",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 89,
+    "title": "Monetary Constitution Seminar",
+    "fullTitle": "Monetary Constitution Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kitch, Edmund W.",
+      "Mahoney, Julia D."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1335-1535",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 815,
+        "end": 935
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: option of either: \n1) substantial research paper \n2) 3 papers of 2400-3000 word papers responding to readings",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 90,
+    "title": "Native American Law",
+    "fullTitle": "Native American Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Doran, Michael"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:70",
+    "classroom": "WB126",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 91,
+    "title": "Natural Resources Law and Policy",
+    "fullTitle": "Natural Resources Law and Policy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Szeptycki, Leon"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 92,
+    "title": "Negotiation",
+    "fullTitle": "Negotiation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sachs, Ben"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:30:00",
+    "classroom": "SL292",
+    "examType": "Paper: final 8-10 page paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 93,
+    "title": "Nonprofit Organizations: Principles and Practice",
+    "fullTitle": "Nonprofit Organizations: Principles and Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Clark, Polly A."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB119",
+    "examType": "Paper: short response papers & draft documents",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 94,
+    "title": "Oral Presentations In and Out of the Courtroom (SC)",
+    "fullTitle": "Oral Presentations In and Out of the Courtroom (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Tue, August 25- September 22",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:10:00",
+    "classroom": "SL290",
+    "examType": "Varied: write & perform multiple oral presentations",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 95,
+    "title": "Oral Presentations In and Out of the Courtroom (SC)",
+    "fullTitle": "Oral Presentations In and Out of the Courtroom (SC) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Wed, August 26 - September 23",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:10:00",
+    "classroom": "SL290",
+    "examType": "Varied: write & perform multiple oral presentations",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 96,
+    "title": "Partnership Tax",
+    "fullTitle": "Partnership Tax (Section 1)",
+    "section": 1,
+    "professors": [
+      "Yale, Ethan"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL294",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 97,
+    "title": "Patent and Licensing Clinic",
+    "fullTitle": "Patent and Licensing Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Chylla, Richard",
+      "Decker, Robert J.",
+      "Mauldin, Joshua"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:06:00",
+    "classroom": "PTO300",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 98,
+    "title": "Poverty Law and the Lawyer's Role",
+    "fullTitle": "Poverty Law and the Lawyer's Role (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cahn, Naomi R.",
+      "Le, Chinh Q."
+    ],
+    "daysRaw": "Mon, Tue",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:14:00",
+    "classroom": "SL284",
+    "examType": "Varied: presentation on public benefits program + presentation on system reform project (done in teams) & final paper of approx 3500 words done individually",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 99,
+    "title": "Practical Trust and Estate Administration",
+    "fullTitle": "Practical Trust and Estate Administration (Section 1)",
+    "section": 1,
+    "professors": [
+      "Murphy, Stephen W."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Flex exam: Flex exam w/ substantial research paper option",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 100,
+    "title": "Presidential Power in the 21st Century (SC) (Judge-taught)",
+    "fullTitle": "Presidential Power in the 21st Century (SC) (Judge-taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Readler, Chad"
+    ],
+    "daysRaw": "Mon, September 14\nTue, September 15\nWed, September 16\nThu, September 17\nTue, September 22\nWed, September 23",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: final paper approx. 12-15 pages due Oct. 7",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 101,
+    "title": "Privacy Torts",
+    "fullTitle": "Privacy Torts (Section 1)",
+    "section": 1,
+    "professors": [
+      "Citron, Danielle K."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB162",
+    "examType": "Paper: response papers",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 102,
+    "title": "Professional Responsibility (Judge-taught)",
+    "fullTitle": "Professional Responsibility (Judge-taught) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Scarr, Thomas"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1600-1750",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 960,
+        "end": 1070
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:50:00",
+    "classroom": "WB102",
+    "examType": "flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 103,
+    "title": "Professional Responsibility",
+    "fullTitle": "Professional Responsibility (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sachs, Ben"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1330-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 810,
+        "end": 930
+      }
+    ],
+    "units": 2,
+    "enrollment": "0:100",
+    "classroom": "WB152",
+    "examType": "Varied: weekly assessments",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 104,
+    "title": "Professional Responsibility",
+    "fullTitle": "Professional Responsibility (Section 3)",
+    "section": 3,
+    "professors": [
+      "Cohen, George M."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1230",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 750
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 750
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 750
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:70",
+    "classroom": "WB102",
+    "examType": "flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 105,
+    "title": "Project for Informed Reform Clinic (YR)",
+    "fullTitle": "Project for Informed Reform Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Enright, Deirdre M."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:10:00",
+    "classroom": "SL276",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 106,
+    "title": "Prosecution Clinic (YR)",
+    "fullTitle": "Prosecution Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Antony, Nina-Alice",
+      "Platania, Joseph D."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:10:00",
+    "classroom": "WB162",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 107,
+    "title": "Real Estate Transactions and Litigation",
+    "fullTitle": "Real Estate Transactions and Litigation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Arsali, Anthony A."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:15:00",
+    "classroom": "WB116",
+    "examType": "Varied: exercises/assignments throughout the course",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 108,
+    "title": "Rewarding Betrayal - Effectuating Enforcement Against International Economic Cartels (SC)",
+    "fullTitle": "Rewarding Betrayal - Effectuating Enforcement Against International Economic Cartels (SC) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Paldor, Ittai"
+    ],
+    "daysRaw": "Mon-Thu, August 24 - September 3",
+    "timesRaw": "1800-1930",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1170
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Flex exam: 9/7-9/11",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 109,
+    "title": "Role and Challenges of the Modern General Counsel (SC)",
+    "fullTitle": "Role and Challenges of the Modern General Counsel (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nolan, Porter",
+      "Szmagala, Taras"
+    ],
+    "daysRaw": "Mon, Tue, Wed, Thu, Fri",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Fri",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: final assignment/project due Oct. 23",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 110,
+    "title": "Roman Law of Obligations",
+    "fullTitle": "Roman Law of Obligations (Section 1)",
+    "section": 1,
+    "professors": [
+      "Doran, Michael"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:20:00",
+    "classroom": "WB162",
+    "examType": "Paper: substantial research paper",
+    "notes": "no laptops allowed",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 111,
+    "title": "Rule of Law and its Threats",
+    "fullTitle": "Rule of Law and its Threats (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzun, Charles",
+      "Bowers, Josh"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB129",
+    "examType": "Paper: in-class assessment at midterm & final 10-12 page paper",
+    "notes": "no laptops allowed",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 112,
+    "title": "Rules",
+    "fullTitle": "Rules (Section 1)",
+    "section": 1,
+    "professors": [
+      "Setear, John K."
+    ],
+    "daysRaw": "Wed, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "WB105",
+    "examType": "Paper: 3 5-page papers & one 12 page final paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 113,
+    "title": "Securities Litigation and Enforcement",
+    "fullTitle": "Securities Litigation and Enforcement (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gilman, Charles A."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:24:00",
+    "classroom": "WB103",
+    "examType": "Paper: 2 short papers (<10 pages) & one final paper (<25 pages)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 114,
+    "title": "Securities Regulation",
+    "fullTitle": "Securities Regulation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hu, Edwin"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "0:64",
+    "classroom": "SL258",
+    "examType": "flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 115,
+    "title": "Seminar in Ethical Values (1-Term)",
+    "fullTitle": "Seminar in Ethical Values (1-Term) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzun, Charles",
+      "Bowers, Josh"
+    ],
+    "daysRaw": "Wed, September 9\nWed, September 23\nWed, October 7\nWed, October 21\nWed, November 4",
+    "timesRaw": "1900-2130",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1140,
+        "end": 1290
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:12:00",
+    "classroom": "HOMHOM",
+    "examType": "none",
+    "notes": "AI social implications",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 116,
+    "title": "Seminar in Ethical Values (1-Term)",
+    "fullTitle": "Seminar in Ethical Values (1-Term) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Ortiz, Daniel R."
+    ],
+    "daysRaw": "Sun, September 6\nTue, September 8\nTue, September 15\nSun, October 18\nTue, October 20",
+    "timesRaw": "1930-2130",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1170,
+        "end": 1290
+      },
+      {
+        "day": "Sun",
+        "start": 1170,
+        "end": 1290
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:12:00",
+    "classroom": "HOMHOM",
+    "examType": "none: short paper required if student misses a session",
+    "notes": "Films of alfred hitchcock!",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 117,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cope, Kevin",
+      "Versteeg, Mila"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "scholarship on authoritarianism",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 118,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Robinson, Gerard"
+    ],
+    "daysRaw": "Thu, September 24\nThu, October 22\nThu, November 19",
+    "timesRaw": "1830-2030",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 1110,
+        "end": 1230
+      }
+    ],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "HOMHOM",
+    "examType": "none",
+    "notes": "culture wars",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 119,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 3)",
+    "section": 3,
+    "professors": [
+      "Robinson, Kimberly J."
+    ],
+    "daysRaw": "Wed, September 9\nWed, October 7\nWed, November 11",
+    "timesRaw": "1830-2100",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1110,
+        "end": 1260
+      }
+    ],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "HOMHOM",
+    "examType": "none",
+    "notes": "lives & contributions of female SCOTUS judges",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 120,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 4)",
+    "section": 4,
+    "professors": [
+      "Fore, Joe"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "stoicism",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 121,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 5)",
+    "section": 5,
+    "professors": [
+      "Jaffe, Cale",
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "social movements using legal & extralegal means",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 122,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 6)",
+    "section": 6,
+    "professors": [
+      "Nachbar, Thomas B."
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "films looking at conflicting moral imperatives",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 123,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 7)",
+    "section": 7,
+    "professors": [
+      "Goluboff, Risa",
+      "Schragger, Richard C."
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "creating compatible personal & professional lives",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 124,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 8)",
+    "section": 8,
+    "professors": [
+      "Stetson, Cate"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 125,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 9)",
+    "section": 9,
+    "professors": [
+      "Curtis, Quinn",
+      "Fischman, Joshua"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 0,
+    "enrollment": "00:12:00",
+    "classroom": "",
+    "examType": "none",
+    "notes": "high profile fraud cases as protrayed in media",
+    "shortCourse": false,
+    "asyncCourse": true
+  },
+  {
+    "id": 126,
+    "title": "Sex Trafficking (SC)",
+    "fullTitle": "Sex Trafficking (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bruner, Virginia",
+      "Smith, Melanie"
+    ],
+    "daysRaw": "Wed, October 7\nWed, October 21\nWed, October 28\nWed, November 4\nWed, November 11",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:14:00",
+    "classroom": "WB116",
+    "examType": "Paper: paper due nov. 25",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 127,
+    "title": "Sexuality, Gender, and Sex in the United States Supreme Court and Beyond",
+    "fullTitle": "Sexuality, Gender, and Sex in the United States Supreme Court and Beyond (Section 1)",
+    "section": 1,
+    "professors": [
+      "Konnoth, Craig"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 128,
+    "title": "Shifting Priorities in Humanitarian Immigration",
+    "fullTitle": "Shifting Priorities in Humanitarian Immigration (Section 1)",
+    "section": 1,
+    "professors": [
+      "Clarens, Kristin"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:15:00",
+    "classroom": "WB116",
+    "examType": "Paper: final paper (could be substantial)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 129,
+    "title": "Sports and Games",
+    "fullTitle": "Sports and Games (Section 1)",
+    "section": 1,
+    "professors": [
+      "White, G. Edward"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "0:64",
+    "classroom": "SL258",
+    "examType": "Paper: 2 papers (10 page double space max). one at midterm one at final",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 130,
+    "title": "State and Local Government Policy Clinic (YR-Fall)",
+    "fullTitle": "State and Local Government Policy Clinic (YR-Fall) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Block, Andrew",
+      "Schragger, Richard C."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1030-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 630,
+        "end": 750
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:12:00",
+    "classroom": "WB119",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 131,
+    "title": "State Constitutional Law: Litigation and Adjudication (Judge-taught)",
+    "fullTitle": "State Constitutional Law: Litigation and Adjudication (Judge-taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Lorish, Lisa"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB114",
+    "examType": "Paper: \n1) 2 papers of approx. 5 pages drafted during class \n2) final paper of approx 10-12 pages",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 132,
+    "title": "Supreme Court Litigation Clinic (YR)",
+    "fullTitle": "Supreme Court Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Deeks, Ashley S."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:12:00",
+    "classroom": "SL268",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 133,
+    "title": "Supreme Court: October Term",
+    "fullTitle": "Supreme Court: October Term (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harrison, John C.",
+      "Ortiz, Daniel R."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB162",
+    "examType": "Paper: 2 papers during semester",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 134,
+    "title": "Taboo Trades",
+    "fullTitle": "Taboo Trades (Section 1)",
+    "section": 1,
+    "professors": [
+      "Krawiec, Kimberly D."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "SL276",
+    "examType": "Paper: final reaction paper (2500 words max)",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 135,
+    "title": "Taking Effective Depositions",
+    "fullTitle": "Taking Effective Depositions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sajadi, Susan M."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB121",
+    "examType": "Varied: written depo outlines, corporate deposition notive, & discussion posts",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 136,
+    "title": "Tax Treaties and Other International Tax Topics",
+    "fullTitle": "Tax Treaties and Other International Tax Topics (Section 1)",
+    "section": 1,
+    "professors": [
+      "Mason, Ruth"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "0800-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 480,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 480,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:20:00",
+    "classroom": "WB105",
+    "examType": "Paper: final client memo + other simulation assignments",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 137,
+    "title": "Telecommunications Law and Internet Competition Policy",
+    "fullTitle": "Telecommunications Law and Internet Competition Policy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nuechterlein, Jonathan"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:15:00",
+    "classroom": "SL268",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 138,
+    "title": "The Current Supreme Court",
+    "fullTitle": "The Current Supreme Court (Section 1)",
+    "section": 1,
+    "professors": [
+      "Jeffries, John C.",
+      "Kendrick, Leslie"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper: substantial research paper",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 139,
+    "title": "The Evolving AI Governance Landscape (SC)",
+    "fullTitle": "The Evolving AI Governance Landscape (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Robertson, Tom"
+    ],
+    "daysRaw": "Thu-Fri, November 5 - November 20",
+    "timesRaw": "Thu, 1540-1810\nFri, 1130-1330",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1090
+      },
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Flex Exam",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 140,
+    "title": "The Supreme Court and Judicial Self-Protection",
+    "fullTitle": "The Supreme Court and Judicial Self-Protection (Section 1)",
+    "section": 1,
+    "professors": [
+      "Siegel, Neil"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:16:00",
+    "classroom": "WB114",
+    "examType": "Varied: 2 oral presentations of readings; weekly 2-page reflection papers",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 141,
+    "title": "Topics in Private Company Acquisitions (SC)",
+    "fullTitle": "Topics in Private Company Acquisitions (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Denison, Thomas R."
+    ],
+    "daysRaw": "Mon, September 14\nTue, September 15\nWed, September 16\nThu, September 17\nTue, September 22\nWed, September 23",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:18:00",
+    "classroom": "WB103",
+    "examType": "Varied: mark up a proposed acquisition agreement (in a small group) due by Oct 7",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 142,
+    "title": "Topics in Public Equity Investing (SC)",
+    "fullTitle": "Topics in Public Equity Investing (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Wilson, Barney"
+    ],
+    "daysRaw": "Mon-Thu, September 28 - October 8",
+    "timesRaw": "1800-1930",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1170
+      }
+    ],
+    "units": 1,
+    "enrollment": "00:15:00",
+    "classroom": "SL284",
+    "examType": "Paper: 5-10 page written stock recommendation due Oct 8",
+    "notes": "",
+    "shortCourse": true,
+    "asyncCourse": false
+  },
+  {
+    "id": 143,
+    "title": "Trade Secret Law",
+    "fullTitle": "Trade Secret Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Rowe, Elizabeth A."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "0900-1100",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 540,
+        "end": 660
+      },
+      {
+        "day": "Thu",
+        "start": 540,
+        "end": 660
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:44:00",
+    "classroom": "WB103",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 144,
+    "title": "Trademark Law",
+    "fullTitle": "Trademark Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Rowe, Elizabeth A."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:44:00",
+    "classroom": "WB103",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 145,
+    "title": "Trial Advocacy (Judge-Taught)",
+    "fullTitle": "Trial Advocacy (Judge-Taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cook, John T.",
+      "Watson , J. Frederick"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1815-2115",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1095,
+        "end": 1275
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "SL290",
+    "examType": "Varied: mock trial",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 146,
+    "title": "Trial Advocacy",
+    "fullTitle": "Trial Advocacy (Section 2)",
+    "section": 2,
+    "professors": [
+      "Irvine, David",
+      "Livingston, R. Lee"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1600-1900",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 960,
+        "end": 1140
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "SL290",
+    "examType": "Varied: mock trial",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 147,
+    "title": "Trial Advocacy",
+    "fullTitle": "Trial Advocacy (Section 3)",
+    "section": 3,
+    "professors": [
+      "Stolpe, Elysse"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1800-2100",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1260
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:12:00",
+    "classroom": "SL290",
+    "examType": "Varied: mock trial",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 148,
+    "title": "Veterans Law",
+    "fullTitle": "Veterans Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bedell, Carl",
+      "Herthel, Thomas"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "00:44:00",
+    "classroom": "WB105",
+    "examType": "Flex exam",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 149,
+    "title": "Voice and Silence in Law and Literature Seminar",
+    "fullTitle": "Voice and Silence in Law and Literature Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Coughlin, Anne M.",
+      "Woolard, Amy"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1745-1945",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1065,
+        "end": 1185
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB114",
+    "examType": "Paper: final project exploring theme of class",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 150,
+    "title": "Workplace Rights Clinic (YR)",
+    "fullTitle": "Workplace Rights Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Baer, Marissa",
+      "McFarland, Rachel C.",
+      "Yarashes, Jason"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 151,
+    "title": "Youth Advocacy Clinic (YR)",
+    "fullTitle": "Youth Advocacy Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Banks, Amber",
+      "Bostwick, Hank",
+      "Walters, Amy"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1150-1350",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 710,
+        "end": 830
+      }
+    ],
+    "units": 4,
+    "enrollment": "00:08:00",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "shortCourse": false,
+    "asyncCourse": false
+  },
+  {
+    "id": 152,
+    "title": "Youth, Race, and the Law",
+    "fullTitle": "Youth, Race, and the Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Block, Andrew"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1050-1250",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 650,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "00:16:00",
+    "classroom": "WB127",
+    "examType": "Paper: two papers. one 10 pages & one 15 pages",
+    "notes": "no laptops allowed",
+    "shortCourse": false,
+    "asyncCourse": false
+  }
+]
