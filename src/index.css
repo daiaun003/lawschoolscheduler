@@ -1,13 +1,13 @@
 :root {
-  /* Soft pastel design tokens */
-  --bg: #fbf6f4;
+  /* Soft design tokens — blue-grey base (#CAD5E3) */
+  --bg: #cad5e3;
   --bg-panel: #ffffff;
-  --bg-soft: #fdeef0;
-  --ink: #3a3340;
-  --ink-soft: #8a8190;
-  --line: #efe3e6;
-  --accent: #e89aa6;
-  --accent-deep: #c96f7e;
+  --bg-soft: #e7edf4;
+  --ink: #2f3640;
+  --ink-soft: #788292;
+  --line: #d7e0ea;
+  --accent: #6f97c9;
+  --accent-deep: #41648f;
   --matcha: #94c9a6;
   --matcha-deep: #5c9a74;
   --warn: #d2453f;
@@ -15,8 +15,8 @@
 
   --radius: 14px;
   --radius-sm: 9px;
-  --shadow: 0 6px 20px rgba(160, 120, 130, 0.12);
-  --shadow-sm: 0 2px 8px rgba(160, 120, 130, 0.1);
+  --shadow: 0 6px 20px rgba(70, 95, 130, 0.14);
+  --shadow-sm: 0 2px 8px rgba(70, 95, 130, 0.1);
 
   font-family: 'Nunito', 'Segoe UI', system-ui, -apple-system, sans-serif;
   color: var(--ink);
@@ -37,8 +37,8 @@ body,
 
 body {
   background:
-    radial-gradient(1200px 600px at 12% -10%, #fde4e9 0%, transparent 55%),
-    radial-gradient(1000px 500px at 100% 0%, #e6f3ec 0%, transparent 50%),
+    radial-gradient(1200px 600px at 12% -10%, #dce5f0 0%, transparent 55%),
+    radial-gradient(1000px 500px at 100% 0%, #bccadd 0%, transparent 50%),
     var(--bg);
 }
 

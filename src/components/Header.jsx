@@ -4,8 +4,8 @@ export default function Header({ selectedCount, units, conflictCount, onClear })
       <div className="brand">
         <span className="brand-mark">✿</span>
         <div>
-          <h1>Fall ’26 Course Scheduler</h1>
-          <p className="tagline">Build your law school week, in colour.</p>
+          <h1>UVA Law Course Scheduler</h1>
+          <p className="tagline">Build your law school week.</p>
         </div>
       </div>
       <div className="header-stats">
@@ -15,7 +15,7 @@ export default function Header({ selectedCount, units, conflictCount, onClear })
         </div>
         <div className="stat">
           <span className="stat-num">{units}</span>
-          <span className="stat-label">units</span>
+          <span className="stat-label">credits</span>
         </div>
         <div className={`stat${conflictCount ? ' stat-warn' : ''}`}>
           <span className="stat-num">{conflictCount}</span>

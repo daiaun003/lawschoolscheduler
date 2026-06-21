@@ -5,6 +5,16 @@ building a personal weekly schedule. Each course shows in its own soft pastel co
 with live conflict detection. Built with Vite + React 19; data lives in the browser
 (localStorage) — no backend.
 
+**Live:** https://law-school-scheduler.vercel.app
+
+## Deploy
+
+Hosted on Vercel. To push a new production deploy after changes:
+
+```bash
+npx vercel --prod --yes
+```
+
 ## Develop
 
 ```bash
