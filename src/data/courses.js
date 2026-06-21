@@ -7,7 +7,7 @@ export const COURSES = raw.map((c) => ({
   color: colorFor(c.id),
 }))
 
-export const DAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri']
+export const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 // Distinct exam-type "kinds" for filtering. The raw examType field is free
 // text (e.g. "Flex Exam: 80%..."), so we bucket by leading keyword.

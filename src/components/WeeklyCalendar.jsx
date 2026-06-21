@@ -2,18 +2,10 @@ import { DAYS } from '../data/courses'
 import { fmtTime, packDay } from '../utils/schedule'
 import CalendarBlock from './CalendarBlock'
 
-const DAY_START = 8 * 60 // 8:00 AM
-const DAY_END = 21 * 60 + 30 // 9:30 PM
-const PX_PER_MIN = 0.95
+const DAY_START = 7 * 60 // 7:00 AM
+const DAY_END = 21 * 60 + 30 // 9:30 PM (a couple of evening classes run past 9)
+const PX_PER_MIN = 0.9
 const HEIGHT = (DAY_END - DAY_START) * PX_PER_MIN
-
-const DAY_LABEL = {
-  Mon: 'Monday',
-  Tue: 'Tuesday',
-  Wed: 'Wednesday',
-  Thu: 'Thursday',
-  Fri: 'Friday',
-}
 
 export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
   // Hour grid lines from 8 AM to 9 PM.
