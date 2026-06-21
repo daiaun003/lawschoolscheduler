@@ -15,7 +15,7 @@ function meetingSummary(course) {
   return `${days} · ${time}`
 }
 
-export default function CourseCard({ course, selected, conflict, onToggle }) {
+export default function CourseCard({ course, selected, conflict, onToggle, onShowSessions }) {
   const { color } = course
   return (
     <div
@@ -43,7 +43,18 @@ export default function CourseCard({ course, selected, conflict, onToggle }) {
           {course.examType && (
             <span className="tag tag-exam">{course.examType.split(/[:.]/)[0]}</span>
           )}
-          {course.shortCourse && <span className="tag tag-short">Short course</span>}
+          {course.sessions.length > 0 ? (
+            <button
+              type="button"
+              className="tag tag-short tag-dates"
+              onClick={() => onShowSessions(course)}
+              title="View all class dates"
+            >
+              📅 Special schedule · {course.sessions.length} dates
+            </button>
+          ) : (
+            course.shortCourse && <span className="tag tag-short">Short course</span>
+          )}
         </div>
         {course.notes && <p className="course-notes">{course.notes}</p>}
       </div>

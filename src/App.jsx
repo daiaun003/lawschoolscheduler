@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Filters from './components/Filters'
 import CourseCard from './components/CourseCard'
 import WeeklyCalendar from './components/WeeklyCalendar'
+import SessionsModal from './components/SessionsModal'
 
 const INITIAL_FILTERS = {
   search: '',
@@ -19,6 +20,7 @@ const INITIAL_FILTERS = {
 export default function App() {
   const { selectedIds, isSelected, toggle, clearAll } = useSchedule()
   const [filters, setFilters] = useState(INITIAL_FILTERS)
+  const [sessionsCourse, setSessionsCourse] = useState(null)
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase()
@@ -65,6 +67,7 @@ export default function App() {
                 selected={isSelected(c.id)}
                 conflict={conflicts.has(c.id)}
                 onToggle={toggle}
+                onShowSessions={setSessionsCourse}
               />
             ))}
             {filtered.length === 0 && (
@@ -81,6 +84,8 @@ export default function App() {
           />
         </section>
       </div>
+
+      <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
     </div>
   )
 }

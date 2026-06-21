@@ -1,4 +1,4 @@
-import openpyxl, json, re
+import openpyxl, json, re, datetime
 
 import os
 SRC = os.path.expanduser('~/Downloads/Fall 26 Course Selection.xlsx')
@@ -73,6 +73,54 @@ def has_month(text):
     t = str(text).lower()
     return any(mo in t for mo in MONTHS)
 
+MONTH_NUM = {name: i + 1 for i, name in enumerate(MONTHS)}
+YEAR = 2026  # Fall '26
+
+def _month_days(text):
+    """All (month, day) pairs mentioned, e.g. 'September 21' -> (9, 21)."""
+    pairs = []
+    for m in re.finditer(r'(' + '|'.join(MONTHS) + r')\s+(\d{1,2})', text.lower()):
+        pairs.append((MONTH_NUM[m.group(1)], int(m.group(2))))
+    return pairs
+
+def parse_sessions(days_raw):
+    """Resolve a short course's meeting pattern into concrete calendar dates.
+    Handles explicit newline lists ('Mon, September 21\\nTue, September 22…')
+    and date ranges ('Mon-Thu, August 24 - September 3'). Returns a sorted list
+    of {wd, m, d, iso}."""
+    text = str(days_raw)
+    pairs = _month_days(text)
+    if not pairs:
+        return []
+
+    dates = []
+    is_range = ('\n' not in text) and len(pairs) >= 2 and '-' in text
+    if is_range:
+        (m1, d1), (m2, d2) = pairs[0], pairs[-1]
+        try:
+            start = datetime.date(YEAR, m1, d1)
+            end = datetime.date(YEAR, m2, d2)
+        except ValueError:
+            return []
+        wds = set(weekdays_in(text))
+        cur = start
+        while cur <= end:
+            if not wds or cur.strftime('%a') in wds:
+                dates.append(cur)
+            cur += datetime.timedelta(days=1)
+    else:
+        for (mon, day) in pairs:
+            try:
+                dates.append(datetime.date(YEAR, mon, day))
+            except ValueError:
+                pass
+
+    dates = sorted(set(dates))
+    return [
+        {'wd': d.strftime('%a'), 'm': d.month, 'd': d.day, 'iso': d.isoformat()}
+        for d in dates
+    ]
+
 def build_meetings(days_raw, times_raw):
     """Return list of {day,start,end}. Handles weekly, multi-day, and the
     rare per-day-time format embedded in the Times column."""
@@ -121,6 +169,7 @@ for r in rows[1:]:
     meetings = build_meetings(days_raw, times_raw)
     short_course = has_month(days_raw)
     async_course = (times_raw in ('', '-')) and not meetings
+    sessions = parse_sessions(days_raw)
 
     # clean display name + section
     section = None
@@ -145,6 +194,7 @@ for r in rows[1:]:
         'notes': notes,
         'shortCourse': short_course,
         'asyncCourse': async_course,
+        'sessions': sessions,
     })
     cid += 1
 

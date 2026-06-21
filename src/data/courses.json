@@ -32,7 +32,8 @@
     "examType": "Flex Exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 1,
@@ -62,7 +63,8 @@
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 2,
@@ -92,7 +94,8 @@
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 3,
@@ -117,7 +120,8 @@
     "examType": "Flex Exam: 80%\n20% 1 page (600 words max) written critique of a case/doctrine studied in class, of the student's choice",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 4,
@@ -152,7 +156,45 @@
     "examType": "Paper: Take-home, team exercise due on expo by 9/16 at noon",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 24,
+        "iso": "2026-08-24"
+      },
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Wed",
+        "m": 8,
+        "d": 26,
+        "iso": "2026-08-26"
+      },
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 31,
+        "iso": "2026-08-31"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      }
+    ]
   },
   {
     "id": 5,
@@ -177,7 +219,51 @@
     "examType": "Paper: Final paper due by noon on 10/19 on expo",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 24,
+        "iso": "2026-08-24"
+      },
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 31,
+        "iso": "2026-08-31"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 7,
+        "iso": "2026-09-07"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 14,
+        "iso": "2026-09-14"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 21,
+        "iso": "2026-09-21"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 28,
+        "iso": "2026-09-28"
+      },
+      {
+        "wd": "Mon",
+        "m": 10,
+        "d": 5,
+        "iso": "2026-10-05"
+      }
+    ]
   },
   {
     "id": 6,
@@ -202,7 +288,8 @@
     "examType": "Paper: Class participation + 5 short papers on legal & policy implications of AI",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 7,
@@ -227,7 +314,8 @@
     "examType": "Paper: Two main grading components: \n1. lab notebook on process of designing/panning/creating tools \n2. formal memo on tool created (due Dec. 17)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 8,
@@ -262,7 +350,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 9,
@@ -289,7 +378,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 10,
@@ -315,7 +405,8 @@
     "examType": "Paper: First semester: problem sets + research plan for spring paper \nSecond semester: research paper development & presentation",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 11,
@@ -341,7 +432,8 @@
     "examType": "Paper: Short homework/writing assignments, flex midterm, and group project presentation",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 12,
@@ -367,7 +459,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 13,
@@ -397,7 +490,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 14,
@@ -427,7 +521,8 @@
     "examType": "Flex exam",
     "notes": "No laptops",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 15,
@@ -452,7 +547,8 @@
     "examType": "Paper: 2 short paprs & longer final paper (not substantial)",
     "notes": "No laptops",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 16,
@@ -477,7 +573,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 17,
@@ -505,7 +602,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 18,
@@ -540,7 +638,8 @@
     "examType": "Flex exam",
     "notes": "no laptops",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 19,
@@ -565,7 +664,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 20,
@@ -591,7 +691,8 @@
     "examType": "Paper: short papers during semester + final paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 21,
@@ -616,7 +717,8 @@
     "examType": "Paper: final paper (not substantial)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 22,
@@ -651,7 +753,8 @@
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 23,
@@ -681,7 +784,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 24,
@@ -707,7 +811,8 @@
     "examType": "Paper: Divided into teams to discuss, negotiate, and draft constitutional amendments they will then propose, debate, and ratify as a class.",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 25,
@@ -732,7 +837,8 @@
     "examType": "Flex exam",
     "notes": "No laptops",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 26,
@@ -762,7 +868,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 27,
@@ -788,7 +895,8 @@
     "examType": "Paper: reaction papers",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 28,
@@ -818,7 +926,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 29,
@@ -853,7 +962,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 30,
@@ -878,7 +988,8 @@
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "No laptops",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 31,
@@ -908,7 +1019,8 @@
     "examType": "Flex exam + midterm bench memo",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 32,
@@ -942,7 +1054,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 33,
@@ -977,7 +1090,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 34,
@@ -1012,7 +1126,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 35,
@@ -1037,7 +1152,8 @@
     "examType": "Paper: 2 writing assignments, one of which is a final paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 36,
@@ -1063,7 +1179,8 @@
     "examType": "Paper:\n1) class participation (25%), including discussion prompts on Canvas\n2) a class presentation/paper (75% -- presentation (20%) and final 10-page paper (55%) (not a substantial)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 37,
@@ -1088,7 +1205,8 @@
     "examType": "Paper: Short bench memo & final assignment prompt (short paper)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 38,
@@ -1113,7 +1231,8 @@
     "examType": "Paper: Short bench memo at midterm & final jury presentation",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 39,
@@ -1138,7 +1257,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 40,
@@ -1168,7 +1288,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 41,
@@ -1198,7 +1319,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 42,
@@ -1233,7 +1355,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 43,
@@ -1258,7 +1381,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 44,
@@ -1293,7 +1417,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 45,
@@ -1328,7 +1453,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 46,
@@ -1358,7 +1484,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 47,
@@ -1393,7 +1520,45 @@
     "examType": "Paper: final paper due Oct. 14 at noon to expo",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 21,
+        "iso": "2026-09-21"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 22,
+        "iso": "2026-09-22"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 23,
+        "iso": "2026-09-23"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 28,
+        "iso": "2026-09-28"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 29,
+        "iso": "2026-09-29"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 30,
+        "iso": "2026-09-30"
+      }
+    ]
   },
   {
     "id": 48,
@@ -1423,7 +1588,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 49,
@@ -1458,7 +1624,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 50,
@@ -1484,7 +1651,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 51,
@@ -1514,7 +1682,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 52,
@@ -1540,7 +1709,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 53,
@@ -1570,7 +1740,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 54,
@@ -1595,7 +1766,8 @@
     "examType": "Paper: 10-12 page paper on topic related to class (of student's choosing)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 55,
@@ -1622,7 +1794,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 56,
@@ -1667,7 +1840,75 @@
     "examType": "Paper: Short memo addressed to CEO of fake company they work with throughout the course.",
     "notes": "work in teams. real-life simulation",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 3,
+        "iso": "2026-09-03"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 4,
+        "iso": "2026-09-04"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 8,
+        "iso": "2026-09-08"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 9,
+        "iso": "2026-09-09"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 10,
+        "iso": "2026-09-10"
+      },
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 14,
+        "iso": "2026-09-14"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 16,
+        "iso": "2026-09-16"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 17,
+        "iso": "2026-09-17"
+      }
+    ]
   },
   {
     "id": 57,
@@ -1707,7 +1948,57 @@
     "examType": "Paper: 2 short (max 4 page) interpretive essays & lead discussion on those. 50% of grade is participation",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 24,
+        "iso": "2026-08-24"
+      },
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Wed",
+        "m": 8,
+        "d": 26,
+        "iso": "2026-08-26"
+      },
+      {
+        "wd": "Thu",
+        "m": 8,
+        "d": 27,
+        "iso": "2026-08-27"
+      },
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 31,
+        "iso": "2026-08-31"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 3,
+        "iso": "2026-09-03"
+      }
+    ]
   },
   {
     "id": 58,
@@ -1732,7 +2023,8 @@
     "examType": "Paper: series of assignments on class readings OR substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 59,
@@ -1757,7 +2049,8 @@
     "examType": "Paper: 5 papers during semester (3-4 pages each)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 60,
@@ -1782,7 +2075,8 @@
     "examType": "Paper: research exercises & short writing assignments",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 61,
@@ -1807,7 +2101,8 @@
     "examType": "Paper: write & perform multiple oral presentations",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 62,
@@ -1833,7 +2128,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 63,
@@ -1863,7 +2159,8 @@
     "examType": "Paper: final paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 64,
@@ -1888,7 +2185,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 65,
@@ -1914,7 +2212,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 66,
@@ -1939,7 +2238,8 @@
     "examType": "Paper: Prepare for human rights fieldwork. Final in spring is a paper.",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 67,
@@ -1964,7 +2264,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 68,
@@ -1990,7 +2291,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 69,
@@ -2020,7 +2322,8 @@
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 70,
@@ -2045,7 +2348,8 @@
     "examType": "Paper: Memo at midterm & end of term paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 71,
@@ -2070,7 +2374,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 72,
@@ -2105,7 +2410,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 73,
@@ -2124,7 +2430,8 @@
     "examType": "Varied: Draft briefs for both gov. and taxpayer in mock litigation.",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 74,
@@ -2154,7 +2461,87 @@
     "examType": "Flex Exam: Flex exam & short answer written assignment",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Fri",
+        "m": 8,
+        "d": 28,
+        "iso": "2026-08-28"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 4,
+        "iso": "2026-09-04"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 8,
+        "iso": "2026-09-08"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 11,
+        "iso": "2026-09-11"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 18,
+        "iso": "2026-09-18"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 22,
+        "iso": "2026-09-22"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 25,
+        "iso": "2026-09-25"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 29,
+        "iso": "2026-09-29"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 2,
+        "iso": "2026-10-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 10,
+        "d": 6,
+        "iso": "2026-10-06"
+      }
+    ]
   },
   {
     "id": 75,
@@ -2199,7 +2586,57 @@
     "examType": "Varied: final project",
     "notes": "daily assignments and simulations",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 24,
+        "iso": "2026-08-24"
+      },
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Wed",
+        "m": 8,
+        "d": 26,
+        "iso": "2026-08-26"
+      },
+      {
+        "wd": "Thu",
+        "m": 8,
+        "d": 27,
+        "iso": "2026-08-27"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 3,
+        "iso": "2026-09-03"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 4,
+        "iso": "2026-09-04"
+      }
+    ]
   },
   {
     "id": 76,
@@ -2230,7 +2667,93 @@
     "examType": "Paper: short papers + final paper due Nov. 14 on expo",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 18,
+        "iso": "2026-09-18"
+      },
+      {
+        "wd": "Sat",
+        "m": 9,
+        "d": 19,
+        "iso": "2026-09-19"
+      },
+      {
+        "wd": "Fri",
+        "m": 9,
+        "d": 25,
+        "iso": "2026-09-25"
+      },
+      {
+        "wd": "Sat",
+        "m": 9,
+        "d": 26,
+        "iso": "2026-09-26"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 2,
+        "iso": "2026-10-02"
+      },
+      {
+        "wd": "Sat",
+        "m": 10,
+        "d": 3,
+        "iso": "2026-10-03"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 9,
+        "iso": "2026-10-09"
+      },
+      {
+        "wd": "Sat",
+        "m": 10,
+        "d": 10,
+        "iso": "2026-10-10"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 16,
+        "iso": "2026-10-16"
+      },
+      {
+        "wd": "Sat",
+        "m": 10,
+        "d": 17,
+        "iso": "2026-10-17"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 23,
+        "iso": "2026-10-23"
+      },
+      {
+        "wd": "Sat",
+        "m": 10,
+        "d": 24,
+        "iso": "2026-10-24"
+      },
+      {
+        "wd": "Fri",
+        "m": 10,
+        "d": 30,
+        "iso": "2026-10-30"
+      },
+      {
+        "wd": "Sat",
+        "m": 10,
+        "d": 31,
+        "iso": "2026-10-31"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2275,7 +2798,8 @@
     "examType": "Paper: paper due oct. 2 on expo",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 78,
@@ -2300,7 +2824,8 @@
     "examType": "Varied: brief papers responding to units.",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 79,
@@ -2330,7 +2855,8 @@
     "examType": "Paper: final paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 80,
@@ -2355,7 +2881,8 @@
     "examType": "Paper: research memo",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 81,
@@ -2385,7 +2912,8 @@
     "examType": "Flex exam",
     "notes": "no laptops allowed",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 82,
@@ -2410,7 +2938,8 @@
     "examType": "Paper: short written assignments + draft complaint & final paper of approx. 4000 words",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 83,
@@ -2455,7 +2984,39 @@
     "examType": "Varied: presentation at end of course",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 11,
+        "d": 9,
+        "iso": "2026-11-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 11,
+        "d": 10,
+        "iso": "2026-11-10"
+      },
+      {
+        "wd": "Wed",
+        "m": 11,
+        "d": 11,
+        "iso": "2026-11-11"
+      },
+      {
+        "wd": "Thu",
+        "m": 11,
+        "d": 12,
+        "iso": "2026-11-12"
+      },
+      {
+        "wd": "Fri",
+        "m": 11,
+        "d": 13,
+        "iso": "2026-11-13"
+      }
+    ]
   },
   {
     "id": 84,
@@ -2480,7 +3041,8 @@
     "examType": "Varied: keeping of a personal journal + short presentation to class + final summation journal assignment",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 85,
@@ -2505,7 +3067,8 @@
     "examType": "Varied: portfolio of legal drafting exercise",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 86,
@@ -2540,7 +3103,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 87,
@@ -2565,7 +3129,8 @@
     "examType": "Varied: presentations on recent trump admin litigation + paper of approx. 6500 words (not substantial)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 88,
@@ -2595,7 +3160,8 @@
     "examType": "Varied: Flex exam, but if enrollment is seminar-sized\" final paper instead",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 89,
@@ -2621,7 +3187,8 @@
     "examType": "Paper: option of either: \n1) substantial research paper \n2) 3 papers of 2400-3000 word papers responding to readings",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 90,
@@ -2651,7 +3218,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 91,
@@ -2676,7 +3244,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 92,
@@ -2701,7 +3270,8 @@
     "examType": "Paper: final 8-10 page paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 93,
@@ -2726,7 +3296,8 @@
     "examType": "Paper: short response papers & draft documents",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 94,
@@ -2751,7 +3322,39 @@
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 8,
+        "iso": "2026-09-08"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 22,
+        "iso": "2026-09-22"
+      }
+    ]
   },
   {
     "id": 95,
@@ -2776,7 +3379,39 @@
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Wed",
+        "m": 8,
+        "d": 26,
+        "iso": "2026-08-26"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 9,
+        "iso": "2026-09-09"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 16,
+        "iso": "2026-09-16"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 23,
+        "iso": "2026-09-23"
+      }
+    ]
   },
   {
     "id": 96,
@@ -2806,7 +3441,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 97,
@@ -2833,7 +3469,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 98,
@@ -2864,7 +3501,8 @@
     "examType": "Varied: presentation on public benefits program + presentation on system reform project (done in teams) & final paper of approx 3500 words done individually",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 99,
@@ -2889,7 +3527,8 @@
     "examType": "Flex exam: Flex exam w/ substantial research paper option",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 100,
@@ -2929,7 +3568,45 @@
     "examType": "Paper: final paper approx. 12-15 pages due Oct. 7",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 14,
+        "iso": "2026-09-14"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 16,
+        "iso": "2026-09-16"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 17,
+        "iso": "2026-09-17"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 22,
+        "iso": "2026-09-22"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 23,
+        "iso": "2026-09-23"
+      }
+    ]
   },
   {
     "id": 101,
@@ -2954,7 +3631,8 @@
     "examType": "Paper: response papers",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 102,
@@ -2979,7 +3657,8 @@
     "examType": "flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 103,
@@ -3004,7 +3683,8 @@
     "examType": "Varied: weekly assessments",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 104,
@@ -3039,7 +3719,8 @@
     "examType": "flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 105,
@@ -3064,7 +3745,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 106,
@@ -3090,7 +3772,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 107,
@@ -3115,7 +3798,8 @@
     "examType": "Varied: exercises/assignments throughout the course",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 108,
@@ -3155,7 +3839,57 @@
     "examType": "Flex exam: 9/7-9/11",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 24,
+        "iso": "2026-08-24"
+      },
+      {
+        "wd": "Tue",
+        "m": 8,
+        "d": 25,
+        "iso": "2026-08-25"
+      },
+      {
+        "wd": "Wed",
+        "m": 8,
+        "d": 26,
+        "iso": "2026-08-26"
+      },
+      {
+        "wd": "Thu",
+        "m": 8,
+        "d": 27,
+        "iso": "2026-08-27"
+      },
+      {
+        "wd": "Mon",
+        "m": 8,
+        "d": 31,
+        "iso": "2026-08-31"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 1,
+        "iso": "2026-09-01"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 2,
+        "iso": "2026-09-02"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 3,
+        "iso": "2026-09-03"
+      }
+    ]
   },
   {
     "id": 109,
@@ -3201,7 +3935,8 @@
     "examType": "Paper: final assignment/project due Oct. 23",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 110,
@@ -3231,7 +3966,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "no laptops allowed",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 111,
@@ -3257,7 +3993,8 @@
     "examType": "Paper: in-class assessment at midterm & final 10-12 page paper",
     "notes": "no laptops allowed",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 112,
@@ -3287,7 +4024,8 @@
     "examType": "Paper: 3 5-page papers & one 12 page final paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 113,
@@ -3312,7 +4050,8 @@
     "examType": "Paper: 2 short papers (<10 pages) & one final paper (<25 pages)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 114,
@@ -3347,7 +4086,8 @@
     "examType": "flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 115,
@@ -3373,7 +4113,39 @@
     "examType": "none",
     "notes": "AI social implications",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 9,
+        "iso": "2026-09-09"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 23,
+        "iso": "2026-09-23"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 7,
+        "iso": "2026-10-07"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 21,
+        "iso": "2026-10-21"
+      },
+      {
+        "wd": "Wed",
+        "m": 11,
+        "d": 4,
+        "iso": "2026-11-04"
+      }
+    ]
   },
   {
     "id": 116,
@@ -3403,7 +4175,39 @@
     "examType": "none: short paper required if student misses a session",
     "notes": "Films of alfred hitchcock!",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Sun",
+        "m": 9,
+        "d": 6,
+        "iso": "2026-09-06"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 8,
+        "iso": "2026-09-08"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Sun",
+        "m": 10,
+        "d": 18,
+        "iso": "2026-10-18"
+      },
+      {
+        "wd": "Tue",
+        "m": 10,
+        "d": 20,
+        "iso": "2026-10-20"
+      }
+    ]
   },
   {
     "id": 117,
@@ -3423,7 +4227,8 @@
     "examType": "none",
     "notes": "scholarship on authoritarianism",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 118,
@@ -3448,7 +4253,27 @@
     "examType": "none",
     "notes": "culture wars",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 24,
+        "iso": "2026-09-24"
+      },
+      {
+        "wd": "Thu",
+        "m": 10,
+        "d": 22,
+        "iso": "2026-10-22"
+      },
+      {
+        "wd": "Thu",
+        "m": 11,
+        "d": 19,
+        "iso": "2026-11-19"
+      }
+    ]
   },
   {
     "id": 119,
@@ -3473,7 +4298,27 @@
     "examType": "none",
     "notes": "lives & contributions of female SCOTUS judges",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 9,
+        "iso": "2026-09-09"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 7,
+        "iso": "2026-10-07"
+      },
+      {
+        "wd": "Wed",
+        "m": 11,
+        "d": 11,
+        "iso": "2026-11-11"
+      }
+    ]
   },
   {
     "id": 120,
@@ -3492,7 +4337,8 @@
     "examType": "none",
     "notes": "stoicism",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 121,
@@ -3512,7 +4358,8 @@
     "examType": "none",
     "notes": "social movements using legal & extralegal means",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 122,
@@ -3531,7 +4378,8 @@
     "examType": "none",
     "notes": "films looking at conflicting moral imperatives",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 123,
@@ -3551,7 +4399,8 @@
     "examType": "none",
     "notes": "creating compatible personal & professional lives",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 124,
@@ -3570,7 +4419,8 @@
     "examType": "none",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 125,
@@ -3590,7 +4440,8 @@
     "examType": "none",
     "notes": "high profile fraud cases as protrayed in media",
     "shortCourse": false,
-    "asyncCourse": true
+    "asyncCourse": true,
+    "sessions": []
   },
   {
     "id": 126,
@@ -3616,7 +4467,39 @@
     "examType": "Paper: paper due nov. 25",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 7,
+        "iso": "2026-10-07"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 21,
+        "iso": "2026-10-21"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 28,
+        "iso": "2026-10-28"
+      },
+      {
+        "wd": "Wed",
+        "m": 11,
+        "d": 4,
+        "iso": "2026-11-04"
+      },
+      {
+        "wd": "Wed",
+        "m": 11,
+        "d": 11,
+        "iso": "2026-11-11"
+      }
+    ]
   },
   {
     "id": 127,
@@ -3641,7 +4524,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 128,
@@ -3666,7 +4550,8 @@
     "examType": "Paper: final paper (could be substantial)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 129,
@@ -3696,7 +4581,8 @@
     "examType": "Paper: 2 papers (10 page double space max). one at midterm one at final",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 130,
@@ -3722,7 +4608,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 131,
@@ -3747,7 +4634,8 @@
     "examType": "Paper: \n1) 2 papers of approx. 5 pages drafted during class \n2) final paper of approx 10-12 pages",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 132,
@@ -3772,7 +4660,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 133,
@@ -3798,7 +4687,8 @@
     "examType": "Paper: 2 papers during semester",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 134,
@@ -3828,7 +4718,8 @@
     "examType": "Paper: final reaction paper (2500 words max)",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 135,
@@ -3853,7 +4744,8 @@
     "examType": "Varied: written depo outlines, corporate deposition notive, & discussion posts",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 136,
@@ -3883,7 +4775,8 @@
     "examType": "Paper: final client memo + other simulation assignments",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 137,
@@ -3908,7 +4801,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 138,
@@ -3934,7 +4828,8 @@
     "examType": "Paper: substantial research paper",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 139,
@@ -3964,7 +4859,45 @@
     "examType": "Flex Exam",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Thu",
+        "m": 11,
+        "d": 5,
+        "iso": "2026-11-05"
+      },
+      {
+        "wd": "Fri",
+        "m": 11,
+        "d": 6,
+        "iso": "2026-11-06"
+      },
+      {
+        "wd": "Thu",
+        "m": 11,
+        "d": 12,
+        "iso": "2026-11-12"
+      },
+      {
+        "wd": "Fri",
+        "m": 11,
+        "d": 13,
+        "iso": "2026-11-13"
+      },
+      {
+        "wd": "Thu",
+        "m": 11,
+        "d": 19,
+        "iso": "2026-11-19"
+      },
+      {
+        "wd": "Fri",
+        "m": 11,
+        "d": 20,
+        "iso": "2026-11-20"
+      }
+    ]
   },
   {
     "id": 140,
@@ -3989,7 +4922,8 @@
     "examType": "Varied: 2 oral presentations of readings; weekly 2-page reflection papers",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 141,
@@ -4029,7 +4963,45 @@
     "examType": "Varied: mark up a proposed acquisition agreement (in a small group) due by Oct 7",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 14,
+        "iso": "2026-09-14"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 15,
+        "iso": "2026-09-15"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 16,
+        "iso": "2026-09-16"
+      },
+      {
+        "wd": "Thu",
+        "m": 9,
+        "d": 17,
+        "iso": "2026-09-17"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 22,
+        "iso": "2026-09-22"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 23,
+        "iso": "2026-09-23"
+      }
+    ]
   },
   {
     "id": 142,
@@ -4069,7 +5041,57 @@
     "examType": "Paper: 5-10 page written stock recommendation due Oct 8",
     "notes": "",
     "shortCourse": true,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 9,
+        "d": 28,
+        "iso": "2026-09-28"
+      },
+      {
+        "wd": "Tue",
+        "m": 9,
+        "d": 29,
+        "iso": "2026-09-29"
+      },
+      {
+        "wd": "Wed",
+        "m": 9,
+        "d": 30,
+        "iso": "2026-09-30"
+      },
+      {
+        "wd": "Thu",
+        "m": 10,
+        "d": 1,
+        "iso": "2026-10-01"
+      },
+      {
+        "wd": "Mon",
+        "m": 10,
+        "d": 5,
+        "iso": "2026-10-05"
+      },
+      {
+        "wd": "Tue",
+        "m": 10,
+        "d": 6,
+        "iso": "2026-10-06"
+      },
+      {
+        "wd": "Wed",
+        "m": 10,
+        "d": 7,
+        "iso": "2026-10-07"
+      },
+      {
+        "wd": "Thu",
+        "m": 10,
+        "d": 8,
+        "iso": "2026-10-08"
+      }
+    ]
   },
   {
     "id": 143,
@@ -4099,7 +5121,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 144,
@@ -4129,7 +5152,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 145,
@@ -4155,7 +5179,8 @@
     "examType": "Varied: mock trial",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 146,
@@ -4181,7 +5206,8 @@
     "examType": "Varied: mock trial",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 147,
@@ -4206,7 +5232,8 @@
     "examType": "Varied: mock trial",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 148,
@@ -4232,7 +5259,8 @@
     "examType": "Flex exam",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 149,
@@ -4258,7 +5286,8 @@
     "examType": "Paper: final project exploring theme of class",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 150,
@@ -4285,7 +5314,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 151,
@@ -4312,7 +5342,8 @@
     "examType": "Clinic",
     "notes": "",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   },
   {
     "id": 152,
@@ -4337,6 +5368,7 @@
     "examType": "Paper: two papers. one 10 pages & one 15 pages",
     "notes": "no laptops allowed",
     "shortCourse": false,
-    "asyncCourse": false
+    "asyncCourse": false,
+    "sessions": []
   }
 ]
