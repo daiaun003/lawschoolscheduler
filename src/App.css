@@ -675,6 +675,8 @@
 }
 
 /* ---------- Responsive ---------- */
+
+/* Medium screens: drop the special panel to its own full-width row. */
 @media (max-width: 1100px) {
   .layout.has-special {
     grid-template-columns: minmax(300px, 1fr) minmax(500px, 1.6fr);
@@ -683,13 +685,89 @@
     grid-column: 1 / -1;
   }
 }
+
+/* Tablet / small laptop: single column, panes stack and the page scrolls
+   naturally instead of each pane scrolling inside a fixed-height shell. */
 @media (max-width: 900px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
+  }
   .layout,
   .layout.has-special {
     grid-template-columns: 1fr;
-    overflow-y: auto;
+    overflow: visible;
   }
-  .catalog-pane {
-    max-height: 60vh;
+  .catalog-pane,
+  .calendar-pane,
+  .special-panel {
+    overflow: visible;
+    min-height: 0;
+    max-height: none;
+  }
+  /* Catalog keeps its own scroll so the calendar stays reachable, but it's
+     now tall enough to show several results at once. */
+  .course-list {
+    max-height: 65vh;
+  }
+  /* The 7-day grid can't fit a phone width, so let it scroll sideways while
+     staying legible. */
+  .calendar-pane {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .cal-grid {
+    min-width: 640px;
+  }
+}
+
+/* Phones: stack the header so nothing (e.g. the conflicts stat) is clipped,
+   and tighten spacing. */
+@media (max-width: 640px) {
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+  .app-header h1 {
+    font-size: 1.2rem;
+  }
+  .header-stats {
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .stat {
+    min-width: 0;
+  }
+  .clear-btn {
+    padding: 7px 12px;
+    font-size: 0.8rem;
+  }
+  .layout {
+    padding: 12px;
+    gap: 12px;
+  }
+  /* Filter day toggles wrap rather than squeezing into 7 tiny columns. */
+  .day-toggles {
+    flex-wrap: wrap;
+  }
+  .day-toggle {
+    flex: 1 1 calc(100% / 7 - 6px);
+    min-width: 40px;
+  }
+  .filter-row {
+    flex-wrap: wrap;
+  }
+  .modal {
+    padding: 20px 16px 16px;
+  }
+  .session-month {
+    flex-direction: column;
+    gap: 4px;
+  }
+  .session-month-name {
+    width: auto;
   }
 }
