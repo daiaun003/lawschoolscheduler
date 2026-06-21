@@ -14,6 +14,8 @@ export default function CalendarBlock({
   const { color } = course
   const left = `calc(${(col / cols) * 100}% + 3px)`
   const width = `calc(${100 / cols}% - 6px)`
+  // Last names keep the block readable in a narrow column.
+  const profShort = course.professors.map((p) => p.split(',')[0]).join(', ')
   return (
     <button
       type="button"
@@ -28,9 +30,10 @@ export default function CalendarBlock({
         color: color.text,
       }}
       onClick={() => onClick(course.id)}
-      title={`${course.title}\n${fmtMeeting(meeting)}${course.classroom ? '\n' + course.classroom : ''}`}
+      title={`${course.title}${profShort ? '\n' + course.professors.join(', ') : ''}\n${fmtMeeting(meeting)}${course.classroom ? '\n' + course.classroom : ''}`}
     >
       <span className="cal-block-title">{course.title}</span>
+      {profShort && height > 50 && <span className="cal-block-prof">{profShort}</span>}
       {height > 34 && (
         <span className="cal-block-meta">
           {fmtMeeting(meeting)}

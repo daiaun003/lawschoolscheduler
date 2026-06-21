@@ -8,6 +8,7 @@ import Filters from './components/Filters'
 import CourseCard from './components/CourseCard'
 import WeeklyCalendar from './components/WeeklyCalendar'
 import SessionsModal from './components/SessionsModal'
+import SpecialSchedulePanel from './components/SpecialSchedulePanel'
 
 const INITIAL_FILTERS = {
   search: '',
@@ -47,6 +48,12 @@ export default function App() {
   const conflicts = useMemo(() => findConflicts(selectedCourses), [selectedCourses])
   const units = useMemo(() => totalUnits(selectedCourses), [selectedCourses])
 
+  // Selected short courses that meet on specific (irregular) dates.
+  const specialSelected = useMemo(
+    () => selectedCourses.filter((c) => c.sessions.length > 0),
+    [selectedCourses],
+  )
+
   return (
     <div className="app">
       <Header
@@ -56,7 +63,7 @@ export default function App() {
         onClear={clearAll}
       />
 
-      <div className="layout">
+      <div className={`layout${specialSelected.length ? ' has-special' : ''}`}>
         <section className="catalog-pane">
           <Filters filters={filters} setFilters={setFilters} resultCount={filtered.length} />
           <div className="course-list">
@@ -83,6 +90,14 @@ export default function App() {
             onRemove={toggle}
           />
         </section>
+
+        {specialSelected.length > 0 && (
+          <SpecialSchedulePanel
+            courses={specialSelected}
+            onShowSessions={setSessionsCourse}
+            onRemove={toggle}
+          />
+        )}
       </div>
 
       <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
