@@ -22,6 +22,7 @@ export default function App() {
   const { selectedIds, isSelected, toggle, clearAll } = useSchedule()
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
+  const [catalogOpen, setCatalogOpen] = useState(true)
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase()
@@ -61,27 +62,35 @@ export default function App() {
         units={units}
         conflictCount={conflicts.size ? conflicts.size : 0}
         onClear={clearAll}
+        catalogOpen={catalogOpen}
+        onToggleCatalog={() => setCatalogOpen((o) => !o)}
       />
 
-      <div className={`layout${specialSelected.length ? ' has-special' : ''}`}>
-        <section className="catalog-pane">
-          <Filters filters={filters} setFilters={setFilters} resultCount={filtered.length} />
-          <div className="course-list">
-            {filtered.map((c) => (
-              <CourseCard
-                key={c.id}
-                course={c}
-                selected={isSelected(c.id)}
-                conflict={conflicts.has(c.id)}
-                onToggle={toggle}
-                onShowSessions={setSessionsCourse}
-              />
-            ))}
-            {filtered.length === 0 && (
-              <p className="muted empty">No courses match your filters.</p>
-            )}
-          </div>
-        </section>
+      <div
+        className={`layout${specialSelected.length ? ' has-special' : ''}${
+          catalogOpen ? '' : ' no-catalog'
+        }`}
+      >
+        {catalogOpen && (
+          <section className="catalog-pane">
+            <Filters filters={filters} setFilters={setFilters} resultCount={filtered.length} />
+            <div className="course-list">
+              {filtered.map((c) => (
+                <CourseCard
+                  key={c.id}
+                  course={c}
+                  selected={isSelected(c.id)}
+                  conflict={conflicts.has(c.id)}
+                  onToggle={toggle}
+                  onShowSessions={setSessionsCourse}
+                />
+              ))}
+              {filtered.length === 0 && (
+                <p className="muted empty">No courses match your filters.</p>
+              )}
+            </div>
+          </section>
+        )}
 
         <section className="calendar-pane">
           <WeeklyCalendar

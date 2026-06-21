@@ -1,11 +1,31 @@
-export default function Header({ selectedCount, units, conflictCount, onClear }) {
+export default function Header({
+  selectedCount,
+  units,
+  conflictCount,
+  onClear,
+  catalogOpen,
+  onToggleCatalog,
+}) {
   return (
     <header className="app-header">
-      <div className="brand">
-        <span className="brand-mark">✿</span>
-        <div>
-          <h1>UVA Law Course Scheduler</h1>
-          <p className="tagline">Build your law school week.</p>
+      <div className="header-left">
+        <button
+          className="catalog-toggle"
+          onClick={onToggleCatalog}
+          title={catalogOpen ? 'Hide course list' : 'Show course list'}
+          aria-pressed={!catalogOpen}
+        >
+          <span className="catalog-toggle-icon">{catalogOpen ? '⟨' : '☰'}</span>
+          <span className="catalog-toggle-label">
+            {catalogOpen ? 'Hide list' : 'Courses'}
+          </span>
+        </button>
+        <div className="brand">
+          <span className="brand-mark">✿</span>
+          <div>
+            <h1>UVA Law Course Scheduler</h1>
+            <p className="tagline">Build your law school week.</p>
+          </div>
         </div>
       </div>
       <div className="header-stats">

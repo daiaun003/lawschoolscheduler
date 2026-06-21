@@ -17,10 +17,38 @@
   border-bottom: 1px solid var(--line);
   flex: none;
 }
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.catalog-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex: none;
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+.catalog-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+.catalog-toggle-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
 .brand {
   display: flex;
   align-items: center;
   gap: 14px;
+  min-width: 0;
 }
 .brand-mark {
   font-size: 2rem;
@@ -79,14 +107,21 @@
 /* ---------- Layout ---------- */
 .layout {
   display: grid;
-  grid-template-columns: minmax(340px, 1fr) minmax(560px, 1.6fr);
+  grid-template-columns: minmax(310px, 0.8fr) minmax(560px, 2fr);
   gap: 18px;
   padding: 18px;
   flex: 1;
   min-height: 0;
 }
 .layout.has-special {
-  grid-template-columns: minmax(300px, 0.95fr) minmax(500px, 1.5fr) minmax(232px, 0.8fr);
+  grid-template-columns: minmax(290px, 0.8fr) minmax(500px, 1.7fr) minmax(232px, 0.78fr);
+}
+/* Catalog hidden — calendar takes the full width. */
+.layout.no-catalog {
+  grid-template-columns: minmax(0, 1fr);
+}
+.layout.no-catalog.has-special {
+  grid-template-columns: minmax(0, 1fr) minmax(232px, 0.4fr);
 }
 .catalog-pane,
 .calendar-pane {
@@ -694,7 +729,9 @@
     min-height: 100vh;
   }
   .layout,
-  .layout.has-special {
+  .layout.has-special,
+  .layout.no-catalog,
+  .layout.no-catalog.has-special {
     grid-template-columns: 1fr;
     overflow: visible;
   }
@@ -732,6 +769,12 @@
   }
   .app-header h1 {
     font-size: 1.2rem;
+  }
+  .catalog-toggle-label {
+    display: none;
+  }
+  .catalog-toggle {
+    padding: 8px 11px;
   }
   .header-stats {
     width: 100%;
