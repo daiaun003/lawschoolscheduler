@@ -585,10 +585,40 @@
   color: #2f5b43;
 }
 
+/* ---------- Calendar action buttons (share / export) ---------- */
+.cal-actions {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  display: flex;
+  gap: 5px;
+  z-index: 4;
+}
+.cal-action-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--ink-soft);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  transition: border-color 0.12s, color 0.12s, background 0.12s;
+  flex: none;
+}
+.cal-action-btn:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+  background: #fff;
+}
+
 /* ---------- Calendar ---------- */
 .calendar-pane {
   padding: 16px;
   overflow-y: auto;
+  position: relative;
 }
 .cal-grid {
   display: grid;
@@ -1069,6 +1099,11 @@
     padding: 0;
     background: white;
     border-radius: 0;
+  }
+
+  /* Hide interactive buttons that have no use on paper */
+  .cal-actions {
+    display: none;
   }
 
   /* Ensure pastel block colors survive to paper */
