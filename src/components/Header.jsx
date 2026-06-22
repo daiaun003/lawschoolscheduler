@@ -1,25 +1,4 @@
-import { useState } from 'react'
 import SavedSchedulesMenu from './SavedSchedulesMenu'
-
-function ShareButton() {
-  const [copied, setCopied] = useState(false)
-  const copy = () => {
-    navigator.clipboard.writeText(window.location.href).then(() => {
-      setCopied(true)
-      setTimeout(() => setCopied(false), 2200)
-    })
-  }
-  return (
-    <button
-      className="catalog-toggle"
-      onClick={copy}
-      title="Copy shareable link to clipboard"
-    >
-      <span className="catalog-toggle-icon">{copied ? '✓' : '🔗'}</span>
-      <span className="catalog-toggle-label">{copied ? 'Copied!' : 'Share'}</span>
-    </button>
-  )
-}
 
 export default function Header({
   selectedCount,
@@ -69,15 +48,6 @@ export default function Header({
           <span className="stat-label">conflicts</span>
         </div>
         {savedMenu && <SavedSchedulesMenu {...savedMenu} />}
-        <ShareButton />
-        <button
-          className="catalog-toggle no-print"
-          onClick={() => window.print()}
-          title="Print / save as PDF"
-        >
-          <span className="catalog-toggle-icon">🖨️</span>
-          <span className="catalog-toggle-label">Print</span>
-        </button>
         {specialAvailable && (
           <button
             className="catalog-toggle"
