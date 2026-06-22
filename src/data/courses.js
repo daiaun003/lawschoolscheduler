@@ -12,7 +12,7 @@ export const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 // Distinct credit values present in the catalog (excluding 0 / unlisted),
 // sorted ascending — used to populate the credits range filter.
 export const CREDIT_OPTIONS = [
-  ...new Set(COURSES.map((c) => Number(c.units)).filter((n) => Number.isFinite(n) && n > 0)),
+  ...new Set(COURSES.map((c) => Number(c.units)).filter((n) => Number.isFinite(n) && n >= 0)),
 ].sort((a, b) => a - b)
 
 export const CREDIT_MIN = CREDIT_OPTIONS[0]
