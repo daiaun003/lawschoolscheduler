@@ -193,9 +193,8 @@
 }
 .credit-range {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+  flex-direction: column;
+  gap: 2px;
 }
 .credit-range-label {
   font-size: 0.82rem;
@@ -206,21 +205,86 @@
   color: var(--ink);
   font-weight: 800;
 }
-.credit-range-selects {
-  display: flex;
-  align-items: center;
-  gap: 7px;
+
+/* Dual-handle credit range slider */
+.cr-slider {
+  position: relative;
+  height: 36px;
+  padding: 0 8px;
 }
-.credit-range-selects select {
-  padding: 7px 9px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius-sm);
+.cr-track,
+.cr-fill {
+  position: absolute;
+  top: 9px;
+  height: 5px;
+  border-radius: 999px;
+}
+.cr-track {
+  left: 8px;
+  right: 8px;
+  background: var(--line);
+}
+.cr-fill {
+  background: var(--matcha);
+}
+.cr-input {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  right: 8px;
+  width: calc(100% - 16px);
+  height: 23px;
+  margin: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  pointer-events: none;
+}
+.cr-input:focus {
+  outline: none;
+}
+.cr-input::-webkit-slider-runnable-track {
+  background: transparent;
+  border: none;
+}
+.cr-input::-moz-range-track {
+  background: transparent;
+  border: none;
+}
+.cr-input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
   background: #fff;
-  font-size: 0.88rem;
-  color: var(--ink);
+  border: 2px solid var(--matcha-deep);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  pointer-events: auto;
 }
-.credit-range-dash {
-  font-size: 0.78rem;
+.cr-input::-moz-range-thumb {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid var(--matcha-deep);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  pointer-events: auto;
+}
+.cr-input:focus-visible::-webkit-slider-thumb {
+  border-color: var(--accent-deep);
+}
+.cr-ticks {
+  position: absolute;
+  top: 23px;
+  left: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  font-weight: 700;
   color: var(--ink-soft);
 }
 .check {

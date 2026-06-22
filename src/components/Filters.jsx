@@ -1,4 +1,5 @@
-import { DAYS, CREDIT_OPTIONS, CREDIT_MIN, CREDIT_MAX } from '../data/courses'
+import { DAYS, CREDIT_MIN, CREDIT_MAX } from '../data/courses'
+import CreditRangeSlider from './CreditRangeSlider'
 
 const EXAM_KINDS = ['Flex exam', 'Paper', 'Clinic', 'Exam', 'Other']
 
@@ -11,12 +12,6 @@ export default function Filters({ filters, setFilters, resultCount }) {
         ? filters.days.filter((d) => d !== day)
         : [...filters.days, day],
     })
-
-  // Keep min <= max when either end of the credit range changes.
-  const setCreditMin = (v) =>
-    set({ creditMin: v, creditMax: Math.max(v, filters.creditMax) })
-  const setCreditMax = (v) =>
-    set({ creditMax: v, creditMin: Math.min(v, filters.creditMin) })
 
   const creditRangeActive =
     filters.creditMin !== CREDIT_MIN || filters.creditMax !== CREDIT_MAX
@@ -73,31 +68,11 @@ export default function Filters({ filters, setFilters, resultCount }) {
               : `${filters.creditMin}–${filters.creditMax}`}
           </strong>
         </span>
-        <div className="credit-range-selects">
-          <select
-            value={filters.creditMin}
-            onChange={(e) => setCreditMin(Number(e.target.value))}
-            aria-label="Minimum credits"
-          >
-            {CREDIT_OPTIONS.map((n) => (
-              <option key={n} value={n}>
-                {n}
-              </option>
-            ))}
-          </select>
-          <span className="credit-range-dash">to</span>
-          <select
-            value={filters.creditMax}
-            onChange={(e) => setCreditMax(Number(e.target.value))}
-            aria-label="Maximum credits"
-          >
-            {CREDIT_OPTIONS.map((n) => (
-              <option key={n} value={n}>
-                {n}
-              </option>
-            ))}
-          </select>
-        </div>
+        <CreditRangeSlider
+          min={filters.creditMin}
+          max={filters.creditMax}
+          onChange={(lo, hi) => set({ creditMin: lo, creditMax: hi })}
+        />
       </div>
 
       <label className="check">
