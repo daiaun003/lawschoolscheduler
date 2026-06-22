@@ -7,12 +7,14 @@ export default function CreditRangeSlider({ min, max, onChange }) {
   const span = CREDIT_MAX - CREDIT_MIN || 1
   const pct = (v) => ((v - CREDIT_MIN) / span) * 100
 
-  const setMin = (v) => onChange(Math.min(v, max), max)
-  const setMax = (v) => onChange(min, Math.max(v, min))
+  // Allow crossover: if the user drags past the other thumb, move that
+  // thumb instead so either handle works in both directions when overlapping.
+  const setMin = (v) => (v <= max ? onChange(v, max) : onChange(max, v))
+  const setMax = (v) => (v >= min ? onChange(min, v) : onChange(v, min))
 
-  // When both thumbs sit on the same value, keep the one the user can still
-  // drag outward on top.
-  const minOnTop = min === max && max === CREDIT_MAX
+  // When both thumbs overlap, put min on top so the user can drag left or
+  // right (crossover logic above handles the right-drag case).
+  const minOnTop = min === max
 
   return (
     <div className="cr-slider">
