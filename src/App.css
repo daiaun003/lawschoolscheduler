@@ -16,6 +16,8 @@
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
   flex: none;
+  position: relative;
+  z-index: 30; /* keep header dropdowns above the layout panes */
 }
 .header-left {
   display: flex;
@@ -102,6 +104,167 @@
 .clear-btn:hover {
   border-color: var(--accent);
   color: var(--accent-deep);
+}
+
+/* ---------- Saved schedules menu ---------- */
+.saved-menu {
+  position: relative;
+}
+.saved-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: 300px;
+  max-width: calc(100vw - 24px);
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 14px 38px rgba(40, 55, 80, 0.22);
+  padding: 14px;
+  z-index: 60;
+  animation: pop 0.14s ease;
+}
+.saved-dropdown-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.saved-dropdown-head strong {
+  font-size: 0.95rem;
+  flex: 1;
+}
+.saved-close {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+.saved-close:hover {
+  background: var(--line);
+  color: var(--ink);
+}
+.saved-empty {
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0 0 12px;
+}
+.saved-slots {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.saved-slot {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 9px 10px;
+}
+.saved-slot.current {
+  border-left-color: var(--matcha-deep);
+  background: #f6faf7;
+}
+.saved-name {
+  width: 100%;
+  border: none;
+  background: transparent;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--ink);
+  padding: 2px 4px;
+  border-radius: 6px;
+}
+.saved-name:hover {
+  background: var(--bg-soft);
+}
+.saved-name:focus {
+  outline: none;
+  background: var(--bg-soft);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.saved-meta {
+  font-size: 0.74rem;
+  color: var(--ink-soft);
+  margin: 3px 0 8px;
+  padding-left: 4px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.saved-badge {
+  font-size: 0.64rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--matcha-deep);
+  background: #e7f3ec;
+  border-radius: 999px;
+  padding: 1px 7px;
+}
+.saved-actions {
+  display: flex;
+  gap: 6px;
+}
+.saved-actions button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.78rem;
+  border-radius: 7px;
+  padding: 5px 10px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+.saved-load {
+  flex: 1;
+}
+.saved-load:not(:disabled):hover,
+.saved-update:hover {
+  border-color: var(--accent);
+  color: var(--accent-deep);
+}
+.saved-actions button:disabled {
+  color: var(--ink-soft);
+  background: var(--bg-soft);
+  cursor: default;
+}
+.saved-del {
+  flex: none;
+}
+.saved-del:hover {
+  border-color: var(--warn);
+  background: var(--warn-soft);
+}
+.saved-save-btn {
+  width: 100%;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  border: 1px solid var(--matcha-deep);
+  background: var(--matcha);
+  color: #2f5b43;
+}
+.saved-save-btn:disabled {
+  border-color: var(--line);
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  cursor: default;
+}
+.saved-hint {
+  font-size: 0.74rem;
+  line-height: 1.35;
+  margin: 8px 0 0;
 }
 
 /* ---------- Layout ---------- */
@@ -911,6 +1074,18 @@
   }
   .catalog-toggle {
     padding: 8px 11px;
+  }
+  /* On phones the menu button sits mid-row, so anchor the dropdown to the
+     viewport instead (it would otherwise clip off the left edge). */
+  .saved-dropdown {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    max-width: none;
+    max-height: calc(100vh - 24px);
+    overflow-y: auto;
   }
   .header-stats {
     width: 100%;

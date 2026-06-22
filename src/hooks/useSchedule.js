@@ -1,13 +1,17 @@
 import { useEffect, useState } from 'react'
+import { COURSES } from '../data/courses'
 
 const KEY = 'lawscheduler.selected.v1'
 
+// Only ids that still exist in the catalog are valid — guards against loading a
+// saved schedule that references a course that's no longer offered.
+const VALID_IDS = new Set(COURSES.map((c) => c.id))
+const sanitize = (ids) =>
+  Array.isArray(ids) ? ids.filter((id) => VALID_IDS.has(id)) : []
+
 function load() {
   try {
-    const raw = localStorage.getItem(KEY)
-    if (!raw) return []
-    const arr = JSON.parse(raw)
-    return Array.isArray(arr) ? arr : []
+    return sanitize(JSON.parse(localStorage.getItem(KEY)))
   } catch {
     return []
   }
@@ -30,5 +34,8 @@ export function useSchedule() {
 
   const clearAll = () => setSelectedIds([])
 
-  return { selectedIds, isSelected, toggle, clearAll }
+  // Replace the whole selection (used when loading a saved schedule).
+  const setAll = (ids) => setSelectedIds(sanitize(ids))
+
+  return { selectedIds, isSelected, toggle, clearAll, setAll }
 }

@@ -1,3 +1,5 @@
+import SavedSchedulesMenu from './SavedSchedulesMenu'
+
 export default function Header({
   selectedCount,
   units,
@@ -8,6 +10,7 @@ export default function Header({
   specialAvailable,
   specialOpen,
   onToggleSpecial,
+  savedMenu,
 }) {
   return (
     <header className="app-header">
@@ -44,6 +47,7 @@ export default function Header({
           <span className="stat-num">{conflictCount}</span>
           <span className="stat-label">conflicts</span>
         </div>
+        {savedMenu && <SavedSchedulesMenu {...savedMenu} />}
         {specialAvailable && (
           <button
             className="catalog-toggle"

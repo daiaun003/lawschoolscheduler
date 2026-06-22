@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import './App.css'
 import { COURSES, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
 import { useSchedule } from './hooks/useSchedule'
+import { useSavedSchedules } from './hooks/useSavedSchedules'
 import { findConflicts, totalUnits } from './utils/schedule'
 import Header from './components/Header'
 import Filters from './components/Filters'
@@ -21,7 +22,8 @@ const INITIAL_FILTERS = {
 }
 
 export default function App() {
-  const { selectedIds, isSelected, toggle, clearAll } = useSchedule()
+  const { selectedIds, isSelected, toggle, clearAll, setAll } = useSchedule()
+  const savedSchedules = useSavedSchedules()
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
   const [catalogOpen, setCatalogOpen] = useState(true)
@@ -75,6 +77,16 @@ export default function App() {
         specialAvailable={specialSelected.length > 0}
         specialOpen={specialOpen}
         onToggleSpecial={() => setSpecialOpen((o) => !o)}
+        savedMenu={{
+          saved: savedSchedules.saved,
+          max: savedSchedules.max,
+          currentIds: selectedIds,
+          onSaveNew: (ids) => savedSchedules.saveNew(ids),
+          onRename: savedSchedules.rename,
+          onOverwrite: savedSchedules.overwrite,
+          onRemove: savedSchedules.remove,
+          onLoad: (slot) => setAll(slot.courseIds),
+        }}
       />
 
       <div
