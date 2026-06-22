@@ -450,12 +450,24 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-.cal-block-meta {
+.cal-block-time {
   flex: none;
   font-size: 0.68rem;
   line-height: 1.25;
-  opacity: 0.85;
+  opacity: 0.9;
   font-weight: 600;
+  /* Wrap to fit the column width (up to the inline line-clamp) instead of
+     truncating the time. */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.cal-block-room {
+  flex: none;
+  font-size: 0.6rem;
+  line-height: 1.3;
+  font-weight: 700;
+  opacity: 0.72;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -657,6 +669,27 @@
   padding: 16px 14px;
   overflow-y: auto;
   min-height: 0;
+}
+.special-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.special-panel-hide {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: none;
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+.special-panel-hide:hover {
+  background: var(--line);
+  color: var(--ink);
 }
 .special-panel-title {
   font-size: 1rem;

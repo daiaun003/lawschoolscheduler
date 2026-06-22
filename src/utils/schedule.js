@@ -15,6 +15,17 @@ export function fmtMeeting(m) {
   return `${fmtTime(m.start)} – ${fmtTime(m.end)}`
 }
 
+// Compact form for narrow calendar blocks. Drops the redundant first meridiem
+// and the spaces around the dash so the time fits more easily, e.g.
+// "1:00–3:00 PM" or, across noon, "10:00 AM–1:00 PM".
+export function fmtMeetingCompact(m) {
+  const start = fmtTime(m.start)
+  const end = fmtTime(m.end)
+  const sameMeridiem = start.slice(-2) === end.slice(-2)
+  const startShort = sameMeridiem ? start.slice(0, -3) : start
+  return `${startShort}–${end}`
+}
+
 export function totalUnits(courses) {
   return courses.reduce((sum, c) => {
     const u = Number(c.units)

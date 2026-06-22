@@ -19,10 +19,20 @@ function summarize(sessions) {
 
 // A slim panel that appears when the selected schedule includes short courses
 // with special (irregular) meeting dates.
-export default function SpecialSchedulePanel({ courses, onShowSessions, onRemove }) {
+export default function SpecialSchedulePanel({ courses, onShowSessions, onRemove, onHide }) {
   return (
     <aside className="special-panel">
-      <h2 className="special-panel-title">📅 Special schedules</h2>
+      <div className="special-panel-head">
+        <h2 className="special-panel-title">📅 Special schedules</h2>
+        <button
+          className="special-panel-hide"
+          onClick={onHide}
+          title="Hide this panel"
+          aria-label="Hide special schedules panel"
+        >
+          ×
+        </button>
+      </div>
       <p className="special-panel-sub">
         Selected courses that meet on specific dates.
       </p>

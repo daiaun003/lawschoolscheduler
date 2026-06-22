@@ -25,6 +25,7 @@ export default function App() {
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
   const [catalogOpen, setCatalogOpen] = useState(true)
+  const [specialOpen, setSpecialOpen] = useState(true)
 
   const filtered = useMemo(() => {
     const q = filters.search.trim().toLowerCase()
@@ -60,6 +61,7 @@ export default function App() {
     () => selectedCourses.filter((c) => c.sessions.length > 0),
     [selectedCourses],
   )
+  const showSpecial = specialSelected.length > 0 && specialOpen
 
   return (
     <div className="app">
@@ -70,10 +72,13 @@ export default function App() {
         onClear={clearAll}
         catalogOpen={catalogOpen}
         onToggleCatalog={() => setCatalogOpen((o) => !o)}
+        specialAvailable={specialSelected.length > 0}
+        specialOpen={specialOpen}
+        onToggleSpecial={() => setSpecialOpen((o) => !o)}
       />
 
       <div
-        className={`layout${specialSelected.length ? ' has-special' : ''}${
+        className={`layout${showSpecial ? ' has-special' : ''}${
           catalogOpen ? '' : ' no-catalog'
         }`}
       >
@@ -106,11 +111,12 @@ export default function App() {
           />
         </section>
 
-        {specialSelected.length > 0 && (
+        {showSpecial && (
           <SpecialSchedulePanel
             courses={specialSelected}
             onShowSessions={setSessionsCourse}
             onRemove={toggle}
+            onHide={() => setSpecialOpen(false)}
           />
         )}
       </div>
