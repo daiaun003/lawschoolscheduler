@@ -1,4 +1,4 @@
-import { DAYS, CREDIT_OPTIONS } from '../data/courses'
+import { DAYS, CREDIT_OPTIONS, CREDIT_MIN, CREDIT_MAX } from '../data/courses'
 
 const EXAM_KINDS = ['Flex exam', 'Paper', 'Clinic', 'Exam', 'Other']
 
@@ -12,11 +12,20 @@ export default function Filters({ filters, setFilters, resultCount }) {
         : [...filters.days, day],
     })
 
+  // Keep min <= max when either end of the credit range changes.
+  const setCreditMin = (v) =>
+    set({ creditMin: v, creditMax: Math.max(v, filters.creditMax) })
+  const setCreditMax = (v) =>
+    set({ creditMax: v, creditMin: Math.min(v, filters.creditMin) })
+
+  const creditRangeActive =
+    filters.creditMin !== CREDIT_MIN || filters.creditMax !== CREDIT_MAX
+
   const active =
     filters.search ||
     filters.days.length ||
     filters.exam !== 'all' ||
-    filters.credits !== 'all' ||
+    creditRangeActive ||
     filters.onlyOpen ||
     filters.hideShort
 
@@ -53,14 +62,42 @@ export default function Filters({ filters, setFilters, resultCount }) {
           ))}
         </select>
 
-        <select value={filters.credits} onChange={(e) => set({ credits: e.target.value })}>
-          <option value="all">All credits</option>
-          {CREDIT_OPTIONS.map((n) => (
-            <option key={n} value={n}>
-              {n} {n === 1 ? 'credit' : 'credits'}
-            </option>
-          ))}
-        </select>
+      </div>
+
+      <div className="credit-range">
+        <span className="credit-range-label">
+          Credits{' '}
+          <strong>
+            {filters.creditMin === filters.creditMax
+              ? filters.creditMin
+              : `${filters.creditMin}–${filters.creditMax}`}
+          </strong>
+        </span>
+        <div className="credit-range-selects">
+          <select
+            value={filters.creditMin}
+            onChange={(e) => setCreditMin(Number(e.target.value))}
+            aria-label="Minimum credits"
+          >
+            {CREDIT_OPTIONS.map((n) => (
+              <option key={n} value={n}>
+                {n}
+              </option>
+            ))}
+          </select>
+          <span className="credit-range-dash">to</span>
+          <select
+            value={filters.creditMax}
+            onChange={(e) => setCreditMax(Number(e.target.value))}
+            aria-label="Maximum credits"
+          >
+            {CREDIT_OPTIONS.map((n) => (
+              <option key={n} value={n}>
+                {n}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
       <label className="check">
@@ -82,7 +119,8 @@ export default function Filters({ filters, setFilters, resultCount }) {
                 search: '',
                 days: [],
                 exam: 'all',
-                credits: 'all',
+                creditMin: CREDIT_MIN,
+                creditMax: CREDIT_MAX,
                 onlyOpen: false,
                 hideShort: false,
               })

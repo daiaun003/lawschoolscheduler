@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import './App.css'
-import { COURSES, examKind } from './data/courses'
+import { COURSES, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
 import { useSchedule } from './hooks/useSchedule'
 import { findConflicts, totalUnits } from './utils/schedule'
 import Header from './components/Header'
@@ -14,7 +14,8 @@ const INITIAL_FILTERS = {
   search: '',
   days: [],
   exam: 'all',
-  credits: 'all',
+  creditMin: CREDIT_MIN,
+  creditMax: CREDIT_MAX,
   onlyOpen: false,
   hideShort: false,
 }
@@ -37,7 +38,10 @@ export default function App() {
         if (!filters.days.some((d) => courseDays.has(d))) return false
       }
       if (filters.exam !== 'all' && examKind(c.examType) !== filters.exam) return false
-      if (filters.credits !== 'all' && Number(c.units) !== Number(filters.credits)) return false
+      if (filters.creditMin !== CREDIT_MIN || filters.creditMax !== CREDIT_MAX) {
+        const u = Number(c.units)
+        if (!Number.isFinite(u) || u < filters.creditMin || u > filters.creditMax) return false
+      }
       if (filters.hideShort && c.shortCourse) return false
       return true
     }).sort((a, b) => a.title.localeCompare(b.title))
