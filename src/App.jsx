@@ -134,6 +134,9 @@ export default function App() {
       </div>
 
       <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
+      <div className="print-footer">
+        UVA Law Course Scheduler — Fall 2026 &nbsp;·&nbsp; law-school-scheduler.vercel.app
+      </div>
     </div>
   )
 }
