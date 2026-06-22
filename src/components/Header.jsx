@@ -23,19 +23,6 @@ export default function Header({
             {catalogOpen ? 'Hide list' : 'Courses'}
           </span>
         </button>
-        {specialAvailable && (
-          <button
-            className="catalog-toggle"
-            onClick={onToggleSpecial}
-            title={specialOpen ? 'Hide special schedules' : 'Show special schedules'}
-            aria-pressed={!specialOpen}
-          >
-            <span className="catalog-toggle-icon">📅</span>
-            <span className="catalog-toggle-label">
-              {specialOpen ? 'Hide special' : 'Special'}
-            </span>
-          </button>
-        )}
         <div className="brand">
           <span className="brand-mark">✿</span>
           <div>
@@ -57,6 +44,19 @@ export default function Header({
           <span className="stat-num">{conflictCount}</span>
           <span className="stat-label">conflicts</span>
         </div>
+        {specialAvailable && (
+          <button
+            className="catalog-toggle"
+            onClick={onToggleSpecial}
+            title={specialOpen ? 'Hide special schedules' : 'Show special schedules'}
+            aria-pressed={!specialOpen}
+          >
+            <span className="catalog-toggle-icon">📅</span>
+            <span className="catalog-toggle-label">
+              {specialOpen ? 'Hide special' : 'Special'}
+            </span>
+          </button>
+        )}
         {selectedCount > 0 && (
           <button className="clear-btn" onClick={onClear}>
             Clear all
