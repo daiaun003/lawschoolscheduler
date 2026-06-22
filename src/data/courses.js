@@ -9,6 +9,12 @@ export const COURSES = raw.map((c) => ({
 
 export const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
+// Distinct credit values present in the catalog (excluding 0 / unlisted),
+// sorted ascending — used to populate the credits filter.
+export const CREDIT_OPTIONS = [
+  ...new Set(COURSES.map((c) => Number(c.units)).filter((n) => Number.isFinite(n) && n > 0)),
+].sort((a, b) => a - b)
+
 // Distinct exam-type "kinds" for filtering. The raw examType field is free
 // text (e.g. "Flex Exam: 80%..."), so we bucket by leading keyword.
 export function examKind(examType) {

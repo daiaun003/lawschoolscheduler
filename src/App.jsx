@@ -14,6 +14,7 @@ const INITIAL_FILTERS = {
   search: '',
   days: [],
   exam: 'all',
+  credits: 'all',
   onlyOpen: false,
   hideShort: false,
 }
@@ -36,6 +37,7 @@ export default function App() {
         if (!filters.days.some((d) => courseDays.has(d))) return false
       }
       if (filters.exam !== 'all' && examKind(c.examType) !== filters.exam) return false
+      if (filters.credits !== 'all' && Number(c.units) !== Number(filters.credits)) return false
       if (filters.hideShort && c.shortCourse) return false
       return true
     }).sort((a, b) => a.title.localeCompare(b.title))

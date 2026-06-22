@@ -1,4 +1,4 @@
-import { DAYS } from '../data/courses'
+import { DAYS, CREDIT_OPTIONS } from '../data/courses'
 
 const EXAM_KINDS = ['Flex exam', 'Paper', 'Clinic', 'Exam', 'Other']
 
@@ -16,6 +16,7 @@ export default function Filters({ filters, setFilters, resultCount }) {
     filters.search ||
     filters.days.length ||
     filters.exam !== 'all' ||
+    filters.credits !== 'all' ||
     filters.onlyOpen ||
     filters.hideShort
 
@@ -52,15 +53,24 @@ export default function Filters({ filters, setFilters, resultCount }) {
           ))}
         </select>
 
-        <label className="check">
-          <input
-            type="checkbox"
-            checked={filters.hideShort}
-            onChange={(e) => set({ hideShort: e.target.checked })}
-          />
-          Hide short courses
-        </label>
+        <select value={filters.credits} onChange={(e) => set({ credits: e.target.value })}>
+          <option value="all">All credits</option>
+          {CREDIT_OPTIONS.map((n) => (
+            <option key={n} value={n}>
+              {n} {n === 1 ? 'credit' : 'credits'}
+            </option>
+          ))}
+        </select>
       </div>
+
+      <label className="check">
+        <input
+          type="checkbox"
+          checked={filters.hideShort}
+          onChange={(e) => set({ hideShort: e.target.checked })}
+        />
+        Hide short courses
+      </label>
 
       <div className="filter-foot">
         <span className="muted">{resultCount} courses</span>
@@ -72,6 +82,7 @@ export default function Filters({ filters, setFilters, resultCount }) {
                 search: '',
                 days: [],
                 exam: 'all',
+                credits: 'all',
                 onlyOpen: false,
                 hideShort: false,
               })
