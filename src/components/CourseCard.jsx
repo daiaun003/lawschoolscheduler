@@ -1,4 +1,5 @@
 import { fmtMeeting } from '../utils/schedule'
+import { examKind } from '../data/courses'
 
 // Compact summary of a meeting list, e.g. "Mon, Wed · 3:40–5:40 PM".
 function meetingSummary(course) {
@@ -41,7 +42,9 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
           )}
           {course.classroom && <span className="tag">{course.classroom}</span>}
           {course.examType && (
-            <span className="tag tag-exam">{course.examType.split(/[:.]/)[0]}</span>
+            <span className={`tag tag-exam tag-exam--${examKind(course.examType).toLowerCase().replace(/\s/g, '-')}`}>
+              {course.examType.split(/[:.]/)[0]}
+            </span>
           )}
           {course.sessions.length > 0 ? (
             <button

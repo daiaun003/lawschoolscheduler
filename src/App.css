@@ -544,9 +544,25 @@
   color: var(--ink-soft);
   font-weight: 700;
 }
-.tag-exam {
+.tag-exam--flex-exam {
+  background: #e8f0fa;
+  color: #3b6a9e;
+}
+.tag-exam--paper {
+  background: #fef4e6;
+  color: #9a6d2e;
+}
+.tag-exam--clinic {
   background: #eaf3ee;
   color: var(--matcha-deep);
+}
+.tag-exam--exam {
+  background: #f3e8f3;
+  color: #7b4a8a;
+}
+.tag-exam--other {
+  background: #f0eded;
+  color: #6b6464;
 }
 .tag-short {
   background: #f1eafa;
