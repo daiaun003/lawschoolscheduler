@@ -1,7 +1,7 @@
 import openpyxl, json, re, datetime
 
 import os
-SRC = os.path.expanduser('~/Downloads/Fall 26 Course Selection.xlsx')
+SRC = os.path.expanduser('~/Downloads/Fall 26 Course Selection-2.xlsx')
 OUT = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'courses.json')
 
 wb = openpyxl.load_workbook(SRC, data_only=True)
@@ -121,6 +121,46 @@ def parse_sessions(days_raw):
         for d in dates
     ]
 
+def parse_prereqs(raw):
+    """Parse the Pre-reqs column into structured data."""
+    text = '' if raw is None else str(raw).strip()
+    if not text or text.lower() == 'none':
+        return {'required': [], 'recommended': [], 'jdPriority': False, 'raw': ''}
+
+    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    required = []
+    recommended = []
+    jd_priority = False
+    mode = 'required'
+
+    for line in lines:
+        low = line.lower()
+        if low in ('jd priority', 'jd only', '2l or 3l only', '3l only',
+                    '2l or 3l', '2l or 3l\njd priority'):
+            jd_priority = True
+            continue
+        if low.startswith('helpful, not req'):
+            mode = 'recommended'
+            continue
+        if low.startswith('or ') and (required or recommended):
+            target = recommended if mode == 'recommended' else required
+            if target:
+                target[-1] = target[-1] + ' OR ' + line[3:].strip()
+            else:
+                target.append(line[3:].strip())
+            continue
+        if mode == 'recommended':
+            recommended.append(line)
+        else:
+            required.append(line)
+
+    return {
+        'required': required,
+        'recommended': recommended,
+        'jdPriority': jd_priority,
+        'raw': text,
+    }
+
 def build_meetings(days_raw, times_raw):
     """Return list of {day,start,end}. Handles weekly, multi-day, and the
     rare per-day-time format embedded in the Times column."""
@@ -164,7 +204,8 @@ for r in rows[1:]:
     enrollment = '' if r[5] is None else str(r[5]).strip()
     classroom = '' if r[6] is None else str(r[6]).strip()
     exam_type = '' if r[7] is None else str(r[7]).strip()
-    notes = '' if r[8] is None else str(r[8]).strip()
+    prereqs_raw = r[8]
+    notes = '' if r[9] is None else str(r[9]).strip()
 
     meetings = build_meetings(days_raw, times_raw)
     short_course = has_month(days_raw)
@@ -192,6 +233,7 @@ for r in rows[1:]:
         'classroom': classroom,
         'examType': exam_type,
         'notes': notes,
+        'prereqs': parse_prereqs(prereqs_raw),
         'shortCourse': short_course,
         'asyncCourse': async_course,
         'sessions': sessions,

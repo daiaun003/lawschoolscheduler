@@ -9,6 +9,7 @@ import Filters from './components/Filters'
 import CourseCard from './components/CourseCard'
 import WeeklyCalendar from './components/WeeklyCalendar'
 import SessionsModal from './components/SessionsModal'
+import PrereqsModal from './components/PrereqsModal'
 import SpecialSchedulePanel from './components/SpecialSchedulePanel'
 
 const NO_LAPTOP_RE = /no\s+laptops?\b/i
@@ -29,6 +30,7 @@ export default function App() {
   const savedSchedules = useSavedSchedules()
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
+  const [prereqsCourse, setPrereqsCourse] = useState(null)
   const [catalogOpen, setCatalogOpen] = useState(true)
   const [specialOpen, setSpecialOpen] = useState(true)
 
@@ -114,6 +116,7 @@ export default function App() {
                   conflict={conflicts.has(c.id)}
                   onToggle={toggle}
                   onShowSessions={setSessionsCourse}
+                  onShowPrereqs={setPrereqsCourse}
                 />
               ))}
               {filtered.length === 0 && (
@@ -142,6 +145,7 @@ export default function App() {
       </div>
 
       <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
+      <PrereqsModal course={prereqsCourse} onClose={() => setPrereqsCourse(null)} />
     </div>
   )
 }

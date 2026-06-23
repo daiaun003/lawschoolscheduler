@@ -580,6 +580,10 @@
   background: #f1eafa;
   color: #6b4e9e;
 }
+.tag-prereq {
+  background: #e9eff6;
+  color: #4a6785;
+}
 .course-notes {
   margin: 8px 0 0;
   font-size: 0.78rem;
@@ -917,6 +921,49 @@
   border-top: 1px dashed var(--line);
   padding-top: 10px;
   line-height: 1.4;
+}
+
+/* ---------- Prerequisites modal ---------- */
+.prereq-jd-row {
+  margin-top: 14px;
+}
+.prereq-jd {
+  display: inline-block;
+  font-size: 0.76rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b4e9e;
+  background: #f1eafa;
+  border-radius: 999px;
+  padding: 3px 11px;
+}
+.prereq-section {
+  margin-top: 4px;
+}
+.prereq-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.prereq-item {
+  font-size: 0.88rem;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border-left: 3px solid;
+}
+.prereq-required {
+  background: #fef8f0;
+  border-left-color: #d4a94c;
+  color: var(--ink);
+}
+.prereq-recommended {
+  background: #f4f8f5;
+  border-left-color: var(--matcha-deep);
+  color: var(--ink);
 }
 
 /* ---------- Special schedule side panel ---------- */

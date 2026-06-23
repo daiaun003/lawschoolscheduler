@@ -26,11 +26,19 @@
         "end": 680
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL298",
     "examType": "Flex Exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -57,11 +65,21 @@
         "end": 680
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "LRW I",
+        "LRW II",
+        "Professional Skills"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LRW I\nLRW II\nProfessional Skills"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -88,11 +106,21 @@
         "end": 930
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "LRW I",
+        "LRW II",
+        "Professional Skills"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LRW I\nLRW II\nProfessional Skills"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -114,11 +142,19 @@
         "end": 900
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex Exam: 80%\n20% 1 page (600 words max) written critique of a case/doctrine studied in class, of the student's choice",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Patent Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Patent Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -150,11 +186,19 @@
         "end": 1230
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: Take-home, team exercise due on expo by 9/16 at noon",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Bankruptcy"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nBankruptcy"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -213,11 +257,19 @@
         "end": 1060
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: Final paper due by noon on 10/19 on expo",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Employment Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nEmployment Law"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -282,11 +334,17 @@
         "end": 935
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: Class participation + 5 short papers on legal & policy implications of AI",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -308,11 +366,17 @@
         "end": 780
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB278",
     "examType": "Paper: Two main grading components: \n1. lab notebook on process of designing/panning/creating tools \n2. formal memo on tool created (due Dec. 17)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -344,11 +408,17 @@
         "end": 680
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -372,11 +442,20 @@
         "end": 870
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:12:00",
     "classroom": "WB114",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Law",
+        "Civil Procedure"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Criminal Law\nCivil Procedure\n3L only"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -399,11 +478,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Paper: First semester: problem sets + research plan for spring paper \nSecond semester: research paper development & presentation",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -426,11 +511,17 @@
         "end": 690
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:30:00",
     "classroom": "WB152",
     "examType": "Paper: Short homework/writing assignments, flex midterm, and group project presentation",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -453,11 +544,17 @@
         "end": 810
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:14:00",
     "classroom": "SL268",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -484,11 +581,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -515,11 +618,17 @@
         "end": 900
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL278",
     "examType": "Flex exam",
     "notes": "No laptops",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -541,11 +650,17 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:20:00",
     "classroom": "WB121",
     "examType": "Paper: 2 short paprs & longer final paper (not substantial)",
     "notes": "No laptops",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -567,11 +682,17 @@
         "end": 720
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -596,11 +717,22 @@
         "end": 750
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Constitutional Criminal Procedure",
+        "Trial Advocacy",
+        "Federal Courts",
+        "Civil Rights Litigation"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nConstitutional Criminal Procedure\nTrial Advocacy\nFederal Courts\nCivil Rights Litigation"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -632,11 +764,19 @@
         "end": 840
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:80",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "no laptops",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -658,11 +798,20 @@
         "end": 780
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:08:00",
     "classroom": "SL284",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Corporations",
+        "Nonprofit Organizations"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nCorporations\nNonprofit Organizations"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -685,11 +834,19 @@
         "end": 1020
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: short papers during semester + final paper",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -711,11 +868,19 @@
         "end": 1060
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: final paper (not substantial)",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -747,11 +912,19 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:70",
     "classroom": "WB154",
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -778,11 +951,19 @@
         "end": 1060
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -805,11 +986,19 @@
         "end": 780
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:18:00",
     "classroom": "WB114",
     "examType": "Paper: Divided into teams to discuss, negotiate, and draft constitutional amendments they will then propose, debate, and ratify as a class.",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Constitutional Law\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -831,11 +1020,19 @@
         "end": 810
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:14:00",
     "classroom": "WB114",
     "examType": "Flex exam",
     "notes": "No laptops",
+    "prereqs": {
+      "required": [
+        "Contracts (helpful, not req)"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Contracts (helpful, not req)\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -862,11 +1059,17 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -889,11 +1092,19 @@
         "end": 900
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: reaction papers",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Corporations"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Corporations"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -920,11 +1131,17 @@
         "end": 1060
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -956,11 +1173,17 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB126",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -982,11 +1205,17 @@
         "end": 870
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:19:00",
     "classroom": "WB114",
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "No laptops",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1013,11 +1242,17 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam + midterm bench memo",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1048,11 +1283,28 @@
         "end": 1110
       }
     ],
-    "units": 5,
+    "units": 5.0,
     "enrollment": "00:14:00",
     "classroom": "WB127",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Civil Procedure",
+        "Criminal Law",
+        "Evidence",
+        "Professional Responsibility OR Ethics and Integrity"
+      ],
+      "recommended": [
+        "Trial advocacy",
+        "Criminal investigation",
+        "Criminal adjudication",
+        "Criminal procedure seminar",
+        "Negotiation"
+      ],
+      "jdPriority": true,
+      "raw": "Civil Procedure\nCriminal Law\nEvidence\nProfessional Responsibility OR Ethics and Integrity\n3L only\nJD priority\nHelpful, not req:\nTrial advocacy\nCriminal investigation\nCriminal adjudication\nCriminal procedure seminar\nNegotiation"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1084,11 +1336,17 @@
         "end": 930
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1120,11 +1378,17 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1146,11 +1410,17 @@
         "end": 1200
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: 2 writing assignments, one of which is a final paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1173,11 +1443,17 @@
         "end": 780
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper:\n1) class participation (25%), including discussion prompts on Canvas\n2) a class presentation/paper (75% -- presentation (20%) and final 10-page paper (55%) (not a substantial)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1199,11 +1475,17 @@
         "end": 930
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:12:00",
     "classroom": "WB105",
     "examType": "Paper: Short bench memo & final assignment prompt (short paper)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1225,11 +1507,17 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:18:00",
     "classroom": "NRN",
     "examType": "Paper: Short bench memo at midterm & final jury presentation",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1251,11 +1539,17 @@
         "end": 720
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1282,11 +1576,17 @@
         "end": 1215
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:50:00",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1313,11 +1613,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1349,11 +1655,17 @@
         "end": 930
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1375,11 +1687,20 @@
         "end": 770
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "SL276",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Environmenta Law",
+        "Administrative Law"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nEnvironmenta Law\nAdministrative Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1411,11 +1732,20 @@
         "end": 930
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB101",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Law",
+        "Torts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Criminal Law\nTorts"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1447,11 +1777,20 @@
         "end": 680
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB152",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Law",
+        "Torts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Criminal Law\nTorts"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1478,11 +1817,20 @@
         "end": 1060
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "WB154",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Law",
+        "Torts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Criminal Law\nTorts"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1514,11 +1862,19 @@
         "end": 1200
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: final paper due Oct. 14 at noon to expo",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Criminal procedure course (i.e. Crim. Pro Survey, Crim. Investigation, Crim.Adjudication)"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nCriminal procedure course (i.e. Crim. Pro Survey, Crim. Investigation, Crim.Adjudication)"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -1582,11 +1938,17 @@
         "end": 590
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1618,11 +1980,20 @@
         "end": 680
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:70",
     "classroom": "SL278",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law",
+        "Civil Procedure"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law\nCivil Procedure"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1645,11 +2016,20 @@
         "end": 1150
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:06:00",
     "classroom": "WB104A",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Procedure Survey OR Criminal Adjudication OR Criminal Investigation",
+        "303C"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Criminal Procedure Survey\nOR Criminal Adjudication\nOR Criminal Investigation\n303C\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1676,11 +2056,17 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1703,11 +2089,22 @@
         "end": 810
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Criminal Law"
+      ],
+      "recommended": [
+        "Criminal Procedure",
+        "Evidence"
+      ],
+      "jdPriority": false,
+      "raw": "Criminal Law\nHelpful, not req:\nCriminal Procedure\nEvidence"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1734,11 +2131,19 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:44:00",
     "classroom": "WB105",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1760,11 +2165,17 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: 10-12 page paper on topic related to class (of student's choosing)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1788,11 +2199,19 @@
         "end": 810
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "WB127",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Constitutional Law II: Freedom of Speech and Press"
+      ],
+      "jdPriority": true,
+      "raw": "2L or 3L\nJD priority\nHelpful, not req:\nConstitutional Law II: Freedom of Speech and Press"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -1834,11 +2253,19 @@
         "end": 1060
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: Short memo addressed to CEO of fake company they work with throughout the course.",
     "notes": "work in teams. real-life simulation",
+    "prereqs": {
+      "required": [
+        "Non-US LLM: Contracts OR Obligations, Business Associations"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Non-US LLM: Contracts OR Obligations, Business Associations\nJD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -1942,11 +2369,17 @@
         "end": 540
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: 2 short (max 4 page) interpretive essays & lead discussion on those. 50% of grade is participation",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -2017,11 +2450,19 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: series of assignments on class readings OR substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "International Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nInternational Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2043,11 +2484,17 @@
         "end": 960
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: 5 papers during semester (3-4 pages each)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2069,11 +2516,19 @@
         "end": 910
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:30:00",
     "classroom": "SL294",
     "examType": "Paper: research exercises & short writing assignments",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "LLM only"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LLM only"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2095,11 +2550,17 @@
         "end": 750
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Paper: write & perform multiple oral presentations",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2122,11 +2583,21 @@
         "end": 810
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Trial Advocacy",
+        "Negotiations",
+        "Third Year Practice Certificate"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nTrial Advocacy\nNegotiations\nThird Year Practice Certificate"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2153,11 +2624,20 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Health Law",
+        "Constitutional Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nHealth Law\nConstitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2179,11 +2659,20 @@
         "end": 810
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Property",
+        "Constitutional Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nProperty\nConstitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2206,11 +2695,21 @@
         "end": 720
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Evidence",
+        "Professional Responsibility",
+        "Third Year Practice Certificate"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nEvidence\nProfessional Responsibility\nThird Year Practice Certificate"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2232,11 +2731,19 @@
         "end": 870
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:06:00",
     "classroom": "SL276",
     "examType": "Paper: Prepare for human rights fieldwork. Final in spring is a paper.",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "International Human Rights Law"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nInternational Human Rights Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2258,11 +2765,17 @@
         "end": 960
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2285,11 +2798,20 @@
         "end": 970
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Criminal Procedure",
+        "Evidence"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nCriminal Procedure\nEvidence"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2316,11 +2838,19 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Civil Procedure"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Civil Procedure"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2342,11 +2872,17 @@
         "end": 1120
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:16:00",
     "classroom": "WB121",
     "examType": "Paper: Memo at midterm & end of term paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2368,11 +2904,20 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:09:00",
     "classroom": "SL284",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "International Law",
+        "International Human Rights Law"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nInternational Law\nInternational Human Rights Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2404,11 +2949,17 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2424,11 +2975,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:04:00",
     "classroom": "",
     "examType": "Varied: Draft briefs for both gov. and taxpayer in mock litigation.",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -2455,11 +3012,19 @@
         "end": 775
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:35:00",
     "classroom": "SL294",
     "examType": "Flex Exam: Flex exam & short answer written assignment",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "LLM only"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LLM only"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -2580,11 +3145,17 @@
         "end": 590
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: final project",
     "notes": "daily assignments and simulations",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -2661,11 +3232,20 @@
         "end": 1020
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:20:00",
     "classroom": "WB104",
     "examType": "Paper: short papers + final paper due Nov. 14 on expo",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law",
+        "Criminal Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law\nCriminal Law"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -2792,11 +3372,20 @@
         "end": 1230
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB278",
     "examType": "Paper: paper due oct. 2 on expo",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "International Arbitration",
+        "International Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nInternational Arbitration\nInternational Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2818,11 +3407,17 @@
         "end": 935
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Varied: brief papers responding to units.",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2849,11 +3444,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:20:00",
     "classroom": "WB121",
     "examType": "Paper: final paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2875,11 +3476,17 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: research memo",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2906,11 +3513,20 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL298",
     "examType": "Flex exam",
     "notes": "no laptops allowed",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Criminal Investigation",
+        "Criminal Procedure Survey"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nCriminal Investigation\nCriminal Procedure Survey"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2932,11 +3548,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "WB116",
     "examType": "Paper: short written assignments + draft complaint & final paper of approx. 4000 words",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -2978,11 +3600,17 @@
         "end": 1230
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: presentation at end of course",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -3035,11 +3663,17 @@
         "end": 680
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:12:00",
     "classroom": "WB116",
     "examType": "Varied: keeping of a personal journal + short presentation to class + final summation journal assignment",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3061,11 +3695,17 @@
         "end": 935
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:12:00",
     "classroom": "WB127",
     "examType": "Varied: portfolio of legal drafting exercise",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3097,11 +3737,17 @@
         "end": 840
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:70",
     "classroom": "WB101",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3123,11 +3769,20 @@
         "end": 1120
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:10:00",
     "classroom": "SL276",
     "examType": "Varied: presentations on recent trump admin litigation + paper of approx. 6500 words (not substantial)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Constitutional Law",
+        "Adiminstrative Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nConstitutional Law\nAdiminstrative Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3154,11 +3809,19 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: Flex exam, but if enrollment is seminar-sized\" final paper instead",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Health Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nHealth Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3181,11 +3844,17 @@
         "end": 935
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: option of either: \n1) substantial research paper \n2) 3 papers of 2400-3000 word papers responding to readings",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3212,11 +3881,17 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:70",
     "classroom": "WB126",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3238,11 +3913,19 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Administrative Law"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nAdministrative Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3264,11 +3947,17 @@
         "end": 750
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:30:00",
     "classroom": "SL292",
     "examType": "Paper: final 8-10 page paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3290,11 +3979,21 @@
         "end": 780
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: short response papers & draft documents",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Nonprofit Organizations",
+        "Corporations",
+        "Trusts and Estates"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nNonprofit Organizations\nCorporations\nTrusts and Estates"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3316,11 +4015,17 @@
         "end": 750
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:10:00",
     "classroom": "SL290",
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -3373,11 +4078,17 @@
         "end": 750
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:10:00",
     "classroom": "SL290",
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -3435,11 +4146,19 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Federal Income Tax"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Federal Income Tax"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3463,11 +4182,19 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:06:00",
     "classroom": "PTO300",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Patent Law (required for students who want to do patent drafting work, helpful but not req otherwise)"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority\nPatent Law (required for students who want to do patent drafting work, helpful but not req otherwise)"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3495,11 +4222,17 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:14:00",
     "classroom": "SL284",
     "examType": "Varied: presentation on public benefits program + presentation on system reform project (done in teams) & final paper of approx 3500 words done individually",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3521,11 +4254,19 @@
         "end": 1060
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Flex exam: Flex exam w/ substantial research paper option",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Trust & Estates"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nTrust & Estates"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3562,11 +4303,19 @@
         "end": 1200
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final paper approx. 12-15 pages due Oct. 7",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -3625,11 +4374,19 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: response papers",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Privacy OR Cybersecurity Law and Policy OR Privacy Law and Theory Seminar OR Dignity Law Seminar"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Privacy \nOR Cybersecurity Law and Policy \nOR Privacy Law and Theory Seminar \nOR Dignity Law Seminar"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3651,11 +4408,17 @@
         "end": 1070
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:50:00",
     "classroom": "WB102",
     "examType": "flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3677,11 +4440,17 @@
         "end": 930
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "0:100",
     "classroom": "WB152",
     "examType": "Varied: weekly assessments",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3713,11 +4482,17 @@
         "end": 750
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3739,11 +4514,19 @@
         "end": 770
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:10:00",
     "classroom": "SL276",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Advanced Legal Research"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nAdvanced Legal Research"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3766,11 +4549,23 @@
         "end": 1230
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:10:00",
     "classroom": "WB162",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Civil Procedure",
+        "Criminal Law",
+        "Evidence",
+        "Professional responsibility OR Professional Responsibility in Public Interest Law Practice",
+        "Bias, racism, cross-cultural competency course"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "3L only\nJD priority\nCivil Procedure\nCriminal Law\nEvidence\nProfessional responsibility\nOR Professional Responsibility in Public Interest Law Practice\nBias, racism, cross-cultural competency course"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3792,11 +4587,19 @@
         "end": 900
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Varied: exercises/assignments throughout the course",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Property"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Property"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3833,11 +4636,17 @@
         "end": 1170
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex exam: 9/7-9/11",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -3929,11 +4738,20 @@
         "end": 590
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final assignment/project due Oct. 23",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Law and Business",
+        "Corporations"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nLaw and Business\nCorporations"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3960,11 +4778,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:20:00",
     "classroom": "WB162",
     "examType": "Paper: substantial research paper",
     "notes": "no laptops allowed",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -3987,11 +4811,17 @@
         "end": 900
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: in-class assessment at midterm & final 10-12 page paper",
     "notes": "no laptops allowed",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4018,11 +4848,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "WB105",
     "examType": "Paper: 3 5-page papers & one 12 page final paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4044,11 +4880,22 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:24:00",
     "classroom": "WB103",
     "examType": "Paper: 2 short papers (<10 pages) & one final paper (<25 pages)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Civil Procedure",
+        "Corporations",
+        "Securities Regulation",
+        "Federal Courts"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nCivil Procedure\nCorporations\nSecurities Regulation\nFederal Courts"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4080,11 +4927,19 @@
         "end": 770
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Corporations OR Corporations Law & Business"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Corporations\nOR Corporations Law & Business"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4107,11 +4962,17 @@
         "end": 1290
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "AI social implications",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD Priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4169,11 +5030,17 @@
         "end": 1290
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none: short paper required if student misses a session",
     "notes": "Films of alfred hitchcock!",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4221,11 +5088,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "scholarship on authoritarianism",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4247,11 +5120,17 @@
         "end": 1230
       }
     ],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "culture wars",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4292,11 +5171,17 @@
         "end": 1260
       }
     ],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "lives & contributions of female SCOTUS judges",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4331,11 +5216,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "stoicism",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4352,11 +5243,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "social movements using legal & extralegal means",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4372,11 +5269,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "films looking at conflicting moral imperatives",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4393,11 +5296,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "creating compatible personal & professional lives",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4413,11 +5322,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4434,11 +5349,17 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0,
+    "units": 0.0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "high profile fraud cases as protrayed in media",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": true,
     "sessions": []
@@ -4461,11 +5382,21 @@
         "end": 1230
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Paper: paper due nov. 25",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Evidence",
+        "Criminal Procedure",
+        "Criminal Investigations"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nEvidence\nCriminal Procedure\nCriminal Investigations"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4518,11 +5449,17 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4544,11 +5481,17 @@
         "end": 810
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: final paper (could be substantial)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4575,11 +5518,17 @@
         "end": 930
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "Paper: 2 papers (10 page double space max). one at midterm one at final",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4602,11 +5551,17 @@
         "end": 750
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:12:00",
     "classroom": "WB119",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4628,11 +5583,19 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Paper: \n1) 2 papers of approx. 5 pages drafted during class \n2) final paper of approx 10-12 pages",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4654,11 +5617,19 @@
         "end": 1020
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:12:00",
     "classroom": "SL268",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "3L only\nJD priority\nConstitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4681,11 +5652,19 @@
         "end": 780
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: 2 papers during semester",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4712,11 +5691,17 @@
         "end": 680
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "SL276",
     "examType": "Paper: final reaction paper (2500 words max)",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4738,11 +5723,20 @@
         "end": 1200
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB121",
     "examType": "Varied: written depo outlines, corporate deposition notive, & discussion posts",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Civil Procedure",
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Civil Procedure\nEvidence\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4769,11 +5763,19 @@
         "end": 590
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:20:00",
     "classroom": "WB105",
     "examType": "Paper: final client memo + other simulation assignments",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Federal Income Tax"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nFederal Income Tax"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4795,11 +5797,17 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:15:00",
     "classroom": "SL268",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4822,11 +5830,21 @@
         "end": 1060
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [
+        "Federal Courts"
+      ],
+      "jdPriority": false,
+      "raw": "Constitutional Law\nHelpful, not req:\nFederal Courts"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4853,11 +5871,17 @@
         "end": 810
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex Exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -4916,11 +5940,19 @@
         "end": 1060
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Varied: 2 oral presentations of readings; weekly 2-page reflection papers",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -4957,11 +5989,22 @@
         "end": 1200
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:18:00",
     "classroom": "WB103",
     "examType": "Varied: mark up a proposed acquisition agreement (in a small group) due by Oct 7",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Corporations",
+        "Securities Regulation",
+        "Income Tax",
+        "Partnership Tax"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nCorporations\nSecurities Regulation\nIncome Tax\nPartnership Tax"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -5035,11 +6078,19 @@
         "end": 1170
       }
     ],
-    "units": 1,
+    "units": 1.0,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: 5-10 page written stock recommendation due Oct 8",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Corporate Finance and Accounting"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nCorporate Finance and Accounting"
+    },
     "shortCourse": true,
     "asyncCourse": false,
     "sessions": [
@@ -5115,11 +6166,19 @@
         "end": 660
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Property"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nProperty"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5146,11 +6205,19 @@
         "end": 810
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Property"
+      ],
+      "jdPriority": false,
+      "raw": "Helpful, not req:\nProperty"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5173,11 +6240,19 @@
         "end": 1275
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Evidence\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5200,11 +6275,19 @@
         "end": 1140
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Evidence"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nEvidence"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5226,11 +6309,19 @@
         "end": 1260
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "prereqs": {
+      "required": [
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "Evidence\nJD priority"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5253,11 +6344,17 @@
         "end": 1060
       }
     ],
-    "units": 2,
+    "units": 2.0,
     "enrollment": "00:44:00",
     "classroom": "WB105",
     "examType": "Flex exam",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "2L or 3L only"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5280,11 +6377,17 @@
         "end": 1185
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Paper: final project exploring theme of class",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5308,11 +6411,21 @@
         "end": 960
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Trial Advocacy",
+        "Negotiations",
+        "Third Year Practice Certificate"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nTrial Advocacy\nNegotiations\nThird Year Practice Certificate"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5336,11 +6449,21 @@
         "end": 830
       }
     ],
-    "units": 4,
+    "units": 4.0,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Trial Advocacy",
+        "Children and the Law",
+        "Third Year Practice Certificate"
+      ],
+      "jdPriority": true,
+      "raw": "JD priority\nHelpful, not req:\nTrial Advocacy\nChildren and the Law\nThird Year Practice Certificate"
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []
@@ -5362,11 +6485,17 @@
         "end": 770
       }
     ],
-    "units": 3,
+    "units": 3.0,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: two papers. one 10 pages & one 15 pages",
     "notes": "no laptops allowed",
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
     "shortCourse": false,
     "asyncCourse": false,
     "sessions": []

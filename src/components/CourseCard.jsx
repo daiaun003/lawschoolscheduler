@@ -16,7 +16,7 @@ function meetingSummary(course) {
   return `${days} · ${time}`
 }
 
-export default function CourseCard({ course, selected, conflict, onToggle, onShowSessions }) {
+export default function CourseCard({ course, selected, conflict, onToggle, onShowSessions, onShowPrereqs }) {
   const { color } = course
   return (
     <div
@@ -57,6 +57,18 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
             </button>
           ) : (
             course.shortCourse && <span className="tag tag-short">Short course</span>
+          )}
+          {(course.prereqs.required.length > 0 || course.prereqs.recommended.length > 0) && (
+            <button
+              type="button"
+              className="tag tag-prereq tag-dates"
+              onClick={() => onShowPrereqs(course)}
+              title="View prerequisites"
+            >
+              📋 {course.prereqs.required.length > 0
+                ? `${course.prereqs.required.length} prereq${course.prereqs.required.length === 1 ? '' : 's'}`
+                : 'Recommended'}
+            </button>
           )}
         </div>
         {course.notes && <p className="course-notes">{course.notes}</p>}
