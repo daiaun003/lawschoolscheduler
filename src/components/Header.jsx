@@ -27,7 +27,7 @@ export default function Header({
           </span>
         </button>
         <div className="brand">
-          <span className="brand-mark">✿</span>
+          <img src="/apalsa-logo.png" alt="APALSA" className="brand-mark-img" />
           <div>
             <h1>UVA Law Course Scheduler</h1>
             <p className="tagline">Build your law school week.</p>

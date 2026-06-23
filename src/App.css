@@ -57,6 +57,11 @@
   line-height: 1;
   filter: saturate(0.8);
 }
+.brand-mark-img {
+  height: 64px;
+  width: auto;
+  object-fit: contain;
+}
 .app-header h1 {
   font-size: 1.4rem;
   color: var(--ink);
@@ -497,10 +502,11 @@
   border-left: 4px solid transparent;
   border-radius: var(--radius-sm);
   background: #fff;
-  transition: border-color 0.15s, box-shadow 0.15s, transform 0.05s;
+  transition: border-color 0.15s, box-shadow 0.18s ease, transform 0.18s ease;
 }
 .course-card:hover {
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 6px 16px rgba(60, 70, 90, 0.1);
+  transform: translateY(-2px);
 }
 .course-card.selected {
   background: #fffdfd;
@@ -523,8 +529,10 @@
   gap: 6px;
 }
 .course-card h3 {
-  font-size: 0.98rem;
-  line-height: 1.2;
+  font-size: 1.02rem;
+  font-weight: 800;
+  line-height: 1.22;
+  color: var(--ink);
 }
 .sec {
   font-size: 0.72rem;
@@ -533,14 +541,14 @@
 }
 .course-prof {
   margin: 3px 0 0;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--accent-deep);
-  font-weight: 600;
+  font-weight: 500;
 }
 .course-when {
-  margin: 4px 0 0;
-  font-size: 0.84rem;
-  color: var(--ink);
+  margin: 3px 0 0;
+  font-size: 0.82rem;
+  color: var(--ink-soft);
 }
 .course-tags {
   display: flex;
@@ -549,12 +557,12 @@
   margin-top: 8px;
 }
 .tag {
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   padding: 2px 8px;
   border-radius: 999px;
   background: var(--bg-soft);
   color: var(--ink-soft);
-  font-weight: 700;
+  font-weight: 600;
 }
 .tag-exam--flex-exam {
   background: #e8f0fa;
@@ -656,6 +664,9 @@
 }
 .cal-col-body {
   border-left: 1px solid var(--line);
+}
+.cal-col:last-child .cal-col-body {
+  border-right: 1px solid var(--line);
 }
 .cal-hour-line {
   position: absolute;
@@ -1085,6 +1096,43 @@
 }
 .special-viewall:hover {
   text-decoration: underline;
+}
+
+/* ---------- Footer ---------- */
+.app-footer {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding: 6px 20px;
+  border-top: 1px solid var(--line);
+  background: var(--bg-panel);
+}
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.footer-text {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  text-align: center;
+  line-height: 1.3;
+}
+.footer-text a {
+  color: var(--accent-deep);
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer-text a:hover {
+  text-decoration: underline;
+}
+.footer-credits {
+  font-size: 0.76rem;
+  color: var(--ink-soft);
+  opacity: 0.6;
 }
 
 /* ---------- Responsive ---------- */

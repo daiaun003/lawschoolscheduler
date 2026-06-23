@@ -146,6 +146,16 @@ export default function App() {
 
       <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
       <PrereqsModal course={prereqsCourse} onClose={() => setPrereqsCourse(null)} />
+
+      <footer className="app-footer">
+        <p className="footer-text">
+          For any questions or bugs, please email Diann at{' '}
+          <a href="mailto:wzu2ub@virginia.edu">wzu2ub@virginia.edu</a>
+        </p>
+        <p className="footer-credits">
+          Vibecoded with passion with the help of the UVA Law APALSA Academic Affairs team (Alex & Elizabeth)
+        </p>
+      </footer>
     </div>
   )
 }
