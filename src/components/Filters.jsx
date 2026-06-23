@@ -20,6 +20,7 @@ export default function Filters({ filters, setFilters, resultCount }) {
     filters.search ||
     filters.days.length ||
     filters.exam !== 'all' ||
+    filters.laptop !== 'all' ||
     creditRangeActive ||
     filters.onlyOpen ||
     filters.hideShort
@@ -56,7 +57,11 @@ export default function Filters({ filters, setFilters, resultCount }) {
             </option>
           ))}
         </select>
-
+        <select value={filters.laptop} onChange={(e) => set({ laptop: e.target.value })}>
+          <option value="all">Laptop policy</option>
+          <option value="yes">Laptops allowed</option>
+          <option value="no">No laptops</option>
+        </select>
       </div>
 
       <div className="credit-range">
@@ -94,6 +99,7 @@ export default function Filters({ filters, setFilters, resultCount }) {
                 search: '',
                 days: [],
                 exam: 'all',
+                laptop: 'all',
                 creditMin: CREDIT_MIN,
                 creditMax: CREDIT_MAX,
                 onlyOpen: false,
