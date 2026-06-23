@@ -18,6 +18,11 @@ function meetingSummary(course) {
 
 export default function CourseCard({ course, selected, conflict, onToggle, onShowSessions, onShowPrereqs }) {
   const { color } = course
+  // The "No laptops" tag now conveys the policy, so drop a notes line that only
+  // restates it (avoids showing "No laptops" twice on the same card).
+  const displayNotes = /^no\s+laptops?(\s+allowed)?\.?$/i.test((course.notes || '').trim())
+    ? ''
+    : course.notes
   return (
     <div
       className={`course-card${selected ? ' selected' : ''}${conflict ? ' conflict' : ''}`}
@@ -46,6 +51,9 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
               {course.examType.split(/[:.]/)[0]}
             </span>
           )}
+          {course.noLaptops && (
+            <span className="tag tag-nolaptop">🚫 No laptops</span>
+          )}
           {course.sessions.length > 0 ? (
             <button
               type="button"
@@ -71,7 +79,7 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
             </button>
           )}
         </div>
-        {course.notes && <p className="course-notes">{course.notes}</p>}
+        {displayNotes && <p className="course-notes">{displayNotes}</p>}
       </div>
       <button
         type="button"

@@ -26,11 +26,12 @@
         "end": 680
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL298",
     "examType": "Flex Exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -65,11 +66,12 @@
         "end": 680
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "LRW I",
@@ -106,11 +108,12 @@
         "end": 930
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: 5-6 written assignments (not papers) through semester. Assignment ask students to research a legal isue & document the process",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "LRW I",
@@ -142,11 +145,12 @@
         "end": 900
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex Exam: 80%\n20% 1 page (600 words max) written critique of a case/doctrine studied in class, of the student's choice",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Patent Law"
@@ -186,11 +190,12 @@
         "end": 1230
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: Take-home, team exercise due on expo by 9/16 at noon",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -257,11 +262,12 @@
         "end": 1060
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: Final paper due by noon on 10/19 on expo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -334,11 +340,12 @@
         "end": 935
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: Class participation + 5 short papers on legal & policy implications of AI",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -366,11 +373,12 @@
         "end": 780
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB278",
     "examType": "Paper: Two main grading components: \n1. lab notebook on process of designing/panning/creating tools \n2. formal memo on tool created (due Dec. 17)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -408,11 +416,12 @@
         "end": 680
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -442,11 +451,12 @@
         "end": 870
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:12:00",
     "classroom": "WB114",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Law",
@@ -478,11 +488,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Paper: First semester: problem sets + research plan for spring paper \nSecond semester: research paper development & presentation",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -511,11 +522,12 @@
         "end": 690
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:30:00",
     "classroom": "WB152",
     "examType": "Paper: Short homework/writing assignments, flex midterm, and group project presentation",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -544,11 +556,12 @@
         "end": 810
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:14:00",
     "classroom": "SL268",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -581,11 +594,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -618,11 +632,12 @@
         "end": 900
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL278",
     "examType": "Flex exam",
     "notes": "No laptops",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -650,11 +665,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:20:00",
     "classroom": "WB121",
     "examType": "Paper: 2 short paprs & longer final paper (not substantial)",
     "notes": "No laptops",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -682,11 +698,12 @@
         "end": 720
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -717,11 +734,12 @@
         "end": 750
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -764,11 +782,12 @@
         "end": 840
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:80",
     "classroom": "WB102",
     "examType": "Flex exam",
-    "notes": "no laptops",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -798,11 +817,12 @@
         "end": 780
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:08:00",
     "classroom": "SL284",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -834,11 +854,12 @@
         "end": 1020
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:18:00",
     "classroom": "WB278",
     "examType": "Paper: short papers during semester + final paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -868,11 +889,12 @@
         "end": 1060
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: final paper (not substantial)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -912,11 +934,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:70",
     "classroom": "WB154",
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -951,11 +974,12 @@
         "end": 1060
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -986,11 +1010,12 @@
         "end": 780
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:18:00",
     "classroom": "WB114",
     "examType": "Paper: Divided into teams to discuss, negotiate, and draft constitutional amendments they will then propose, debate, and ratify as a class.",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -1020,11 +1045,12 @@
         "end": 810
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:14:00",
     "classroom": "WB114",
     "examType": "Flex exam",
-    "notes": "No laptops",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [
         "Contracts (helpful, not req)"
@@ -1059,11 +1085,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1092,11 +1119,12 @@
         "end": 900
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: reaction papers",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Corporations"
@@ -1131,11 +1159,12 @@
         "end": 1060
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1173,11 +1202,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB126",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1205,11 +1235,12 @@
         "end": 870
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:19:00",
     "classroom": "WB114",
     "examType": "Flex exam w/ substantial research paper option",
-    "notes": "No laptops",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1242,11 +1273,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam + midterm bench memo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1283,11 +1315,12 @@
         "end": 1110
       }
     ],
-    "units": 5.0,
+    "units": 5,
     "enrollment": "00:14:00",
     "classroom": "WB127",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Civil Procedure",
@@ -1336,11 +1369,12 @@
         "end": 930
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1378,11 +1412,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1410,11 +1445,12 @@
         "end": 1200
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: 2 writing assignments, one of which is a final paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1443,11 +1479,12 @@
         "end": 780
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper:\n1) class participation (25%), including discussion prompts on Canvas\n2) a class presentation/paper (75% -- presentation (20%) and final 10-page paper (55%) (not a substantial)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1475,11 +1512,12 @@
         "end": 930
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:12:00",
     "classroom": "WB105",
     "examType": "Paper: Short bench memo & final assignment prompt (short paper)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1507,11 +1545,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:18:00",
     "classroom": "NRN",
     "examType": "Paper: Short bench memo at midterm & final jury presentation",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1539,11 +1578,12 @@
         "end": 720
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1576,11 +1616,12 @@
         "end": 1215
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:50:00",
     "classroom": "WB102",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1613,11 +1654,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1655,11 +1697,12 @@
         "end": 930
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1687,11 +1730,12 @@
         "end": 770
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "SL276",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -1732,11 +1776,12 @@
         "end": 930
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB101",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Law",
@@ -1777,11 +1822,12 @@
         "end": 680
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB152",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Law",
@@ -1817,11 +1863,12 @@
         "end": 1060
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "WB154",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Law",
@@ -1862,11 +1909,12 @@
         "end": 1200
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: final paper due Oct. 14 at noon to expo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -1938,11 +1986,12 @@
         "end": 590
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL262",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -1980,11 +2029,12 @@
         "end": 680
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:70",
     "classroom": "SL278",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law",
@@ -2016,11 +2066,12 @@
         "end": 1150
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:06:00",
     "classroom": "WB104A",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Procedure Survey OR Criminal Adjudication OR Criminal Investigation",
@@ -2056,11 +2107,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2089,11 +2141,12 @@
         "end": 810
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Criminal Law"
@@ -2131,11 +2184,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:44:00",
     "classroom": "WB105",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -2165,11 +2219,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: 10-12 page paper on topic related to class (of student's choosing)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2199,11 +2254,12 @@
         "end": 810
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "WB127",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2253,11 +2309,12 @@
         "end": 1060
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: Short memo addressed to CEO of fake company they work with throughout the course.",
     "notes": "work in teams. real-life simulation",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Non-US LLM: Contracts OR Obligations, Business Associations"
@@ -2369,11 +2426,12 @@
         "end": 540
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: 2 short (max 4 page) interpretive essays & lead discussion on those. 50% of grade is participation",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2450,11 +2508,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: series of assignments on class readings OR substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2484,11 +2543,12 @@
         "end": 960
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: 5 papers during semester (3-4 pages each)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2516,11 +2576,12 @@
         "end": 910
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:30:00",
     "classroom": "SL294",
     "examType": "Paper: research exercises & short writing assignments",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "LLM only"
@@ -2550,11 +2611,12 @@
         "end": 750
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Paper: write & perform multiple oral presentations",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2583,11 +2645,12 @@
         "end": 810
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2624,11 +2687,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2659,11 +2723,12 @@
         "end": 810
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2695,11 +2760,12 @@
         "end": 720
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2731,11 +2797,12 @@
         "end": 870
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:06:00",
     "classroom": "SL276",
     "examType": "Paper: Prepare for human rights fieldwork. Final in spring is a paper.",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2765,11 +2832,12 @@
         "end": 960
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC2",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2798,11 +2866,12 @@
         "end": 970
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2838,11 +2907,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam w/ substantial research paper option",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Civil Procedure"
@@ -2872,11 +2942,12 @@
         "end": 1120
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:16:00",
     "classroom": "WB121",
     "examType": "Paper: Memo at midterm & end of term paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2904,11 +2975,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:09:00",
     "classroom": "SL284",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -2949,11 +3021,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:44:00",
     "classroom": "WB104",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -2975,11 +3048,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:04:00",
     "classroom": "",
     "examType": "Varied: Draft briefs for both gov. and taxpayer in mock litigation.",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3012,11 +3086,12 @@
         "end": 775
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:35:00",
     "classroom": "SL294",
     "examType": "Flex Exam: Flex exam & short answer written assignment",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "LLM only"
@@ -3145,11 +3220,12 @@
         "end": 590
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: final project",
     "notes": "daily assignments and simulations",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3232,11 +3308,12 @@
         "end": 1020
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:20:00",
     "classroom": "WB104",
     "examType": "Paper: short papers + final paper due Nov. 14 on expo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law",
@@ -3372,11 +3449,12 @@
         "end": 1230
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB278",
     "examType": "Paper: paper due oct. 2 on expo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -3407,11 +3485,12 @@
         "end": 935
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Varied: brief papers responding to units.",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3444,11 +3523,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:20:00",
     "classroom": "WB121",
     "examType": "Paper: final paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3476,11 +3556,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: research memo",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3513,11 +3594,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL298",
     "examType": "Flex exam",
     "notes": "no laptops allowed",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -3548,11 +3630,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "WB116",
     "examType": "Paper: short written assignments + draft complaint & final paper of approx. 4000 words",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3600,11 +3683,12 @@
         "end": 1230
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: presentation at end of course",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3663,11 +3747,12 @@
         "end": 680
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:12:00",
     "classroom": "WB116",
     "examType": "Varied: keeping of a personal journal + short presentation to class + final summation journal assignment",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3695,11 +3780,12 @@
         "end": 935
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:12:00",
     "classroom": "WB127",
     "examType": "Varied: portfolio of legal drafting exercise",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3737,11 +3823,12 @@
         "end": 840
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:70",
     "classroom": "WB101",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3769,11 +3856,12 @@
         "end": 1120
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:10:00",
     "classroom": "SL276",
     "examType": "Varied: presentations on recent trump admin litigation + paper of approx. 6500 words (not substantial)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -3809,11 +3897,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Varied: Flex exam, but if enrollment is seminar-sized\" final paper instead",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -3844,11 +3933,12 @@
         "end": 935
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: option of either: \n1) substantial research paper \n2) 3 papers of 2400-3000 word papers responding to readings",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3881,11 +3971,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:70",
     "classroom": "WB126",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3913,11 +4004,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -3947,11 +4039,12 @@
         "end": 750
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:30:00",
     "classroom": "SL292",
     "examType": "Paper: final 8-10 page paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -3979,11 +4072,12 @@
         "end": 780
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB119",
     "examType": "Paper: short response papers & draft documents",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -4015,11 +4109,12 @@
         "end": 750
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:10:00",
     "classroom": "SL290",
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4078,11 +4173,12 @@
         "end": 750
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:10:00",
     "classroom": "SL290",
     "examType": "Varied: write & perform multiple oral presentations",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4146,11 +4242,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL294",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Federal Income Tax"
@@ -4182,11 +4279,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:06:00",
     "classroom": "PTO300",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Patent Law (required for students who want to do patent drafting work, helpful but not req otherwise)"
@@ -4222,11 +4320,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:14:00",
     "classroom": "SL284",
     "examType": "Varied: presentation on public benefits program + presentation on system reform project (done in teams) & final paper of approx 3500 words done individually",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4254,11 +4353,12 @@
         "end": 1060
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Flex exam: Flex exam w/ substantial research paper option",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -4303,11 +4403,12 @@
         "end": 1200
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final paper approx. 12-15 pages due Oct. 7",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -4374,11 +4475,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: response papers",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Privacy OR Cybersecurity Law and Policy OR Privacy Law and Theory Seminar OR Dignity Law Seminar"
@@ -4408,11 +4510,12 @@
         "end": 1070
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:50:00",
     "classroom": "WB102",
     "examType": "flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4440,11 +4543,12 @@
         "end": 930
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "0:100",
     "classroom": "WB152",
     "examType": "Varied: weekly assessments",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4482,11 +4586,12 @@
         "end": 750
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:70",
     "classroom": "WB102",
     "examType": "flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4514,11 +4619,12 @@
         "end": 770
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:10:00",
     "classroom": "SL276",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -4549,11 +4655,12 @@
         "end": 1230
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:10:00",
     "classroom": "WB162",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Civil Procedure",
@@ -4587,11 +4694,12 @@
         "end": 900
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Varied: exercises/assignments throughout the course",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Property"
@@ -4636,11 +4744,12 @@
         "end": 1170
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex exam: 9/7-9/11",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4738,11 +4847,12 @@
         "end": 590
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: final assignment/project due Oct. 23",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -4778,11 +4888,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:20:00",
     "classroom": "WB162",
     "examType": "Paper: substantial research paper",
-    "notes": "no laptops allowed",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4811,11 +4922,12 @@
         "end": 900
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB129",
     "examType": "Paper: in-class assessment at midterm & final 10-12 page paper",
-    "notes": "no laptops allowed",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4848,11 +4960,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "WB105",
     "examType": "Paper: 3 5-page papers & one 12 page final paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -4880,11 +4993,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:24:00",
     "classroom": "WB103",
     "examType": "Paper: 2 short papers (<10 pages) & one final paper (<25 pages)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -4927,11 +5041,12 @@
         "end": 770
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Corporations OR Corporations Law & Business"
@@ -4962,11 +5077,12 @@
         "end": 1290
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "AI social implications",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5030,11 +5146,12 @@
         "end": 1290
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none: short paper required if student misses a session",
     "notes": "Films of alfred hitchcock!",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5088,11 +5205,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "scholarship on authoritarianism",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5120,11 +5238,12 @@
         "end": 1230
       }
     ],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "culture wars",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5171,11 +5290,12 @@
         "end": 1260
       }
     ],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "HOMHOM",
     "examType": "none",
     "notes": "lives & contributions of female SCOTUS judges",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5216,11 +5336,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "stoicism",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5243,11 +5364,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "social movements using legal & extralegal means",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5269,11 +5391,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "films looking at conflicting moral imperatives",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5296,11 +5419,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "creating compatible personal & professional lives",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5322,11 +5446,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5349,11 +5474,12 @@
     "daysRaw": "TBA",
     "timesRaw": "-",
     "meetings": [],
-    "units": 0.0,
+    "units": 0,
     "enrollment": "00:12:00",
     "classroom": "",
     "examType": "none",
     "notes": "high profile fraud cases as protrayed in media",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5382,11 +5508,12 @@
         "end": 1230
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:14:00",
     "classroom": "WB116",
     "examType": "Paper: paper due nov. 25",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -5449,11 +5576,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5481,11 +5609,12 @@
         "end": 810
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:15:00",
     "classroom": "WB116",
     "examType": "Paper: final paper (could be substantial)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5518,11 +5647,12 @@
         "end": 930
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "0:64",
     "classroom": "SL258",
     "examType": "Paper: 2 papers (10 page double space max). one at midterm one at final",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5551,11 +5681,12 @@
         "end": 750
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:12:00",
     "classroom": "WB119",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5583,11 +5714,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Paper: \n1) 2 papers of approx. 5 pages drafted during class \n2) final paper of approx 10-12 pages",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -5617,11 +5749,12 @@
         "end": 1020
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:12:00",
     "classroom": "SL268",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -5652,11 +5785,12 @@
         "end": 780
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB162",
     "examType": "Paper: 2 papers during semester",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -5691,11 +5825,12 @@
         "end": 680
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "SL276",
     "examType": "Paper: final reaction paper (2500 words max)",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5723,11 +5858,12 @@
         "end": 1200
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB121",
     "examType": "Varied: written depo outlines, corporate deposition notive, & discussion posts",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Civil Procedure",
@@ -5763,11 +5899,12 @@
         "end": 590
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:20:00",
     "classroom": "WB105",
     "examType": "Paper: final client memo + other simulation assignments",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -5797,11 +5934,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:15:00",
     "classroom": "SL268",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5830,11 +5968,12 @@
         "end": 1060
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: substantial research paper",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -5871,11 +6010,12 @@
         "end": 810
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Flex Exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -5940,11 +6080,12 @@
         "end": 1060
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Varied: 2 oral presentations of readings; weekly 2-page reflection papers",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Constitutional Law"
@@ -5989,11 +6130,12 @@
         "end": 1200
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:18:00",
     "classroom": "WB103",
     "examType": "Varied: mark up a proposed acquisition agreement (in a small group) due by Oct 7",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6078,11 +6220,12 @@
         "end": 1170
       }
     ],
-    "units": 1.0,
+    "units": 1,
     "enrollment": "00:15:00",
     "classroom": "SL284",
     "examType": "Paper: 5-10 page written stock recommendation due Oct 8",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6166,11 +6309,12 @@
         "end": 660
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6205,11 +6349,12 @@
         "end": 810
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:44:00",
     "classroom": "WB103",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6240,11 +6385,12 @@
         "end": 1275
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Evidence"
@@ -6275,11 +6421,12 @@
         "end": 1140
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6309,11 +6456,12 @@
         "end": 1260
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:12:00",
     "classroom": "SL290",
     "examType": "Varied: mock trial",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [
         "Evidence"
@@ -6344,11 +6492,12 @@
         "end": 1060
       }
     ],
-    "units": 2.0,
+    "units": 2,
     "enrollment": "00:44:00",
     "classroom": "WB105",
     "examType": "Flex exam",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -6377,11 +6526,12 @@
         "end": 1185
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB114",
     "examType": "Paper: final project exploring theme of class",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [],
@@ -6411,11 +6561,12 @@
         "end": 960
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6449,11 +6600,12 @@
         "end": 830
       }
     ],
-    "units": 4.0,
+    "units": 4,
     "enrollment": "00:08:00",
     "classroom": "LAJC1",
     "examType": "Clinic",
     "notes": "",
+    "noLaptops": false,
     "prereqs": {
       "required": [],
       "recommended": [
@@ -6485,11 +6637,12 @@
         "end": 770
       }
     ],
-    "units": 3.0,
+    "units": 3,
     "enrollment": "00:16:00",
     "classroom": "WB127",
     "examType": "Paper: two papers. one 10 pages & one 15 pages",
-    "notes": "no laptops allowed",
+    "notes": "",
+    "noLaptops": true,
     "prereqs": {
       "required": [],
       "recommended": [],

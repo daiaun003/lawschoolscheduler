@@ -205,7 +205,12 @@ for r in rows[1:]:
     classroom = '' if r[6] is None else str(r[6]).strip()
     exam_type = '' if r[7] is None else str(r[7]).strip()
     prereqs_raw = r[8]
-    notes = '' if r[9] is None else str(r[9]).strip()
+    laptops_raw = '' if r[9] is None else str(r[9]).strip()
+    notes = '' if r[10] is None else str(r[10]).strip()
+
+    # Dedicated "Laptops (Y/N)" column: blank means allowed, any "no laptop"
+    # text means they're banned.
+    no_laptops = bool(re.search(r'no\s+laptops?\b', laptops_raw, re.I))
 
     meetings = build_meetings(days_raw, times_raw)
     short_course = has_month(days_raw)
@@ -233,6 +238,7 @@ for r in rows[1:]:
         'classroom': classroom,
         'examType': exam_type,
         'notes': notes,
+        'noLaptops': no_laptops,
         'prereqs': parse_prereqs(prereqs_raw),
         'shortCourse': short_course,
         'asyncCourse': async_course,
@@ -248,6 +254,7 @@ with_meet = sum(1 for c in courses if c['meetings'])
 print(f'wrote {len(courses)} courses -> {OUT}')
 print(f'  with placeable meetings: {with_meet}')
 print(f'  short courses: {sum(1 for c in courses if c["shortCourse"])}')
+print(f'  no-laptop courses: {sum(1 for c in courses if c["noLaptops"])}')
 print(f'  async/no-time: {sum(1 for c in courses if c["asyncCourse"])}')
 no_meet = [c for c in courses if not c['meetings'] and not c['asyncCourse']]
 print(f'  no meetings & not async (needs review): {len(no_meet)}')

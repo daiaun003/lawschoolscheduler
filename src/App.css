@@ -592,6 +592,10 @@
   background: #e9eff6;
   color: #4a6785;
 }
+.tag-nolaptop {
+  background: #fbe9e9;
+  color: #a8453f;
+}
 .course-notes {
   margin: 8px 0 0;
   font-size: 0.78rem;

@@ -12,8 +12,6 @@ import SessionsModal from './components/SessionsModal'
 import PrereqsModal from './components/PrereqsModal'
 import SpecialSchedulePanel from './components/SpecialSchedulePanel'
 
-const NO_LAPTOP_RE = /no\s+laptops?\b/i
-
 const INITIAL_FILTERS = {
   search: '',
   days: [],
@@ -47,9 +45,8 @@ export default function App() {
       }
       if (filters.exam !== 'all' && examKind(c.examType) !== filters.exam) return false
       if (filters.laptop !== 'all') {
-        const noLaptop = NO_LAPTOP_RE.test(c.notes || '')
-        if (filters.laptop === 'no' && !noLaptop) return false
-        if (filters.laptop === 'yes' && noLaptop) return false
+        if (filters.laptop === 'no' && !c.noLaptops) return false
+        if (filters.laptop === 'yes' && c.noLaptops) return false
       }
       if (filters.creditMin !== CREDIT_MIN || filters.creditMax !== CREDIT_MAX) {
         const u = Number(c.units)
