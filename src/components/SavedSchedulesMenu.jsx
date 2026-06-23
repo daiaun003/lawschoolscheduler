@@ -24,7 +24,13 @@ export default function SavedSchedulesMenu({
   onLoad,
 }) {
   const [open, setOpen] = useState(false)
+  const [toast, setToast] = useState(null)
   const ref = useRef(null)
+
+  const flash = (msg) => {
+    setToast(msg)
+    setTimeout(() => setToast(null), 2400)
+  }
 
   useEffect(() => {
     if (!open) return
@@ -109,7 +115,13 @@ export default function SavedSchedulesMenu({
                     </button>
                     <button
                       className="saved-update"
-                      onClick={() => onOverwrite(slot.id, currentIds)}
+                      onClick={() => {
+                        if (isCurrent) {
+                          flash('Make changes to your schedule first!')
+                          return
+                        }
+                        onOverwrite(slot.id, currentIds)
+                      }}
                       title="Overwrite this slot with the current schedule"
                     >
                       Update
@@ -128,7 +140,17 @@ export default function SavedSchedulesMenu({
             })}
           </ul>
 
-          <button className="saved-save-btn" onClick={() => onSaveNew(currentIds)} disabled={!canSave}>
+          <button
+            className="saved-save-btn"
+            onClick={() => {
+              if (currentIds.length === 0) {
+                flash('Add at least 1 course before saving!')
+                return
+              }
+              onSaveNew(currentIds)
+            }}
+            disabled={full}
+          >
             + Save current schedule
           </button>
           {full && (
@@ -139,6 +161,7 @@ export default function SavedSchedulesMenu({
           {currentIds.length === 0 && !full && (
             <p className="saved-hint muted">Add courses to save a schedule.</p>
           )}
+          {toast && <div className="saved-toast">{toast}</div>}
         </div>
       )}
     </div>
