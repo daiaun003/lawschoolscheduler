@@ -604,12 +604,12 @@
   color: var(--accent-deep);
   font-size: 1.2rem;
   font-weight: 800;
-  line-height: 1;
+  line-height: 34px;
   align-self: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
+  padding: 1px 0 0;
   transition: transform 0.08s;
 }
 .add-btn:hover {
