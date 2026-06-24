@@ -43,7 +43,7 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
         <p className="course-when">{meetingSummary(course)}</p>
         <div className="course-tags">
           {course.units != null && course.units !== '' && (
-            <span className="tag">{course.units} units</span>
+            <span className="tag">{course.units} credit{Number(course.units) === 1 ? '' : 's'}</span>
           )}
           {course.classroom && <span className="tag">{course.classroom}</span>}
           {course.examType && (
