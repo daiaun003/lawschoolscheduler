@@ -84,13 +84,19 @@ export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
                   className="swatch"
                   style={{ background: c.color.bg, borderColor: c.color.border }}
                 />
-                <button className="linklike" onClick={() => onRemove(c.id)}>
-                  {c.title}
-                </button>
+                <span className="cal-unplaced-title">{c.title}</span>
                 <span className="muted">
                   {' '}
                   — {c.asyncCourse ? 'arranged / async' : c.daysRaw || 'TBA'}
                 </span>
+                <button
+                  className="cal-unplaced-remove"
+                  onClick={() => onRemove(c.id)}
+                  aria-label={`Remove ${c.title}`}
+                  title={`Remove ${c.title}`}
+                >
+                  ×
+                </button>
               </li>
             ))}
           </ul>

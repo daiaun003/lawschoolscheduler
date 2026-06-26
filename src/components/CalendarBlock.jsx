@@ -59,8 +59,7 @@ export default function CalendarBlock({
   }
 
   return (
-    <button
-      type="button"
+    <div
       className={`cal-block${conflict ? ' conflict' : ''}`}
       style={{
         top,
@@ -71,9 +70,17 @@ export default function CalendarBlock({
         borderColor: conflict ? '#d2453f' : color.border,
         color: color.text,
       }}
-      onClick={() => onClick(course.id)}
       title={`${course.title}${profShort ? '\n' + course.professors.join(', ') : ''}\n${fmtMeeting(meeting)}${room ? '\n' + room : ''}`}
     >
+      <button
+        type="button"
+        className="cal-block-remove"
+        onClick={() => onClick(course.id)}
+        aria-label={`Remove ${course.title}`}
+        title={`Remove ${course.title}`}
+      >
+        ×
+      </button>
       <span className="cal-block-title" style={{ WebkitLineClamp: titleLines }}>
         {course.title}
       </span>
@@ -81,6 +88,6 @@ export default function CalendarBlock({
       {showTime && <span className="cal-block-time">{fmtMeetingCompact(meeting)}</span>}
       {showRoom && <span className="cal-block-room">{room}</span>}
       {conflict && <span className="cal-block-warn">conflict</span>}
-    </button>
+    </div>
   )
 }

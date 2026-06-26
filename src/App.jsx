@@ -103,6 +103,14 @@ export default function App() {
       >
         {catalogOpen && (
           <section className="catalog-pane">
+            <a
+              className="catalog-extlink"
+              href="https://www.law.virginia.edu/courses"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Browse full course details on UVA Law ↗
+            </a>
             <Filters filters={filters} setFilters={setFilters} resultCount={filtered.length} />
             <div className="course-list">
               {filtered.map((c) => (

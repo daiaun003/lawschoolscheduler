@@ -315,6 +315,26 @@
   overflow: hidden;
 }
 
+.catalog-extlink {
+  flex: none;
+  display: block;
+  margin: 14px 16px 0;
+  padding: 9px 12px;
+  text-align: center;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-soft);
+  color: var(--accent-deep);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: border-color 0.12s, background 0.12s;
+}
+.catalog-extlink:hover {
+  border-color: var(--accent);
+  background: #fff;
+}
+
 /* ---------- Filters ---------- */
 .filters {
   padding: 16px 16px 12px;
@@ -709,11 +729,47 @@
   border-width: 2px;
   box-shadow: 0 0 0 2px rgba(210, 69, 63, 0.18);
 }
+.cal-block-remove {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.65);
+  color: inherit;
+  font-size: 0.92rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  z-index: 2;
+  transition: opacity 0.12s, background 0.12s, transform 0.06s;
+}
+.cal-block-remove:hover {
+  background: rgba(255, 255, 255, 0.95);
+  transform: scale(1.1);
+}
+/* On devices with a real pointer, keep blocks tidy: reveal the × on hover.
+   Touch devices (hover: none) keep it always visible so it stays tappable. */
+@media (hover: hover) {
+  .cal-block-remove {
+    opacity: 0;
+  }
+  .cal-block:hover .cal-block-remove,
+  .cal-block:focus-within .cal-block-remove {
+    opacity: 1;
+  }
+}
 .cal-block-title {
   flex: none;
   font-weight: 800;
   font-size: 0.74rem;
   line-height: 1.2;
+  padding-right: 13px;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -789,6 +845,32 @@
   align-items: center;
   gap: 8px;
   font-size: 0.85rem;
+}
+.cal-unplaced-title {
+  font-weight: 700;
+  color: var(--ink);
+}
+.cal-unplaced-remove {
+  flex: none;
+  margin-left: auto;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: var(--bg-soft);
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: background 0.12s, color 0.12s;
+}
+.cal-unplaced-remove:hover {
+  background: var(--warn-soft);
+  color: var(--warn);
 }
 
 /* ---------- Clickable "special schedule" tag ---------- */
