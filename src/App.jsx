@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Analytics, track } from '@vercel/analytics/react'
 import './App.css'
 import { COURSES, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
 import { useSchedule } from './hooks/useSchedule'
@@ -108,6 +109,7 @@ export default function App() {
               href="https://www.law.virginia.edu/courses"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => track('uva_link_click')}
             >
               Browse full course details on UVA Law ↗
             </a>
@@ -161,6 +163,8 @@ export default function App() {
           Vibecoded with passion with the help of the UVA Law APALSA Academic Affairs team (Alex & Elizabeth)
         </p>
       </footer>
+
+      <Analytics />
     </div>
   )
 }
