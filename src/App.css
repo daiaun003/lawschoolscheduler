@@ -1240,6 +1240,21 @@
     height: auto;
     min-height: 100vh;
   }
+  /* Header reflows to a stacked layout (brand on top, stats row below) so the
+     title never collides with the stats at split-screen / tablet widths. */
+  .app-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+  .header-stats {
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .stat {
+    min-width: 0;
+  }
   .layout,
   .layout.has-special,
   .layout.no-catalog,
@@ -1274,9 +1289,6 @@
    and tighten spacing. */
 @media (max-width: 640px) {
   .app-header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
     padding: 14px 16px;
   }
   .app-header h1 {
@@ -1299,14 +1311,6 @@
     max-width: none;
     max-height: calc(100vh - 24px);
     overflow-y: auto;
-  }
-  .header-stats {
-    width: 100%;
-    justify-content: space-between;
-    gap: 10px;
-  }
-  .stat {
-    min-width: 0;
   }
   .clear-btn {
     padding: 7px 12px;
