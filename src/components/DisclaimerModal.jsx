@@ -31,9 +31,9 @@ export default function DisclaimerModal({ open, onClose }) {
           isn&rsquo;t run by the Law School or the Registrar.
         </p>
         <p>
-          Course times, rooms, credits and other details come from course-selection
-          spreadsheets and may be incomplete, out of date, or contain errors.{' '}
-          <strong>Always confirm on LawWeb before you register.</strong>
+          Course times, rooms, credits and other details come from the course catalog on
+          LawWeb, but they can change.{' '}
+          <strong>Always confirm on LawWeb for any updates before you register.</strong>
         </p>
         <p>
           Your schedules are saved only in this browser on this device. They aren&rsquo;t
