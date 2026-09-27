@@ -13,6 +13,8 @@ import SessionsModal from './components/SessionsModal'
 import PrereqsModal from './components/PrereqsModal'
 import CourseDetailsModal from './components/CourseDetailsModal'
 import DisclaimerModal from './components/DisclaimerModal'
+import LockScreen from './components/LockScreen'
+import { PASSCODE_HASH } from './config/access'
 import SpecialSchedulePanel from './components/SpecialSchedulePanel'
 
 const INITIAL_FILTERS = {
@@ -28,6 +30,17 @@ const INITIAL_FILTERS = {
 
 const TERM_KEY = 'lawscheduler.term.v1'
 const DISCLAIMER_KEY = 'lawscheduler.disclaimer.v1'
+const ACCESS_KEY = 'lawscheduler.access.v1'
+
+// A device stays unlocked while it holds the current passcode's fingerprint, so
+// changing the passcode relocks everyone.
+function isUnlocked() {
+  try {
+    return localStorage.getItem(ACCESS_KEY) === PASSCODE_HASH
+  } catch {
+    return false
+  }
+}
 
 // Show the disclaimer until it's been dismissed once on this device. If storage
 // can't be read (e.g. blocked), err on the side of showing it.
@@ -48,9 +61,33 @@ function loadTermId() {
   }
 }
 
+// Shows the passcode lock screen until this device has been unlocked.
+export default function App() {
+  const [unlocked, setUnlocked] = useState(isUnlocked)
+
+  const unlock = (hash) => {
+    try {
+      localStorage.setItem(ACCESS_KEY, hash)
+    } catch {
+      // Storage unavailable — they'll just be asked again next visit.
+    }
+    setUnlocked(true)
+  }
+
+  if (!unlocked) {
+    return (
+      <>
+        <LockScreen onUnlock={unlock} />
+        <Analytics />
+      </>
+    )
+  }
+  return <UnlockedApp />
+}
+
 // Holds the active term (remembered across visits) and remounts the scheduler
 // whenever it changes, so each term loads its own catalog, selection and saves.
-export default function App() {
+function UnlockedApp() {
   const [termId, setTermId] = useState(loadTermId)
   // The term shown before the latest switch, so the header's semester switch
   // can animate from it (the header remounts on every switch).
