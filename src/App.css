@@ -6,11 +6,14 @@
 }
 
 /* ---------- Header ---------- */
+/* Brand (with the semester tabs under the title) on the left, stats + actions
+   on the right. When the row can't fit (narrower screens, or extra header
+   buttons), the stats wrap onto their own row. */
 .app-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  gap: 16px;
+  gap: 12px 20px;
   padding: 16px 26px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(8px);
@@ -20,10 +23,11 @@
   z-index: 30; /* keep header dropdowns above the layout panes */
 }
 .header-left {
+  flex: 1 1 0;
+  min-width: max-content;
   display: flex;
   align-items: center;
   gap: 14px;
-  min-width: 0;
 }
 .catalog-toggle {
   display: inline-flex;
@@ -46,34 +50,64 @@
   font-size: 1rem;
   line-height: 1;
 }
-/* Fall / Spring segmented switch. */
-.term-toggle {
-  display: inline-flex;
-  flex: none;
-  padding: 3px;
-  gap: 2px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  background: var(--bg-soft);
+/* Fall / Spring tabs under the title: the active term is matcha with an
+   underline bar; the other is soft gray. */
+.term-tabs {
+  display: flex;
+  gap: 16px;
+  margin-top: 3px;
 }
-.term-option {
+.term-tab {
+  position: relative;
   border: none;
-  background: transparent;
-  color: var(--ink-soft);
-  border-radius: 999px;
-  padding: 6px 13px;
-  font-weight: 800;
+  background: none;
+  padding: 2px 0 5px;
+  font: inherit;
   font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--ink-soft);
   white-space: nowrap;
-  transition: background 0.12s, color 0.12s, box-shadow 0.12s;
+  cursor: pointer;
+  transition: color 0.15s;
 }
-.term-option:hover {
-  color: var(--accent-deep);
+.term-tab:not(.on):hover {
+  color: var(--ink);
 }
-.term-option.on {
-  background: var(--bg-panel);
-  color: var(--accent-deep);
-  box-shadow: 0 1px 4px rgba(60, 70, 90, 0.14);
+.term-tab.on {
+  /* Deeper than --matcha-deep so the text stays readable on the header. */
+  color: #4a7c59;
+  font-weight: 800;
+  cursor: default;
+}
+.term-tab.on::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2.5px;
+  border-radius: 2px;
+  background: #4a7c59;
+}
+/* After a switch, the new tab's underline grows in from its center. */
+.term-tab.entering::after {
+  animation: tab-underline 0.22s ease-out;
+}
+@keyframes tab-underline {
+  from {
+    transform: scaleX(0.2);
+    opacity: 0;
+  }
+}
+.term-tab:focus-visible {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .term-tab.entering::after {
+    animation: none;
+  }
 }
 .brand {
   display: flex;
@@ -95,15 +129,13 @@
   font-size: 1.4rem;
   color: var(--ink);
 }
-.tagline {
-  margin: 2px 0 0;
-  font-size: 0.85rem;
-  color: var(--ink-soft);
-}
 .header-stats {
+  flex: 1 1 0;
+  min-width: max-content;
   display: flex;
   align-items: center;
-  gap: 18px;
+  justify-content: flex-end;
+  gap: 14px;
 }
 .stat {
   display: flex;
@@ -1361,22 +1393,15 @@
 
 /* Tablet / small laptop: single column, panes stack and the page scrolls
    naturally instead of each pane scrolling inside a fixed-height shell. */
-/* Header reflows to a stacked layout (brand + term toggle on top, stats row
-   below) once the single row (~1230px) no longer fits, so the title never
-   wraps or collides with the stats at split-screen / small-laptop widths. */
-@media (max-width: 1240px) {
-  .app-header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-  }
-  /* If the brand + toggle row is itself too narrow, the toggle drops below. */
+/* Narrow screens: brand on its own row, then the stats spread across. */
+@media (max-width: 860px) {
   .header-left {
-    flex-wrap: wrap;
-    row-gap: 10px;
+    flex-basis: 100%;
+    min-width: 0;
   }
   .header-stats {
-    width: 100%;
+    flex-basis: 100%;
+    min-width: 0;
     justify-content: space-between;
     gap: 12px;
   }
@@ -1430,16 +1455,8 @@
   .app-header h1 {
     font-size: 1.2rem;
   }
-  /* Keep the brand beside the collapse button (its title wraps instead), and
-     give the term switch its own full-width row with equal-width halves. */
   .brand {
-    flex: 1 1 0;
-  }
-  .term-toggle {
-    flex-basis: 100%;
-  }
-  .term-option {
-    flex: 1;
+    flex: 1 1 0; /* the title wraps beside the collapse button */
   }
   .catalog-toggle-label {
     display: none;

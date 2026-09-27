@@ -52,6 +52,13 @@ function loadTermId() {
 // whenever it changes, so each term loads its own catalog, selection and saves.
 export default function App() {
   const [termId, setTermId] = useState(loadTermId)
+  // The term shown before the latest switch, so the header's semester switch
+  // can animate from it (the header remounts on every switch).
+  const [prevTermId, setPrevTermId] = useState(termId)
+  const changeTerm = (id) => {
+    setPrevTermId(termId)
+    setTermId(id)
+  }
   const [catalogOpen, setCatalogOpen] = useState(true)
   const [showDisclaimer, setShowDisclaimer] = useState(() => !disclaimerSeen())
   const term = TERMS.find((t) => t.id === termId)
@@ -78,7 +85,8 @@ export default function App() {
       <Scheduler
         key={term.id}
         term={term}
-        onTermChange={setTermId}
+        prevTermId={prevTermId}
+        onTermChange={changeTerm}
         catalogOpen={catalogOpen}
         setCatalogOpen={setCatalogOpen}
         onShowDisclaimer={() => setShowDisclaimer(true)}
@@ -89,7 +97,14 @@ export default function App() {
   )
 }
 
-function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen, onShowDisclaimer }) {
+function Scheduler({
+  term,
+  prevTermId,
+  onTermChange,
+  catalogOpen,
+  setCatalogOpen,
+  onShowDisclaimer,
+}) {
   const COURSES = term.courses
   const { selectedIds, isSelected, toggle, clearAll, setAll } = useSchedule(term)
   const savedSchedules = useSavedSchedules(term)
@@ -144,6 +159,7 @@ function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen, onShowDisc
       <Header
         terms={TERMS}
         termId={term.id}
+        prevTermId={prevTermId}
         onTermChange={onTermChange}
         selectedCount={selectedCourses.length}
         units={units}

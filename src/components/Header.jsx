@@ -1,8 +1,10 @@
+import { useEffect, useRef } from 'react'
 import SavedSchedulesMenu from './SavedSchedulesMenu'
 
 export default function Header({
   terms,
   termId,
+  prevTermId,
   onTermChange,
   selectedCount,
   units,
@@ -15,6 +17,15 @@ export default function Header({
   onToggleSpecial,
   savedMenu,
 }) {
+  const justSwitched = prevTermId !== termId
+  const activeRef = useRef(null)
+
+  // Switching terms remounts the scheduler (header included), so after a
+  // switch the new tab animates its underline in and gets focus back.
+  useEffect(() => {
+    if (justSwitched) activeRef.current?.focus()
+  }, []) // on mount only — each switch mounts a fresh header
+
   return (
     <header className="app-header">
       <div className="header-left">
@@ -33,21 +44,24 @@ export default function Header({
           <img src="/apalsa-logo.png" alt="APALSA" className="brand-mark-img" />
           <div>
             <h1>UVA Law Course Scheduler</h1>
-            <p className="tagline">Build your law school week.</p>
+            <div className="term-tabs" role="group" aria-label="Semester">
+              {terms.map((t) => {
+                const on = t.id === termId
+                return (
+                  <button
+                    key={t.id}
+                    ref={on ? activeRef : undefined}
+                    type="button"
+                    className={`term-tab${on ? ' on' : ''}${on && justSwitched ? ' entering' : ''}`}
+                    aria-pressed={on}
+                    onClick={() => !on && onTermChange(t.id)}
+                  >
+                    {t.label}
+                  </button>
+                )
+              })}
+            </div>
           </div>
-        </div>
-        <div className="term-toggle" role="group" aria-label="Semester">
-          {terms.map((t) => (
-            <button
-              key={t.id}
-              type="button"
-              className={`term-option${t.id === termId ? ' on' : ''}`}
-              aria-pressed={t.id === termId}
-              onClick={() => onTermChange(t.id)}
-            >
-              {t.label}
-            </button>
-          ))}
         </div>
       </div>
       <div className="header-stats">
