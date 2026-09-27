@@ -1,29 +1,28 @@
 import { useEffect, useState } from 'react'
-import { COURSES } from '../data/courses'
 
-const KEY = 'lawscheduler.selected.v1'
-
-// Only ids that still exist in the catalog are valid — guards against loading a
-// saved schedule that references a course that's no longer offered.
-const VALID_IDS = new Set(COURSES.map((c) => c.id))
-const sanitize = (ids) =>
-  Array.isArray(ids) ? ids.filter((id) => VALID_IDS.has(id)) : []
-
-function load() {
-  try {
-    return sanitize(JSON.parse(localStorage.getItem(KEY)))
-  } catch {
-    return []
-  }
+// Only ids that still exist in the term's catalog are valid — guards against
+// loading a saved schedule that references a course that's no longer offered.
+function sanitizer(term) {
+  const valid = new Set(term.courses.map((c) => c.id))
+  return (ids) => (Array.isArray(ids) ? ids.filter((id) => valid.has(id)) : [])
 }
 
-// Owns the set of selected course ids and persists it to localStorage.
-export function useSchedule() {
-  const [selectedIds, setSelectedIds] = useState(load)
+// Owns the set of selected course ids for one term and persists it to
+// localStorage under that term's key. Mount it keyed by term so switching
+// terms starts from that term's stored selection.
+export function useSchedule(term) {
+  const sanitize = sanitizer(term)
+  const [selectedIds, setSelectedIds] = useState(() => {
+    try {
+      return sanitize(JSON.parse(localStorage.getItem(term.selectedKey)))
+    } catch {
+      return []
+    }
+  })
 
   useEffect(() => {
-    localStorage.setItem(KEY, JSON.stringify(selectedIds))
-  }, [selectedIds])
+    localStorage.setItem(term.selectedKey, JSON.stringify(selectedIds))
+  }, [term.selectedKey, selectedIds])
 
   const isSelected = (id) => selectedIds.includes(id)
 

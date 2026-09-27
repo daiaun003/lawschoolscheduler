@@ -46,6 +46,35 @@
   font-size: 1rem;
   line-height: 1;
 }
+/* Fall / Spring segmented switch. */
+.term-toggle {
+  display: inline-flex;
+  flex: none;
+  padding: 3px;
+  gap: 2px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--bg-soft);
+}
+.term-option {
+  border: none;
+  background: transparent;
+  color: var(--ink-soft);
+  border-radius: 999px;
+  padding: 6px 13px;
+  font-weight: 800;
+  font-size: 0.82rem;
+  white-space: nowrap;
+  transition: background 0.12s, color 0.12s, box-shadow 0.12s;
+}
+.term-option:hover {
+  color: var(--accent-deep);
+}
+.term-option.on {
+  background: var(--bg-panel);
+  color: var(--accent-deep);
+  box-shadow: 0 1px 4px rgba(60, 70, 90, 0.14);
+}
 .brand {
   display: flex;
   align-items: center;
@@ -287,7 +316,9 @@
 /* ---------- Layout ---------- */
 .layout {
   display: grid;
-  grid-template-columns: minmax(310px, 0.8fr) minmax(560px, 2fr);
+  /* 310 + 520 + gap + padding stays under 900px, where the layout switches to
+     one column, so there's no sideways scroll just above that breakpoint. */
+  grid-template-columns: minmax(310px, 0.8fr) minmax(520px, 2fr);
   gap: 18px;
   padding: 18px;
   flex: 1;
@@ -1235,17 +1266,19 @@
 
 /* Tablet / small laptop: single column, panes stack and the page scrolls
    naturally instead of each pane scrolling inside a fixed-height shell. */
-@media (max-width: 900px) {
-  .app {
-    height: auto;
-    min-height: 100vh;
-  }
-  /* Header reflows to a stacked layout (brand on top, stats row below) so the
-     title never collides with the stats at split-screen / tablet widths. */
+/* Header reflows to a stacked layout (brand + term toggle on top, stats row
+   below) once the single row (~1230px) no longer fits, so the title never
+   wraps or collides with the stats at split-screen / small-laptop widths. */
+@media (max-width: 1240px) {
   .app-header {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
+  }
+  /* If the brand + toggle row is itself too narrow, the toggle drops below. */
+  .header-left {
+    flex-wrap: wrap;
+    row-gap: 10px;
   }
   .header-stats {
     width: 100%;
@@ -1254,6 +1287,13 @@
   }
   .stat {
     min-width: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .app {
+    height: auto;
+    min-height: 100vh;
   }
   .layout,
   .layout.has-special,
@@ -1293,6 +1333,17 @@
   }
   .app-header h1 {
     font-size: 1.2rem;
+  }
+  /* Keep the brand beside the collapse button (its title wraps instead), and
+     give the term switch its own full-width row with equal-width halves. */
+  .brand {
+    flex: 1 1 0;
+  }
+  .term-toggle {
+    flex-basis: 100%;
+  }
+  .term-option {
+    flex: 1;
   }
   .catalog-toggle-label {
     display: none;

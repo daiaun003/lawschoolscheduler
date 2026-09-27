@@ -1,7 +1,7 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Analytics, track } from '@vercel/analytics/react'
 import './App.css'
-import { COURSES, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
+import { TERMS, DEFAULT_TERM_ID, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
 import { useSchedule } from './hooks/useSchedule'
 import { useSavedSchedules } from './hooks/useSavedSchedules'
 import { findConflicts, totalUnits } from './utils/schedule'
@@ -24,13 +24,53 @@ const INITIAL_FILTERS = {
   hideShort: false,
 }
 
+const TERM_KEY = 'lawscheduler.term.v1'
+
+function loadTermId() {
+  try {
+    const id = localStorage.getItem(TERM_KEY)
+    return TERMS.some((t) => t.id === id) ? id : DEFAULT_TERM_ID
+  } catch {
+    return DEFAULT_TERM_ID
+  }
+}
+
+// Holds the active term (remembered across visits) and remounts the scheduler
+// whenever it changes, so each term loads its own catalog, selection and saves.
 export default function App() {
-  const { selectedIds, isSelected, toggle, clearAll, setAll } = useSchedule()
-  const savedSchedules = useSavedSchedules()
+  const [termId, setTermId] = useState(loadTermId)
+  const [catalogOpen, setCatalogOpen] = useState(true)
+  const term = TERMS.find((t) => t.id === termId)
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(TERM_KEY, termId)
+    } catch {
+      // Storage unavailable (e.g. private mode) — the term just isn't remembered.
+    }
+  }, [termId])
+
+  return (
+    <>
+      <Scheduler
+        key={term.id}
+        term={term}
+        onTermChange={setTermId}
+        catalogOpen={catalogOpen}
+        setCatalogOpen={setCatalogOpen}
+      />
+      <Analytics />
+    </>
+  )
+}
+
+function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen }) {
+  const COURSES = term.courses
+  const { selectedIds, isSelected, toggle, clearAll, setAll } = useSchedule(term)
+  const savedSchedules = useSavedSchedules(term)
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
   const [prereqsCourse, setPrereqsCourse] = useState(null)
-  const [catalogOpen, setCatalogOpen] = useState(true)
   const [specialOpen, setSpecialOpen] = useState(true)
 
   const filtered = useMemo(() => {
@@ -56,11 +96,11 @@ export default function App() {
       if (filters.hideShort && c.shortCourse) return false
       return true
     }).sort((a, b) => a.title.localeCompare(b.title))
-  }, [filters])
+  }, [COURSES, filters])
 
   const selectedCourses = useMemo(
     () => COURSES.filter((c) => selectedIds.includes(c.id)),
-    [selectedIds],
+    [COURSES, selectedIds],
   )
 
   const conflicts = useMemo(() => findConflicts(selectedCourses), [selectedCourses])
@@ -76,6 +116,9 @@ export default function App() {
   return (
     <div className="app">
       <Header
+        terms={TERMS}
+        termId={term.id}
+        onTermChange={onTermChange}
         selectedCount={selectedCourses.length}
         units={units}
         conflictCount={conflicts.size ? conflicts.size : 0}
@@ -86,6 +129,8 @@ export default function App() {
         specialOpen={specialOpen}
         onToggleSpecial={() => setSpecialOpen((o) => !o)}
         savedMenu={{
+          courses: COURSES,
+          termLabel: term.short,
           saved: savedSchedules.saved,
           max: savedSchedules.max,
           currentIds: selectedIds,
@@ -163,8 +208,6 @@ export default function App() {
           Vibecoded with passion with the help of the UVA Law APALSA Academic Affairs team (Alex & Elizabeth)
         </p>
       </footer>
-
-      <Analytics />
     </div>
   )
 }

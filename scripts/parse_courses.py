@@ -1,12 +1,44 @@
-import openpyxl, json, re, datetime
+"""Parse a term's course-selection spreadsheet into src/data/courses-<term>.json.
 
-import os
-SRC = os.path.expanduser('~/Downloads/Fall 26 Course Selection-2.xlsx')
-OUT = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', 'courses.json')
+Usage:
+    python3 scripts/parse_courses.py --term spring --year 2027 "<Spring 2027 ....xlsx>"
+    python3 scripts/parse_courses.py --term fall   --year 2026 "<Fall 26 ....xlsx>"
+
+Columns are matched by header name, so sheets with different column orders
+(or missing optional columns like Enrollment / Laptops) both work.
+"""
+import openpyxl, json, re, datetime, argparse, os
+
+ap = argparse.ArgumentParser()
+ap.add_argument('--term', required=True, choices=['fall', 'spring'])
+ap.add_argument('--year', required=True, type=int,
+                help='calendar year the term falls in (for short-course dates)')
+ap.add_argument('src', help='path to the .xlsx course selection sheet')
+args = ap.parse_args()
+
+SRC = os.path.expanduser(args.src)
+OUT = os.path.join(os.path.dirname(__file__), '..', 'src', 'data', f'courses-{args.term}.json')
 
 wb = openpyxl.load_workbook(SRC, data_only=True)
-ws = wb['Sheet1']
+ws = wb.worksheets[0]
 rows = list(ws.iter_rows(values_only=True))
+
+# Map normalized header name -> column index.
+HEADER = {str(h).strip().lower(): i for i, h in enumerate(rows[0]) if h is not None}
+
+def col(r, *names):
+    """Cell value for the first header in `names` that exists, as a stripped str."""
+    for n in names:
+        i = HEADER.get(n)
+        if i is not None and i < len(r) and r[i] is not None:
+            return str(r[i]).strip()
+    return ''
+
+missing = [n for n in ('course', 'professor', 'days', 'times', 'units') if n not in HEADER]
+if missing:
+    raise SystemExit(f'spreadsheet is missing required columns: {missing}')
+
+WARNINGS = []
 
 DAY_MAP = {
     'mon': 'Mon', 'monday': 'Mon',
@@ -34,6 +66,15 @@ def parse_time_range(s):
     a, b = m.group(1).zfill(4), m.group(2).zfill(4)
     sa, sb = to_min(a), to_min(b)
     if sa is None or sb is None:
+        return None
+    # Classes never meet before 7 AM, so an early time is a 12-hour-clock typo
+    # (e.g. "0340-1740" meaning 3:40-5:40 PM). Shift it to the afternoon.
+    fixed = (sa + 720 if sa < 420 else sa, sb + 720 if sb < 420 else sb)
+    if fixed != (sa, sb):
+        WARNINGS.append(f'time {s!r} read as {fixed[0]//60:02d}{fixed[0]%60:02d}-{fixed[1]//60:02d}{fixed[1]%60:02d}')
+        sa, sb = fixed
+    if sb <= sa:
+        WARNINGS.append(f'time {s!r} ends before it starts; left unplaced')
         return None
     return (sa, sb)
 
@@ -74,7 +115,7 @@ def has_month(text):
     return any(mo in t for mo in MONTHS)
 
 MONTH_NUM = {name: i + 1 for i, name in enumerate(MONTHS)}
-YEAR = 2026  # Fall '26
+YEAR = args.year
 
 def _month_days(text):
     """All (month, day) pairs mentioned, e.g. 'September 21' -> (9, 21)."""
@@ -127,7 +168,8 @@ def parse_prereqs(raw):
     if not text or text.lower() == 'none':
         return {'required': [], 'recommended': [], 'jdPriority': False, 'raw': ''}
 
-    lines = [l.strip() for l in text.split('\n') if l.strip()]
+    # Items are newline- or semicolon-separated ("Civil Procedure; Evidence").
+    lines = [l.strip() for l in re.split(r'[\n;]', text) if l.strip()]
     required = []
     recommended = []
     jd_priority = False
@@ -149,7 +191,9 @@ def parse_prereqs(raw):
             else:
                 target.append(line[3:].strip())
             continue
-        if mode == 'recommended':
+        # A single line can mark itself optional, e.g. "Evidence helpful, but
+        # not required" or "Criminal Law recommended".
+        if mode == 'recommended' or re.search(r'\b(recommended|helpful|encouraged|not required)\b', low):
             recommended.append(line)
         else:
             required.append(line)
@@ -188,29 +232,37 @@ def build_meetings(days_raw, times_raw):
 
 courses = []
 cid = 0
+def parse_units(raw):
+    """'4.0' / 4.0 / '3' -> 4 / 3 (int when whole); unparseable -> raw text."""
+    try:
+        n = float(raw)
+    except (TypeError, ValueError):
+        return raw or None
+    return int(n) if n.is_integer() else n
+
 for r in rows[1:]:
-    title = r[0]
-    if not title or not str(title).strip():
+    title = col(r, 'course')
+    if not title:
         continue
-    title = str(title).strip()
-    prof_raw = r[1]
-    professors = []
-    if prof_raw:
-        professors = [p.strip() for p in re.split(r'[\n]+', str(prof_raw)) if p.strip()]
+    prof_raw = col(r, 'professor')
+    professors = [p.strip() for p in re.split(r'[\n]+', prof_raw) if p.strip()]
 
-    days_raw = '' if r[2] is None else str(r[2]).strip()
-    times_raw = '' if r[3] is None else str(r[3]).strip()
-    units = r[4]
-    enrollment = '' if r[5] is None else str(r[5]).strip()
-    classroom = '' if r[6] is None else str(r[6]).strip()
-    exam_type = '' if r[7] is None else str(r[7]).strip()
-    prereqs_raw = r[8]
-    laptops_raw = '' if r[9] is None else str(r[9]).strip()
-    notes = '' if r[10] is None else str(r[10]).strip()
+    days_raw = col(r, 'days')
+    times_raw = col(r, 'times')
+    units = parse_units(col(r, 'units'))
+    enrollment = col(r, 'enrollment')
+    classroom = col(r, 'classroom')
+    exam_type = col(r, 'exam type')
+    if exam_type.lower() == 'none':
+        exam_type = 'No exam'
+    exam_type = exam_type[:1].upper() + exam_type[1:]
+    prereqs_raw = col(r, 'pre-reqs', 'prereqs', 'pre-requisites')
+    laptops_raw = col(r, 'laptops (y/n)', 'laptops')
+    notes = col(r, 'notes')
 
-    # Dedicated "Laptops (Y/N)" column: blank means allowed, any "no laptop"
-    # text means they're banned.
-    no_laptops = bool(re.search(r'no\s+laptops?\b', laptops_raw, re.I))
+    # Laptop bans come from the dedicated "Laptops (Y/N)" column when the sheet
+    # has one, or from the Notes column ("No laptops") when it doesn't.
+    no_laptops = bool(re.search(r'no\s+laptops?\b', f'{laptops_raw} {notes}', re.I))
 
     meetings = build_meetings(days_raw, times_raw)
     short_course = has_month(days_raw)
@@ -260,3 +312,7 @@ no_meet = [c for c in courses if not c['meetings'] and not c['asyncCourse']]
 print(f'  no meetings & not async (needs review): {len(no_meet)}')
 for c in no_meet[:15]:
     print('    -', repr(c['title']), '| days=', repr(c['daysRaw'][:40]), '| times=', repr(c['timesRaw'][:30]))
+if WARNINGS:
+    print(f'  warnings ({len(WARNINGS)}) — consider fixing these in the spreadsheet:')
+    for w in WARNINGS:
+        print('    !', w)

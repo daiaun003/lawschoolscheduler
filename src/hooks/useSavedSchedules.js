@@ -1,14 +1,13 @@
 import { useEffect, useState } from 'react'
 
-const KEY = 'lawscheduler.saved.v1'
 export const MAX_SAVED = 3
 
 let seq = 0
 const uid = () => `${Date.now().toString(36)}${(seq++).toString(36)}`
 
-function load() {
+function load(key) {
   try {
-    const arr = JSON.parse(localStorage.getItem(KEY))
+    const arr = JSON.parse(localStorage.getItem(key))
     if (!Array.isArray(arr)) return []
     // Keep only well-formed slots, capped at the max.
     return arr
@@ -20,13 +19,14 @@ function load() {
   }
 }
 
-// Owns up to MAX_SAVED named schedule snapshots, persisted to localStorage.
-export function useSavedSchedules() {
-  const [saved, setSaved] = useState(load)
+// Owns up to MAX_SAVED named schedule snapshots for one term, persisted to
+// localStorage under that term's key (so Fall and Spring each get their own).
+export function useSavedSchedules(term) {
+  const [saved, setSaved] = useState(() => load(term.savedKey))
 
   useEffect(() => {
-    localStorage.setItem(KEY, JSON.stringify(saved))
-  }, [saved])
+    localStorage.setItem(term.savedKey, JSON.stringify(saved))
+  }, [term.savedKey, saved])
 
   const saveNew = (courseIds, name) =>
     setSaved((s) =>

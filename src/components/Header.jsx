@@ -1,6 +1,9 @@
 import SavedSchedulesMenu from './SavedSchedulesMenu'
 
 export default function Header({
+  terms,
+  termId,
+  onTermChange,
   selectedCount,
   units,
   conflictCount,
@@ -32,6 +35,19 @@ export default function Header({
             <h1>UVA Law Course Scheduler</h1>
             <p className="tagline">Build your law school week.</p>
           </div>
+        </div>
+        <div className="term-toggle" role="group" aria-label="Semester">
+          {terms.map((t) => (
+            <button
+              key={t.id}
+              type="button"
+              className={`term-option${t.id === termId ? ' on' : ''}`}
+              aria-pressed={t.id === termId}
+              onClick={() => onTermChange(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
         </div>
       </div>
       <div className="header-stats">

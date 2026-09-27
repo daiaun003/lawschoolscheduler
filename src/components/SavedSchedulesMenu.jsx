@@ -1,10 +1,7 @@
-import { useEffect, useRef, useState } from 'react'
-import { COURSES } from '../data/courses'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { totalUnits } from '../utils/schedule'
 
-const byId = new Map(COURSES.map((c) => [c.id, c]))
-
-function summarize(courseIds) {
+function summarize(byId, courseIds) {
   const courses = courseIds.map((id) => byId.get(id)).filter(Boolean)
   return { count: courses.length, credits: totalUnits(courses) }
 }
@@ -14,6 +11,8 @@ const sameSet = (a, b) =>
 
 // Header dropdown for saving / renaming / loading up to a few schedule snapshots.
 export default function SavedSchedulesMenu({
+  courses,
+  termLabel,
   saved,
   max,
   currentIds,
@@ -26,6 +25,7 @@ export default function SavedSchedulesMenu({
   const [open, setOpen] = useState(false)
   const [toast, setToast] = useState(null)
   const ref = useRef(null)
+  const byId = useMemo(() => new Map(courses.map((c) => [c.id, c])), [courses])
 
   const flash = (msg) => {
     setToast(msg)
@@ -66,7 +66,7 @@ export default function SavedSchedulesMenu({
       {open && (
         <div className="saved-dropdown" role="dialog" aria-label="Saved schedules">
           <div className="saved-dropdown-head">
-            <strong>Saved schedules</strong>
+            <strong>Saved {termLabel} schedules</strong>
             <span className="muted">
               {saved.length}/{max}
             </span>
@@ -87,7 +87,7 @@ export default function SavedSchedulesMenu({
 
           <ul className="saved-slots">
             {saved.map((slot) => {
-              const { count, credits } = summarize(slot.courseIds)
+              const { count, credits } = summarize(byId, slot.courseIds)
               const isCurrent = sameSet(slot.courseIds, currentIds)
               return (
                 <li key={slot.id} className={`saved-slot${isCurrent ? ' current' : ''}`}>

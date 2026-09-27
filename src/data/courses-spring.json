@@ -1,0 +1,7196 @@
+[
+  {
+    "id": 0,
+    "title": "Administrative Law",
+    "fullTitle": "Administrative Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bamzai, Aditya"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Flex Exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [
+        "Con Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Con Law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 1,
+    "title": "Administrative Law",
+    "fullTitle": "Administrative Law (Section 2)",
+    "section": 2,
+    "professors": [
+      "Woolhandler, Ann"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL258",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 2,
+    "title": "Advanced Financial Statements and Business Decisions",
+    "fullTitle": "Advanced Financial Statements and Business Decisions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Franks, Harry"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "NRN",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "expected to have experience with accounting and corporate finance through prior college-level coursework"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "expected to have experience with accounting and corporate finance through prior college-level coursework"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 3,
+    "title": "Advanced Legal Research",
+    "fullTitle": "Advanced Legal Research (Section 1)",
+    "section": 1,
+    "professors": [
+      "Doherty, Benjamin"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB278",
+    "examType": "Varied: Four legal research memos in two parts, four short-answer quizzes, and class participation",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "LRW I, Legal Research and Writing III"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LRW I, Legal Research and Writing III"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 4,
+    "title": "Advanced Legal Research",
+    "fullTitle": "Advanced Legal Research (Section 2)",
+    "section": 2,
+    "professors": [
+      "Boudouris, Kate"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB278",
+    "examType": "Paper: 5-6 Written assignments (not papers)",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "LRW I, Legal Research and Writing III"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "LRW I, Legal Research and Writing III"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 5,
+    "title": "Advanced Patent and Licensing Clinic",
+    "fullTitle": "Advanced Patent and Licensing Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Chylla, Richard",
+      "Decker, Robert J.",
+      "Mauldin, Joshua"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "0340-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "PTO300",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Patent and Licensing Clinic I (8620)"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Patent and Licensing Clinic I (8620)"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 6,
+    "title": "Advanced Topics in Law and Public Service",
+    "fullTitle": "Advanced Topics in Law and Public Service (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bowers, Josh",
+      "Le, Chinh Q."
+    ],
+    "daysRaw": "Mon, January 25\nMon, February 8\nMon, March 1\nMon, March 15\nMon, April 12\nMon, April 26",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper: final paper and other assignments",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "2L, 3L or LLM"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "2L, 3L or LLM"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 8,
+        "iso": "2027-02-08"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 1,
+        "iso": "2027-03-01"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 15,
+        "iso": "2027-03-15"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 12,
+        "iso": "2027-04-12"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 26,
+        "iso": "2027-04-26"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Advanced Topics in the First Amendment (Religion Clauses)",
+    "fullTitle": "Advanced Topics in the First Amendment (Religion Clauses) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Schragger, Richard C.",
+      "Schwartzman, Micah J."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper: TBA",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Con Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Con Law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 8,
+    "title": "Advanced Verbal Persuasion",
+    "fullTitle": "Advanced Verbal Persuasion (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied: Oral Presentations",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Hallmarks of Distinguished Advocacy OR Oral Presentations Outside the Courtroom OR Oral Presentations Outside The Courtroom OR Rhetoric Seminar OR Persuasion OR Trial Advocacy OR Trial Advocacy College"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Hallmarks of Distinguished Advocacy OR Oral Presentations Outside the Courtroom OR Oral Presentations Outside The Courtroom OR Rhetoric Seminar OR Persuasion OR Trial Advocacy OR Trial Advocacy College"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 9,
+    "title": "Advancing the Commitment to Service Through Law Firm Pro Bono (SC)",
+    "fullTitle": "Advancing the Commitment to Service Through Law Firm Pro Bono (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Graves, Tiffany Marie"
+    ],
+    "daysRaw": "Mon, February 15\nTue, February 16\nWed, February 17\nThu, February 18\nMon, February 22\nTue, February 23\nWed, February 24\nThu, February 25",
+    "timesRaw": "0820-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 500,
+        "end": 590
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 15,
+        "iso": "2027-02-15"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 17,
+        "iso": "2027-02-17"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 18,
+        "iso": "2027-02-18"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 24,
+        "iso": "2027-02-24"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 25,
+        "iso": "2027-02-25"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Agencies in Court: Litigating Challenges to Agency Rules",
+    "fullTitle": "Agencies in Court: Litigating Challenges to Agency Rules (Section 1)",
+    "section": 1,
+    "professors": [
+      "Scalia, Eugene"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper: 2 papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [
+        "Admin law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Admin law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 11,
+    "title": "Agency, Partnership, and the LLC",
+    "fullTitle": "Agency, Partnership, and the LLC (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cohen, George M."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL298",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 12,
+    "title": "Alternative Dispute Resolution in the Workplace",
+    "fullTitle": "Alternative Dispute Resolution in the Workplace (Section 1)",
+    "section": 1,
+    "professors": [
+      "Paltell, Eric"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB116",
+    "examType": "Varied: simulated mediations and arbitrations",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 13,
+    "title": "Animal Law",
+    "fullTitle": "Animal Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Riley, Margaret Foster"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 14,
+    "title": "Antitrust",
+    "fullTitle": "Antitrust (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nachbar, Thomas B."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Fri",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "con law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "con law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 15,
+    "title": "Appellate Litigation Clinic (YR)",
+    "fullTitle": "Appellate Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Alvino McGill, Lori",
+      "Ballenger, Scott",
+      "Stetson, Cate"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1300-1430",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 780,
+        "end": 870
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 16,
+    "title": "Appellate Practice",
+    "fullTitle": "Appellate Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Stetson, Cate"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper: writing assignments and moot court advocacy",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 17,
+    "title": "Asian Americans and the Law",
+    "fullTitle": "Asian Americans and the Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Law, David S.",
+      "Le, Chinh Q."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB162",
+    "examType": "Paper",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 18,
+    "title": "Banking and Financial Institutions",
+    "fullTitle": "Banking and Financial Institutions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kitch, Edmund W."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 19,
+    "title": "China(s), Korea(s) and the United States",
+    "fullTitle": "China(s), Korea(s) and the United States (Section 1)",
+    "section": 1,
+    "professors": [
+      "Setear, John K."
+    ],
+    "daysRaw": "Wed, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 20,
+    "title": "Citizenship: The Law, History, and Politics of U.S. Citizenship",
+    "fullTitle": "Citizenship: The Law, History, and Politics of U.S. Citizenship (Section 1)",
+    "section": 1,
+    "professors": [
+      "Frost, Amanda"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1500-1700",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 900,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB119",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 21,
+    "title": "Civil Rights Clinic (YR)",
+    "fullTitle": "Civil Rights Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bradshaw, Helen",
+      "Fenster, Andrea",
+      "Osteen, Maisie B.",
+      "Zemel, Daniel"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1030-1230",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 630,
+        "end": 750
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 22,
+    "title": "Class Actions (SC) (Judge-taught)",
+    "fullTitle": "Class Actions (SC) (Judge-taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Rakoff, Jed S."
+    ],
+    "daysRaw": "Mon, February 8\nTue, February 9\nWed, February 10\nThu, February 11\nFri, February 12",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Fri",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 8,
+        "iso": "2027-02-08"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 10,
+        "iso": "2027-02-10"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 11,
+        "iso": "2027-02-11"
+      },
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 12,
+        "iso": "2027-02-12"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Community Organization and Social Enterprise Clinic II",
+    "fullTitle": "Community Organization and Social Enterprise Clinic II (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shalf, Sarah"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1100-1300",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 660,
+        "end": 780
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL268",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 24,
+    "title": "Comparative Constitutional Law Seminar",
+    "fullTitle": "Comparative Constitutional Law Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Prakash, Saikrishna",
+      "Versteeg, Mila"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 25,
+    "title": "Concepts in Policing: Challenges and Application (SC)",
+    "fullTitle": "Concepts in Policing: Challenges and Application (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Longo, Timothy",
+      "Waters Gundersen, Ashley"
+    ],
+    "daysRaw": "Mon, January 25\nTue, January 26\nWed, January 27\nThu, January 28\nFri, January 29\nMon, February 1\nTue, February 2\nWed, February 3\nThu, February 4",
+    "timesRaw": "1800-1930",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Fri",
+        "start": 1080,
+        "end": 1170
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Civ Pro, Con Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Civ Pro, Con Law"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Wed",
+        "m": 1,
+        "d": 27,
+        "iso": "2027-01-27"
+      },
+      {
+        "wd": "Thu",
+        "m": 1,
+        "d": 28,
+        "iso": "2027-01-28"
+      },
+      {
+        "wd": "Fri",
+        "m": 1,
+        "d": 29,
+        "iso": "2027-01-29"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 1,
+        "iso": "2027-02-01"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 3,
+        "iso": "2027-02-03"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 4,
+        "iso": "2027-02-04"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Conservation Planning and Law",
+    "fullTitle": "Conservation Planning and Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Szeptycki, Leon",
+      "Verkerke, J. H."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 27,
+    "title": "Constitutional Law (Section BH)",
+    "fullTitle": "Constitutional Law (Section BH)",
+    "section": null,
+    "professors": [
+      "Siegel, Neil"
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB154",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 28,
+    "title": "Constitutional Law (Section CG)",
+    "fullTitle": "Constitutional Law (Section CG)",
+    "section": null,
+    "professors": [
+      "Hellman, Deborah"
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB101",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 29,
+    "title": "Constitutional Law (Section AF)",
+    "fullTitle": "Constitutional Law (Section AF)",
+    "section": null,
+    "professors": [
+      "Goluboff, Risa"
+    ],
+    "daysRaw": "Tue, Wed, Fri",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Fri",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB128",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 30,
+    "title": "Constitutional Law (Section DE)",
+    "fullTitle": "Constitutional Law (Section DE)",
+    "section": null,
+    "professors": [
+      "Mahoney, Julia D."
+    ],
+    "daysRaw": "Wed, Thu, Fri",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Fri",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL278",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 31,
+    "title": "Constitutional Law II: Poverty",
+    "fullTitle": "Constitutional Law II: Poverty (Section 1)",
+    "section": 1,
+    "professors": [
+      "Goluboff, Risa"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "0900-1100",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 540,
+        "end": 660
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Con law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Con law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 32,
+    "title": "Constitutional Law II:Survey of Civil Liberties",
+    "fullTitle": "Constitutional Law II:Survey of Civil Liberties (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ballenger, Scott"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Flex exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "con law encouraged"
+      ],
+      "jdPriority": false,
+      "raw": "con law encouraged"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 33,
+    "title": "Contract Theory",
+    "fullTitle": "Contract Theory (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cohen, George M."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB119",
+    "examType": "Paper",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [
+        "contracts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "contracts"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 34,
+    "title": "Corporate Criminal Investigations",
+    "fullTitle": "Corporate Criminal Investigations (Section 1)",
+    "section": 1,
+    "professors": [
+      "Wheeler, Stephanie",
+      "Sloane, Erin"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1415-1615",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 855,
+        "end": 975
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 35,
+    "title": "Corporate Social Responsibility Seminar",
+    "fullTitle": "Corporate Social Responsibility Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Butler, Jay"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 36,
+    "title": "Corporate Tax",
+    "fullTitle": "Corporate Tax (Section 1)",
+    "section": 1,
+    "professors": [
+      "Yale, Ethan"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "0800-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 480,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 480,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "federal income tax"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "federal income tax"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 37,
+    "title": "Corporations",
+    "fullTitle": "Corporations (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hu, Edwin"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB154",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 38,
+    "title": "Corporations",
+    "fullTitle": "Corporations (Section 3)",
+    "section": 3,
+    "professors": [
+      "Kitch, Edmund W."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 39,
+    "title": "Corporations",
+    "fullTitle": "Corporations (Section 2)",
+    "section": 2,
+    "professors": [
+      "Francus, Michael"
+    ],
+    "daysRaw": "Wed, Thu",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 560,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB154",
+    "examType": "Flex Exam",
+    "notes": "no laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 40,
+    "title": "Criminal Defense Clinic",
+    "fullTitle": "Criminal Defense Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Carlton, Heather L.",
+      "Hemenway, Michael",
+      "Murtagh, Elizabeth P.",
+      "Parker, Lacey R.",
+      "Reese, Lauren"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1710-1830",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1030,
+        "end": 1110
+      },
+      {
+        "day": "Thu",
+        "start": 1030,
+        "end": 1110
+      }
+    ],
+    "units": 5,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 41,
+    "title": "Criminal Investigation",
+    "fullTitle": "Criminal Investigation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bratt, Jay"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB101",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 42,
+    "title": "Deal Lab",
+    "fullTitle": "Deal Lab (Section 1)",
+    "section": 1,
+    "professors": [
+      "Geis, George S."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 560,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Varied: assignments and simulations",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "corporations"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "corporations"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 43,
+    "title": "Designing Democracy: Participation",
+    "fullTitle": "Designing Democracy: Participation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Law, David S."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "0930-1230",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 570,
+        "end": 750
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Paper: memos and oral presentation",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Reg of Political Process Recommended"
+      ],
+      "jdPriority": false,
+      "raw": "Reg of Political Process Recommended"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 44,
+    "title": "Disability Law",
+    "fullTitle": "Disability Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Abrokwa, Alice"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB128",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 45,
+    "title": "Economic and Consumer Justice Clinic (YR)",
+    "fullTitle": "Economic and Consumer Justice Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Klosko, Caroline"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 46,
+    "title": "Education Inside US Prisons Seminar",
+    "fullTitle": "Education Inside US Prisons Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Robinson, Gerard"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper",
+    "notes": "no laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 47,
+    "title": "Emerging Markets: Principles and Practice",
+    "fullTitle": "Emerging Markets: Principles and Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Dean, Richard N.",
+      "Stephan, Paul B."
+    ],
+    "daysRaw": "Mon, Tue",
+    "timesRaw": "1340-1540",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 820,
+        "end": 940
+      },
+      {
+        "day": "Tue",
+        "start": 820,
+        "end": 940
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB162",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "JD priority"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 48,
+    "title": "Employment Discrimination",
+    "fullTitle": "Employment Discrimination (Section 1)",
+    "section": 1,
+    "professors": [
+      "Forde-Mazrui, Kim"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL262",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 49,
+    "title": "Employment Law: Contracts, Torts, and Statutes",
+    "fullTitle": "Employment Law: Contracts, Torts, and Statutes (Section 1)",
+    "section": 1,
+    "professors": [
+      "Verkerke, J. H."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB102",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 50,
+    "title": "Employment Law: Health and Safety",
+    "fullTitle": "Employment Law: Health and Safety (Section 1)",
+    "section": 1,
+    "professors": [
+      "Verkerke, J. H."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 51,
+    "title": "Entrepreneurial Law Clinic",
+    "fullTitle": "Entrepreneurial Law Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Keshap, Rahul"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 52,
+    "title": "Environmental Law",
+    "fullTitle": "Environmental Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Livermore, Michael A."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL262",
+    "examType": "Flex Exam",
+    "notes": "no laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 53,
+    "title": "Environmental Law and Community Engagement Clinic",
+    "fullTitle": "Environmental Law and Community Engagement Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Jaffe, Cale"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 54,
+    "title": "Estate Planning: Principles and Practice",
+    "fullTitle": "Estate Planning: Principles and Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Murphy, Stephen W."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": true,
+      "raw": "2L or 3L"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 55,
+    "title": "Evidence",
+    "fullTitle": "Evidence (Section 1)",
+    "section": 1,
+    "professors": [
+      "Stetson, Cate"
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "0850-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 530,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 530,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 530,
+        "end": 590
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB126",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "criminal law and torts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "criminal law and torts"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 56,
+    "title": "Family Law",
+    "fullTitle": "Family Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Strauss, Gregg"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Flex Exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 57,
+    "title": "Federal Courts",
+    "fullTitle": "Federal Courts (Section 1)",
+    "section": 1,
+    "professors": [
+      "Collins, Michael G."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Fri",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB102",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "con law and civ pro"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "con law and civ pro"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 58,
+    "title": "Federal Criminal Law",
+    "fullTitle": "Federal Criminal Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Brown, Darryl K."
+    ],
+    "daysRaw": "Mon, Tue, Thu",
+    "timesRaw": "1300-1400",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 840
+      },
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 840
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 59,
+    "title": "Federal Criminal Sentencing Advocacy Clinic",
+    "fullTitle": "Federal Criminal Sentencing Advocacy Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harris, Andrea",
+      "Pender, Donald"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1710-1910",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1030,
+        "end": 1150
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104A",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 60,
+    "title": "Federal Income Tax",
+    "fullTitle": "Federal Income Tax (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hayashi, Andrew"
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB126",
+    "examType": "Flex Exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 61,
+    "title": "Federal Sentencing (SC) (Judge-Taught)",
+    "fullTitle": "Federal Sentencing (SC) (Judge-Taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Underhill, Stefan R."
+    ],
+    "daysRaw": "Mon, February 22\nTue, February 23\nWed, February 24\nThu, February 25\nMon, March 1\nTue, March 2\nWed, March 3\nThu, March 4",
+    "timesRaw": "0820-0950",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Tue",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Wed",
+        "start": 500,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 500,
+        "end": 590
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 24,
+        "iso": "2027-02-24"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 25,
+        "iso": "2027-02-25"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 1,
+        "iso": "2027-03-01"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 2,
+        "iso": "2027-03-02"
+      },
+      {
+        "wd": "Wed",
+        "m": 3,
+        "d": 3,
+        "iso": "2027-03-03"
+      },
+      {
+        "wd": "Thu",
+        "m": 3,
+        "d": 4,
+        "iso": "2027-03-04"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "title": "Financial Statements and Business Decisions",
+    "fullTitle": "Financial Statements and Business Decisions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Franks, Harry"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Flex Exam",
+    "notes": "Cannot take this course if you took accounting or finance in college",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 63,
+    "title": "First Amendment Clinic (YR)",
+    "fullTitle": "First Amendment Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kalish, Ian C.",
+      "Rottman, Gabe",
+      "Weeks, Lin"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 64,
+    "title": "Global Business and International Corruption (SC)",
+    "fullTitle": "Global Business and International Corruption (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Dean, Richard N."
+    ],
+    "daysRaw": "Mon, March 15\nMon, March 22\nMon, March 29\nMon, April 5\nMon, April 12\nMon, April 19\nMon, April 26",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Criminal Law recommended but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Criminal Law recommended but not required"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 15,
+        "iso": "2027-03-15"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 22,
+        "iso": "2027-03-22"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 29,
+        "iso": "2027-03-29"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 5,
+        "iso": "2027-04-05"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 12,
+        "iso": "2027-04-12"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 19,
+        "iso": "2027-04-19"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 26,
+        "iso": "2027-04-26"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "title": "Graduate Legal Research and Writing II",
+    "fullTitle": "Graduate Legal Research and Writing II (Section 1)",
+    "section": 1,
+    "professors": [
+      "Moran, Karen"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 750
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Varied: Research exercises and short writing assignments",
+    "notes": "LLM only",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 66,
+    "title": "Health and Disability Law Clinic (YR)",
+    "fullTitle": "Health and Disability Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Legnini, Majesta-Doré",
+      "Liu, Patrick"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 67,
+    "title": "Health Law Survey",
+    "fullTitle": "Health Law Survey (Section 1)",
+    "section": 1,
+    "professors": [
+      "Riley, Margaret Foster"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL298",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 68,
+    "title": "Holistic Youth Defense Clinic",
+    "fullTitle": "Holistic Youth Defense Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shin, Crystal"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 5,
+    "enrollment": "",
+    "classroom": "SL268",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 69,
+    "title": "Housing Litigation Clinic (YR)",
+    "fullTitle": "Housing Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Horrock, Victoria",
+      "Smith, Emily"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC2",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 70,
+    "title": "Human Rights Study Project (YR)",
+    "fullTitle": "Human Rights Study Project (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 71,
+    "title": "Immigration Law and Policy Lecture",
+    "fullTitle": "Immigration Law and Policy Lecture (Section 1)",
+    "section": 1,
+    "professors": [
+      "Frost, Amanda"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL278",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 72,
+    "title": "Immigration Law Clinic (YR)",
+    "fullTitle": "Immigration Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Schmelzel, Elizabeth"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 73,
+    "title": "Innocence Project Clinic (YR)",
+    "fullTitle": "Innocence Project Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Givens, Jennifer L.",
+      "Hatchett, Juliet"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1410-1610",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 970
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB116",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 74,
+    "title": "Innovating for Defense",
+    "fullTitle": "Innovating for Defense (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nachbar, Thomas B."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1840",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1120
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Varied: Midterm",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 75,
+    "title": "International Business Negotiation",
+    "fullTitle": "International Business Negotiation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Reed, Kimberly"
+    ],
+    "daysRaw": "Mon, January 25\nMon, February 1\nMon, February 8\nMon, February 15\nMon, February 22\nMon, March 1\nMon, March 15\nMon, March 22\nMon, March 29\nMon, April 5\nMon, April 12\nMon, April 19\nMon, April 26",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB278",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 1,
+        "iso": "2027-02-01"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 8,
+        "iso": "2027-02-08"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 15,
+        "iso": "2027-02-15"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 1,
+        "iso": "2027-03-01"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 15,
+        "iso": "2027-03-15"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 22,
+        "iso": "2027-03-22"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 29,
+        "iso": "2027-03-29"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 5,
+        "iso": "2027-04-05"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 12,
+        "iso": "2027-04-12"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 19,
+        "iso": "2027-04-19"
+      },
+      {
+        "wd": "Mon",
+        "m": 4,
+        "d": 26,
+        "iso": "2027-04-26"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "title": "International Human Rights Law Clinic (YR)",
+    "fullTitle": "International Human Rights Law Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 77,
+    "title": "International Investment Arbitration Lecture",
+    "fullTitle": "International Investment Arbitration Lecture (Section 1)",
+    "section": 1,
+    "professors": [
+      "Stephan, Paul B."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 660
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 660
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL298",
+    "examType": "Flex exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 78,
+    "title": "International Law",
+    "fullTitle": "International Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Verdier, Pierre-Hugues"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 79,
+    "title": "International Tax Practicum - Spring (YR)",
+    "fullTitle": "International Tax Practicum - Spring (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Mason, Ruth"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 80,
+    "title": "International Taxation",
+    "fullTitle": "International Taxation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hayashi, Andrew"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Flex exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "federal income tax"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "federal income tax"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 81,
+    "title": "Introduction to Law and Business",
+    "fullTitle": "Introduction to Law and Business (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bigoness, Celia"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Flex exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 82,
+    "title": "Introduction to Negotiation (SC)",
+    "fullTitle": "Introduction to Negotiation (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Pruett, Amy"
+    ],
+    "daysRaw": "Mon, January 25\nTue, January 26\nWed, January 27\nThu, January 28\nFri, January 29\nMon, February 1\nTue, February 2\nWed, February 3\nThu, February 4",
+    "timesRaw": "0830-0930",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 510,
+        "end": 570
+      },
+      {
+        "day": "Tue",
+        "start": 510,
+        "end": 570
+      },
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 570
+      },
+      {
+        "day": "Thu",
+        "start": 510,
+        "end": 570
+      },
+      {
+        "day": "Fri",
+        "start": 510,
+        "end": 570
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Wed",
+        "m": 1,
+        "d": 27,
+        "iso": "2027-01-27"
+      },
+      {
+        "wd": "Thu",
+        "m": 1,
+        "d": 28,
+        "iso": "2027-01-28"
+      },
+      {
+        "wd": "Fri",
+        "m": 1,
+        "d": 29,
+        "iso": "2027-01-29"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 1,
+        "iso": "2027-02-01"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 3,
+        "iso": "2027-02-03"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 4,
+        "iso": "2027-02-04"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "title": "Introduction to Private Funds (SC)",
+    "fullTitle": "Introduction to Private Funds (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cavanagh, John"
+    ],
+    "daysRaw": "Mon, February 22\nTue, February 23\nWed, February 24\nThu, February 25\nFri, February 26",
+    "timesRaw": "1800-2030",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1230
+      },
+      {
+        "day": "Fri",
+        "start": 1080,
+        "end": 1230
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Securities Law recommended, but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Securities Law recommended, but not required"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 24,
+        "iso": "2027-02-24"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 25,
+        "iso": "2027-02-25"
+      },
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 26,
+        "iso": "2027-02-26"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "title": "Jurisprudence",
+    "fullTitle": "Jurisprudence (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzun, Charles"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Paper: 2-3 papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 85,
+    "title": "Labor Law",
+    "fullTitle": "Labor Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barr, John"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL262",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 86,
+    "title": "Law and Artificial Intelligence",
+    "fullTitle": "Law and Artificial Intelligence (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cope, Kevin"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 87,
+    "title": "Law and Economics",
+    "fullTitle": "Law and Economics (Section 1)",
+    "section": 1,
+    "professors": [
+      "Fischman, Joshua"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL258",
+    "examType": "Paper: Short reaction papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 88,
+    "title": "Law and Economics Workshop",
+    "fullTitle": "Law and Economics Workshop (Section 1)",
+    "section": 1,
+    "professors": [
+      "Fischman, Joshua",
+      "Stevenson, Megan T."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper: Three short papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 89,
+    "title": "Law and Public Service",
+    "fullTitle": "Law and Public Service (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kim, Annie"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Paper",
+    "notes": "Application to LPS required",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 90,
+    "title": "Law and Public Service",
+    "fullTitle": "Law and Public Service (Section 2)",
+    "section": 2,
+    "professors": [
+      "Block, Andrew"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Paper",
+    "notes": "Application to LPS required",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 91,
+    "title": "Law and Riots",
+    "fullTitle": "Law and Riots (Section 1)",
+    "section": 1,
+    "professors": [
+      "Heaphy, Timothy J."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1700-1900",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1020,
+        "end": 1140
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB119",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 92,
+    "title": "Law of Armed Conflict",
+    "fullTitle": "Law of Armed Conflict (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bill, Brian J."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper: 2-4 short papers, final research paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 93,
+    "title": "Law, Inequality, and Education Reform",
+    "fullTitle": "Law, Inequality, and Education Reform (Section 1)",
+    "section": 1,
+    "professors": [
+      "Robinson, Kimberly J."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper: Presentation, in class debate",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 94,
+    "title": "LawTech",
+    "fullTitle": "LawTech (Section 1)",
+    "section": 1,
+    "professors": [
+      "Livermore, Michael A."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Flex Exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 95,
+    "title": "Legal Controversies of the Founding Era",
+    "fullTitle": "Legal Controversies of the Founding Era (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bamzai, Aditya"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 96,
+    "title": "Legal Issues in Corporate Finance (Law & Business)",
+    "fullTitle": "Legal Issues in Corporate Finance (Law & Business) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Geis, George S."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL298",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Corporations or Corporations: Law & Business",
+        "Contracts"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Corporations or Corporations: Law & Business; Contracts"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 97,
+    "title": "Legal Research and Writing II (YR) (Section D)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section D)",
+    "section": null,
+    "professors": [
+      "Corts, Christopher"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 98,
+    "title": "Legal Research and Writing II (YR) (Section F)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section F)",
+    "section": null,
+    "professors": [
+      "Fore, Joe"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 99,
+    "title": "Legal Research and Writing II (YR) (Section E)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section E)",
+    "section": null,
+    "professors": [
+      "Fore, Joe"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 100,
+    "title": "Legal Research and Writing II (YR) (Section B)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section B)",
+    "section": null,
+    "professors": [
+      "Ware, Sarah Stewart"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 101,
+    "title": "Legal Research and Writing II (YR) (Section A)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section A)",
+    "section": null,
+    "professors": [
+      "Durkee, Megan"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 102,
+    "title": "Legal Research and Writing II (YR) (Section G)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section G)",
+    "section": null,
+    "professors": [
+      "Corts, Christopher"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1410-1510",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 910
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "SL262",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 103,
+    "title": "Legal Research and Writing II (YR) (Section H)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section H)",
+    "section": null,
+    "professors": [
+      "Durkee, Megan"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1410-1510",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 910
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "SL298",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 104,
+    "title": "Legal Research and Writing II (YR) (Section C)",
+    "fullTitle": "Legal Research and Writing II (YR) (Section C)",
+    "section": null,
+    "professors": [
+      "Ware, Sarah Stewart"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1000-1100",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 660
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 105,
+    "title": "Legal Theory Workshop Seminar",
+    "fullTitle": "Legal Theory Workshop Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hellman, Deborah",
+      "Strauss, Gregg"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper: Six short papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 106,
+    "title": "Legislation",
+    "fullTitle": "Legislation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nelson, Caleb E."
+    ],
+    "daysRaw": "Mon, Tue, Wed, Thu",
+    "timesRaw": "1410-1510",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 910
+      },
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 910
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 910
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 910
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB126",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 107,
+    "title": "Legislation and Regulation",
+    "fullTitle": "Legislation and Regulation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Johnston, Jason S."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Paper: Final assignment or paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 108,
+    "title": "Litigation Skills and Professional Liability Law",
+    "fullTitle": "Litigation Skills and Professional Liability Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "La Fratta, Kari",
+      "Livingston, R. Lee"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB116",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Evidence helpful, but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Evidence helpful, but not required"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 109,
+    "title": "Management of BigLaw Firms: Balancing Culture and Profits (SC)",
+    "fullTitle": "Management of BigLaw Firms: Balancing Culture and Profits (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Robinson, Arthur D."
+    ],
+    "daysRaw": "Mon, January 25\nTue, January 26\nMon, February 22\nTue, February 23\nMon, March 29\nTue, March 30",
+    "timesRaw": "1710-1910",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1030,
+        "end": 1150
+      },
+      {
+        "day": "Tue",
+        "start": 1030,
+        "end": 1150
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Paper: Two 3-4 page papers",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 29,
+        "iso": "2027-03-29"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 30,
+        "iso": "2027-03-30"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "title": "Mediation Law and Practice (SC) (Judge-Taught)",
+    "fullTitle": "Mediation Law and Practice (SC) (Judge-Taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ballou, Robert",
+      "Urbanski, Michael"
+    ],
+    "daysRaw": "Tue, January 26\nTue, February 2\nTue, February 9\nTue, February 16\nTue, February 23\nTue, March 2\nTue, March 16",
+    "timesRaw": "1600-1800",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 960,
+        "end": 1080
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Paper: Final assignment",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Civil Procedure",
+        "Torts",
+        "Contracts",
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Civil Procedure; Torts; Contracts; Constitutional Law"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 2,
+        "iso": "2027-03-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 16,
+        "iso": "2027-03-16"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "title": "Mergers & Acquisitions (SC)",
+    "fullTitle": "Mergers & Acquisitions (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Barzuza, Michal",
+      "Mirvis, Theodore N."
+    ],
+    "daysRaw": "Mon, Tue, Wed, Thu",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1200
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Corporations or Corporations: Law & Business"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Corporations or Corporations: Law & Business"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 112,
+    "title": "Mindfulness and Legal Practice",
+    "fullTitle": "Mindfulness and Legal Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Livermore, Michael A."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB278",
+    "examType": "Paper: Due March 13, 2027",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 113,
+    "title": "National Security Law",
+    "fullTitle": "National Security Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Deeks, Ashley S."
+    ],
+    "daysRaw": "Wed, Fri",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Fri",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB101",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 114,
+    "title": "Negotiation",
+    "fullTitle": "Negotiation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Spellman, Barbara A."
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1100-1400",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 660,
+        "end": 840
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB154",
+    "examType": "Paper: Two papers",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 115,
+    "title": "Nonprofit Clinic",
+    "fullTitle": "Nonprofit Clinic (Section 1)",
+    "section": 1,
+    "professors": [
+      "Reed, Kimberly"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104A",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 116,
+    "title": "Nonprofit Organizations",
+    "fullTitle": "Nonprofit Organizations (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kordana, Kevin A."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Fri",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL262",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 117,
+    "title": "On Purpose:An Introduction to Leadership, Decision-making, and Culture (SC)",
+    "fullTitle": "On Purpose:An Introduction to Leadership, Decision-making, and Culture (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Mathas, Ted"
+    ],
+    "daysRaw": "Tue, January 26\nThu, January 28\nTue, February 2\nThu, February 4\nTue, February 9\nThu, February 11\nTue, February 16\nThu, February 18",
+    "timesRaw": "1540-1715",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1035
+      },
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1035
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Paper",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Thu",
+        "m": 1,
+        "d": 28,
+        "iso": "2027-01-28"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 4,
+        "iso": "2027-02-04"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 11,
+        "iso": "2027-02-11"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 18,
+        "iso": "2027-02-18"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "title": "Oral Presentations In and Out of the Courtroom (SC)",
+    "fullTitle": "Oral Presentations In and Out of the Courtroom (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Tue, January 26\nTue, February 2\nTue, February 9\nTue, February 16\nTue, February 23",
+    "timesRaw": "1000-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 750
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied: Oral Presentations",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "title": "Oral Presentations In and Out of the Courtroom (SC)",
+    "fullTitle": "Oral Presentations In and Out of the Courtroom (SC) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Shadel, Molly Bishop"
+    ],
+    "daysRaw": "Wed, January 27\nWed, February 3\nWed, February 10\nWed, February 17\nWed, February 24",
+    "timesRaw": "1030-1230",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 630,
+        "end": 750
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied: Oral Presentations",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Wed",
+        "m": 1,
+        "d": 27,
+        "iso": "2027-01-27"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 3,
+        "iso": "2027-02-03"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 10,
+        "iso": "2027-02-10"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 17,
+        "iso": "2027-02-17"
+      },
+      {
+        "wd": "Wed",
+        "m": 2,
+        "d": 24,
+        "iso": "2027-02-24"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "title": "Patent Law",
+    "fullTitle": "Patent Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Duffy, John F."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1020
+      },
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB103",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 121,
+    "title": "Postgraduate Public Interest Fellowships (SC)",
+    "fullTitle": "Postgraduate Public Interest Fellowships (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Kim, Annie"
+    ],
+    "daysRaw": "Mon, January 25\nMon, February 1\nMon, February 8\nMon, February 15\nMon, February 22\nMon, March 1",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB116",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Mon",
+        "m": 1,
+        "d": 25,
+        "iso": "2027-01-25"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 1,
+        "iso": "2027-02-01"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 8,
+        "iso": "2027-02-08"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 15,
+        "iso": "2027-02-15"
+      },
+      {
+        "wd": "Mon",
+        "m": 2,
+        "d": 22,
+        "iso": "2027-02-22"
+      },
+      {
+        "wd": "Mon",
+        "m": 3,
+        "d": 1,
+        "iso": "2027-03-01"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "title": "Presidential Powers",
+    "fullTitle": "Presidential Powers (Section 1)",
+    "section": 1,
+    "professors": [
+      "Prakash, Saikrishna"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "0800-0950",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 480,
+        "end": 590
+      },
+      {
+        "day": "Thu",
+        "start": 480,
+        "end": 590
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB105",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 123,
+    "title": "Privacy",
+    "fullTitle": "Privacy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Citron, Danielle K."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "0920-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 560,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 560,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB102",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 124,
+    "title": "Privacy in Practice: Building and Leading a Modern Privacy Office",
+    "fullTitle": "Privacy in Practice: Building and Leading a Modern Privacy Office (Section 1)",
+    "section": 1,
+    "professors": [
+      "Walters, Kathleen"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1130-1330",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 690,
+        "end": 810
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Varied: Simulation exercises and final group presentation",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Privacy, cyersecurity, administrative, or corporate governance law helpful, but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Privacy, cyersecurity, administrative, or corporate governance law helpful, but not required"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 125,
+    "title": "Privacy Law and Theory Seminar",
+    "fullTitle": "Privacy Law and Theory Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Citron, Danielle K."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1300-1500",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 780,
+        "end": 900
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Property"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Property"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 126,
+    "title": "Professional Responsibility",
+    "fullTitle": "Professional Responsibility (Section 3)",
+    "section": 3,
+    "professors": [
+      "Shalf, Sarah"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 127,
+    "title": "Professional Responsibility",
+    "fullTitle": "Professional Responsibility (Section 2)",
+    "section": 2,
+    "professors": [
+      "Mitchell, Gregory"
+    ],
+    "daysRaw": "Wed, Fri",
+    "timesRaw": "0830-0950",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 510,
+        "end": 590
+      },
+      {
+        "day": "Fri",
+        "start": 510,
+        "end": 590
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB126",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 128,
+    "title": "Professional Responsibility",
+    "fullTitle": "Professional Responsibility (Section 1)",
+    "section": 1,
+    "professors": [
+      "Faglioni, Kelly L."
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB128",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 129,
+    "title": "Professional Responsibility in Public Interest Law Practice",
+    "fullTitle": "Professional Responsibility in Public Interest Law Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Jaffe, Cale"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL258",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 130,
+    "title": "Project for Informed Reform Clinic (YR)",
+    "fullTitle": "Project for Informed Reform Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Enright, Deirdre M."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 131,
+    "title": "Property (Section CE)",
+    "fullTitle": "Property (Section CE)",
+    "section": null,
+    "professors": [
+      "Johnston, Jason S."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL278",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 132,
+    "title": "Property (Section AB)",
+    "fullTitle": "Property (Section AB)",
+    "section": null,
+    "professors": [
+      "Johnson Jr., Alex M."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB101",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 133,
+    "title": "Property (Section FH)",
+    "fullTitle": "Property (Section FH)",
+    "section": null,
+    "professors": [
+      "Gocke, Alison"
+    ],
+    "daysRaw": "Tue, Wed, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Wed",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB128",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 134,
+    "title": "Property (Section DG)",
+    "fullTitle": "Property (Section DG)",
+    "section": null,
+    "professors": [
+      "Schragger, Richard C."
+    ],
+    "daysRaw": "Tue, Thu, Fri",
+    "timesRaw": "1000-1120",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Thu",
+        "start": 600,
+        "end": 680
+      },
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 680
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB126",
+    "examType": "Fixed Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 135,
+    "title": "Prosecution Clinic (YR)",
+    "fullTitle": "Prosecution Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Antony, Nina-Alice",
+      "Platania, Joseph D."
+    ],
+    "daysRaw": "Tue, January 26 - April 27",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB162",
+    "examType": "Clinic; Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 2,
+        "iso": "2027-03-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 9,
+        "iso": "2027-03-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 16,
+        "iso": "2027-03-16"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 23,
+        "iso": "2027-03-23"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 30,
+        "iso": "2027-03-30"
+      },
+      {
+        "wd": "Tue",
+        "m": 4,
+        "d": 6,
+        "iso": "2027-04-06"
+      },
+      {
+        "wd": "Tue",
+        "m": 4,
+        "d": 13,
+        "iso": "2027-04-13"
+      },
+      {
+        "wd": "Tue",
+        "m": 4,
+        "d": 20,
+        "iso": "2027-04-20"
+      },
+      {
+        "wd": "Tue",
+        "m": 4,
+        "d": 27,
+        "iso": "2027-04-27"
+      }
+    ]
+  },
+  {
+    "id": 136,
+    "title": "Public Law Colloquium",
+    "fullTitle": "Public Law Colloquium (Section 1)",
+    "section": 1,
+    "professors": [
+      "Ahdout, Payvand",
+      "Prakash, Saikrishna"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1330-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 810,
+        "end": 930
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Varied: Series of response papers",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 137,
+    "title": "Race and Criminal Justice",
+    "fullTitle": "Race and Criminal Justice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Bowers, Josh",
+      "Forde-Mazrui, Kim"
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Paper: Due March 13, 2027",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 138,
+    "title": "Regulation of Political Advocacy Seminar",
+    "fullTitle": "Regulation of Political Advocacy Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sanderson, Matthew"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper: Due March 13, 2027",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 139,
+    "title": "Regulation of the Political Process",
+    "fullTitle": "Regulation of the Political Process (Section 1)",
+    "section": 1,
+    "professors": [
+      "Gilbert, Michael D."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL258",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 140,
+    "title": "Remedies",
+    "fullTitle": "Remedies (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harrison, John C."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Wed",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB102",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 141,
+    "title": "Rethinking Criminal Justice",
+    "fullTitle": "Rethinking Criminal Justice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Armacost, Barbara E.",
+      "Stevenson, Megan T."
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1300-1530",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 780,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB119",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 142,
+    "title": "Securities Regulation",
+    "fullTitle": "Securities Regulation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Mahoney, Paul G."
+    ],
+    "daysRaw": "Mon, Wed, Thu",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Thu",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Corporations or Corporations: Law & Business"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Corporations or Corporations: Law & Business"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 143,
+    "title": "Seminar in Ethical Values (1-Term)",
+    "fullTitle": "Seminar in Ethical Values (1-Term) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cope, Kevin",
+      "Versteeg, Mila"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 144,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 4)",
+    "section": 4,
+    "professors": [
+      "Fore, Joe"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 145,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 5)",
+    "section": 5,
+    "professors": [
+      "Jaffe, Cale",
+      "Sánchez León, Nelson Camilo"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 146,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 6)",
+    "section": 6,
+    "professors": [
+      "Nachbar, Thomas B."
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 147,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 7)",
+    "section": 7,
+    "professors": [
+      "Goluboff, Risa",
+      "Schragger, Richard C."
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 148,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 8)",
+    "section": 8,
+    "professors": [
+      "Stetson, Cate"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 149,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 9)",
+    "section": 9,
+    "professors": [
+      "Curtis, Quinn",
+      "Fischman, Joshua"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 150,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 3)",
+    "section": 3,
+    "professors": [
+      "Robinson, Kimberly J."
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 151,
+    "title": "Seminar in Ethical Values (YR)",
+    "fullTitle": "Seminar in Ethical Values (YR) (Section 2)",
+    "section": 2,
+    "professors": [
+      "Robinson, Gerard"
+    ],
+    "daysRaw": "TBA",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "",
+    "examType": "",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": true,
+    "sessions": []
+  },
+  {
+    "id": 152,
+    "title": "Solo and Small Firm Practice",
+    "fullTitle": "Solo and Small Firm Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Stolpe, Elysse",
+      "White Levy, Logan"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB162",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 153,
+    "title": "Sports Law",
+    "fullTitle": "Sports Law (Section 1)",
+    "section": 1,
+    "professors": [
+      "Hartley, Sarah"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1000-1200",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 600,
+        "end": 720
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL294",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 154,
+    "title": "State and Local Government Policy Clinic (YR-Spring)",
+    "fullTitle": "State and Local Government Policy Clinic (YR-Spring) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Block, Andrew",
+      "Schragger, Richard C."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1030-1230",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 630,
+        "end": 750
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 155,
+    "title": "State Attorneys General",
+    "fullTitle": "State Attorneys General (Section 1)",
+    "section": 1,
+    "professors": [
+      "Herring, Mark"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1430-1630",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 870,
+        "end": 990
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB104",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 156,
+    "title": "State Constitutional Law Seminar",
+    "fullTitle": "State Constitutional Law Seminar (Section 1)",
+    "section": 1,
+    "professors": [
+      "Versteeg, Mila"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "0900-1100",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 540,
+        "end": 660
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB114",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 157,
+    "title": "Supreme Court Litigation Clinic (YR)",
+    "fullTitle": "Supreme Court Litigation Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Alvino McGill, Lori"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1540-1700",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 940,
+        "end": 1020
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL268",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Constitutional Law"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Constitutional Law"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 158,
+    "title": "Survey of Patent, Copyright, Trademark",
+    "fullTitle": "Survey of Patent, Copyright, Trademark (Section 1)",
+    "section": 1,
+    "professors": [
+      "Oliar, Dotan"
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      },
+      {
+        "day": "Wed",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "SL258",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 159,
+    "title": "Taking Effective Depositions",
+    "fullTitle": "Taking Effective Depositions (Section 1)",
+    "section": 1,
+    "professors": [
+      "Sajadi, Susan M."
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1800-2000",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1200
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB278",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Civil Procedure",
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Civil Procedure; Evidence"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 160,
+    "title": "Tax Policymaking in Practice",
+    "fullTitle": "Tax Policymaking in Practice (Section 1)",
+    "section": 1,
+    "professors": [
+      "Brown, Patrick J",
+      "Morris, William"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Fed Income Tax"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Fed Income Tax"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 161,
+    "title": "The Business of Sport",
+    "fullTitle": "The Business of Sport (Section 1)",
+    "section": 1,
+    "professors": [
+      "Whitaker, Mark"
+    ],
+    "daysRaw": "Fri",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 2,
+    "enrollment": "",
+    "classroom": "WB162",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 162,
+    "title": "The Evolving AI Governance Landscape (SC)",
+    "fullTitle": "The Evolving AI Governance Landscape (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Robertson, Tom"
+    ],
+    "daysRaw": "Thu, February 11\nFri, February 12\nThu, February 18\nFri, February 19\nThu, February 25\nFri, February 26",
+    "timesRaw": "-",
+    "meetings": [],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": true,
+    "sessions": [
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 11,
+        "iso": "2027-02-11"
+      },
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 12,
+        "iso": "2027-02-12"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 18,
+        "iso": "2027-02-18"
+      },
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 19,
+        "iso": "2027-02-19"
+      },
+      {
+        "wd": "Thu",
+        "m": 2,
+        "d": 25,
+        "iso": "2027-02-25"
+      },
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 26,
+        "iso": "2027-02-26"
+      }
+    ]
+  },
+  {
+    "id": 163,
+    "title": "The Rise and Fall of Asylum (SC)",
+    "fullTitle": "The Rise and Fall of Asylum (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Clarens, Kristin",
+      "Frost, Amanda"
+    ],
+    "daysRaw": "Mon, Tue, Wed, Thu",
+    "timesRaw": "1800-1930",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Wed",
+        "start": 1080,
+        "end": 1170
+      },
+      {
+        "day": "Thu",
+        "start": 1080,
+        "end": 1170
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB129",
+    "examType": "Varied: Presentation, two short papers (800 words)",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Immigration Law helpful but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Immigration Law helpful but not required"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 164,
+    "title": "Theory and Practice of Biodiversity Conservation",
+    "fullTitle": "Theory and Practice of Biodiversity Conservation (Section 1)",
+    "section": 1,
+    "professors": [
+      "Szeptycki, Leon"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "NRN",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 165,
+    "title": "Trial Advocacy",
+    "fullTitle": "Trial Advocacy (Section 1)",
+    "section": 1,
+    "professors": [
+      "Morrison, Alexia"
+    ],
+    "daysRaw": "Mon",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Evidence"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 166,
+    "title": "Trial Advocacy",
+    "fullTitle": "Trial Advocacy (Section 2)",
+    "section": 2,
+    "professors": [
+      "Stolpe, Elysse"
+    ],
+    "daysRaw": "Tue",
+    "timesRaw": "1800-2100",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 1080,
+        "end": 1260
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Evidence"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 167,
+    "title": "Trial Advocacy",
+    "fullTitle": "Trial Advocacy (Section 3)",
+    "section": 3,
+    "professors": [
+      "Antony, Nina-Alice"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1400-1700",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 840,
+        "end": 1020
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL290",
+    "examType": "Varied",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Evidence"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Evidence"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 168,
+    "title": "Trusts and Estates",
+    "fullTitle": "Trusts and Estates (Section 1)",
+    "section": 1,
+    "professors": [
+      "Johnson Jr., Alex M."
+    ],
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1410-1530",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 850,
+        "end": 930
+      },
+      {
+        "day": "Thu",
+        "start": 850,
+        "end": 930
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB152",
+    "examType": "Flex Exam",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [
+        "Property"
+      ],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": "Property"
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 169,
+    "title": "Virginia Practice and Procedure (Judge-Taught)",
+    "fullTitle": "Virginia Practice and Procedure (Judge-Taught) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Harrison, Gessner H.",
+      "Whitlock, Susan L."
+    ],
+    "daysRaw": "Mon, Wed",
+    "timesRaw": "1130-1250",
+    "meetings": [
+      {
+        "day": "Mon",
+        "start": 690,
+        "end": 770
+      },
+      {
+        "day": "Wed",
+        "start": 690,
+        "end": 770
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "SL284",
+    "examType": "Flex Exam",
+    "notes": "No laptops",
+    "noLaptops": true,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 170,
+    "title": "White Collar Criminal Practice (SC)",
+    "fullTitle": "White Collar Criminal Practice (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Nassikas, John",
+      "Parker, Morris"
+    ],
+    "daysRaw": "Tue, January 26\nTue, February 2\nTue, February 9\nTue, February 16\nTue, February 23\nTue, March 2",
+    "timesRaw": "1540-1740",
+    "meetings": [
+      {
+        "day": "Tue",
+        "start": 940,
+        "end": 1060
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB119",
+    "examType": "Paper: Due March 16, 2027",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [
+        "Criminal Procedure helpful but not required"
+      ],
+      "jdPriority": false,
+      "raw": "Criminal Procedure helpful but not required"
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Tue",
+        "m": 1,
+        "d": 26,
+        "iso": "2027-01-26"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 2,
+        "iso": "2027-02-02"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 9,
+        "iso": "2027-02-09"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 16,
+        "iso": "2027-02-16"
+      },
+      {
+        "wd": "Tue",
+        "m": 2,
+        "d": 23,
+        "iso": "2027-02-23"
+      },
+      {
+        "wd": "Tue",
+        "m": 3,
+        "d": 2,
+        "iso": "2027-03-02"
+      }
+    ]
+  },
+  {
+    "id": 171,
+    "title": "Workplace Rights Clinic (YR)",
+    "fullTitle": "Workplace Rights Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Baer, Marissa",
+      "McFarland, Rachel C.",
+      "Yarashes, Jason"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "1400-1600",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 840,
+        "end": 960
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 172,
+    "title": "Youth Advocacy Clinic (YR)",
+    "fullTitle": "Youth Advocacy Clinic (YR) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Banks, Amber",
+      "Bostwick, Hank",
+      "Walters, Amy"
+    ],
+    "daysRaw": "Thu",
+    "timesRaw": "1150-1350",
+    "meetings": [
+      {
+        "day": "Thu",
+        "start": 710,
+        "end": 830
+      }
+    ],
+    "units": 4,
+    "enrollment": "",
+    "classroom": "LAJC1",
+    "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  }
+]
