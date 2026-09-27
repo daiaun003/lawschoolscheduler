@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Analytics, track } from '@vercel/analytics/react'
 import './App.css'
 import { TERMS, DEFAULT_TERM_ID, examKind, CREDIT_MIN, CREDIT_MAX } from './data/courses'
@@ -11,6 +11,8 @@ import CourseCard from './components/CourseCard'
 import WeeklyCalendar from './components/WeeklyCalendar'
 import SessionsModal from './components/SessionsModal'
 import PrereqsModal from './components/PrereqsModal'
+import CourseDetailsModal from './components/CourseDetailsModal'
+import DisclaimerModal from './components/DisclaimerModal'
 import SpecialSchedulePanel from './components/SpecialSchedulePanel'
 
 const INITIAL_FILTERS = {
@@ -25,6 +27,17 @@ const INITIAL_FILTERS = {
 }
 
 const TERM_KEY = 'lawscheduler.term.v1'
+const DISCLAIMER_KEY = 'lawscheduler.disclaimer.v1'
+
+// Show the disclaimer until it's been dismissed once on this device. If storage
+// can't be read (e.g. blocked), err on the side of showing it.
+function disclaimerSeen() {
+  try {
+    return localStorage.getItem(DISCLAIMER_KEY) === '1'
+  } catch {
+    return false
+  }
+}
 
 function loadTermId() {
   try {
@@ -40,7 +53,17 @@ function loadTermId() {
 export default function App() {
   const [termId, setTermId] = useState(loadTermId)
   const [catalogOpen, setCatalogOpen] = useState(true)
+  const [showDisclaimer, setShowDisclaimer] = useState(() => !disclaimerSeen())
   const term = TERMS.find((t) => t.id === termId)
+
+  const closeDisclaimer = useCallback(() => {
+    setShowDisclaimer(false)
+    try {
+      localStorage.setItem(DISCLAIMER_KEY, '1')
+    } catch {
+      // Storage unavailable — it'll just show again next visit.
+    }
+  }, [])
 
   useEffect(() => {
     try {
@@ -58,19 +81,22 @@ export default function App() {
         onTermChange={setTermId}
         catalogOpen={catalogOpen}
         setCatalogOpen={setCatalogOpen}
+        onShowDisclaimer={() => setShowDisclaimer(true)}
       />
+      <DisclaimerModal open={showDisclaimer} onClose={closeDisclaimer} />
       <Analytics />
     </>
   )
 }
 
-function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen }) {
+function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen, onShowDisclaimer }) {
   const COURSES = term.courses
   const { selectedIds, isSelected, toggle, clearAll, setAll } = useSchedule(term)
   const savedSchedules = useSavedSchedules(term)
   const [filters, setFilters] = useState(INITIAL_FILTERS)
   const [sessionsCourse, setSessionsCourse] = useState(null)
   const [prereqsCourse, setPrereqsCourse] = useState(null)
+  const [detailsCourse, setDetailsCourse] = useState(null)
   const [specialOpen, setSpecialOpen] = useState(true)
 
   const filtered = useMemo(() => {
@@ -183,6 +209,7 @@ function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen }) {
             courses={selectedCourses}
             conflicts={conflicts}
             onRemove={toggle}
+            onOpen={setDetailsCourse}
           />
         </section>
 
@@ -198,6 +225,12 @@ function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen }) {
 
       <SessionsModal course={sessionsCourse} onClose={() => setSessionsCourse(null)} />
       <PrereqsModal course={prereqsCourse} onClose={() => setPrereqsCourse(null)} />
+      <CourseDetailsModal
+        course={detailsCourse}
+        onClose={() => setDetailsCourse(null)}
+        onRemove={toggle}
+        onShowSessions={setSessionsCourse}
+      />
 
       <footer className="app-footer">
         <p className="footer-text">
@@ -206,6 +239,10 @@ function Scheduler({ term, onTermChange, catalogOpen, setCatalogOpen }) {
         </p>
         <p className="footer-credits">
           Vibecoded with passion with the help of the UVA Law APALSA Academic Affairs team (Alex & Elizabeth)
+          {' · '}
+          <button type="button" className="footer-link" onClick={onShowDisclaimer}>
+            Disclaimer
+          </button>
         </p>
       </footer>
     </div>

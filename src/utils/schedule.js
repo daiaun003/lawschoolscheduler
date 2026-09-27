@@ -26,6 +26,29 @@ export function fmtMeetingCompact(m) {
   return `${startShort}–${end}`
 }
 
+// Compact summary of a course's meetings, e.g. "Mon, Wed · 3:40 PM – 5:40 PM".
+export function meetingSummary(course) {
+  if (course.meetings.length === 0) {
+    return course.asyncCourse ? 'Arranged / async' : course.daysRaw || 'TBA'
+  }
+  const days = [...new Set(course.meetings.map((m) => m.day))].join(', ')
+  // If all meetings share one time range, show it once; else show raw.
+  const first = course.meetings[0]
+  const sameTime = course.meetings.every(
+    (m) => m.start === first.start && m.end === first.end,
+  )
+  const time = sameTime ? fmtMeeting(first) : course.timesRaw
+  return `${days} · ${time}`
+}
+
+// The course's notes, minus a note that only restates "No laptops" (the
+// "No laptops" tag already says that).
+export function displayNotes(course) {
+  return /^no\s+laptops?(\s+allowed)?\.?$/i.test((course.notes || '').trim())
+    ? ''
+    : course.notes
+}
+
 export function totalUnits(courses) {
   return courses.reduce((sum, c) => {
     const u = Number(c.units)

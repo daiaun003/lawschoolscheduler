@@ -1,28 +1,9 @@
-import { fmtMeeting } from '../utils/schedule'
-import { examKind } from '../data/courses'
-
-// Compact summary of a meeting list, e.g. "Mon, Wed · 3:40–5:40 PM".
-function meetingSummary(course) {
-  if (course.meetings.length === 0) {
-    return course.asyncCourse ? 'Arranged / async' : course.daysRaw || 'TBA'
-  }
-  const days = [...new Set(course.meetings.map((m) => m.day))].join(', ')
-  // If all meetings share one time range, show it once; else show raw.
-  const first = course.meetings[0]
-  const sameTime = course.meetings.every(
-    (m) => m.start === first.start && m.end === first.end,
-  )
-  const time = sameTime ? fmtMeeting(first) : course.timesRaw
-  return `${days} · ${time}`
-}
+import { meetingSummary, displayNotes as notesFor } from '../utils/schedule'
+import { examKind, examLabel } from '../data/courses'
 
 export default function CourseCard({ course, selected, conflict, onToggle, onShowSessions, onShowPrereqs }) {
   const { color } = course
-  // The "No laptops" tag now conveys the policy, so drop a notes line that only
-  // restates it (avoids showing "No laptops" twice on the same card).
-  const displayNotes = /^no\s+laptops?(\s+allowed)?\.?$/i.test((course.notes || '').trim())
-    ? ''
-    : course.notes
+  const displayNotes = notesFor(course)
   return (
     <div
       className={`course-card${selected ? ' selected' : ''}${conflict ? ' conflict' : ''}`}
@@ -48,7 +29,7 @@ export default function CourseCard({ course, selected, conflict, onToggle, onSho
           {course.classroom && <span className="tag">{course.classroom}</span>}
           {course.examType && (
             <span className={`tag tag-exam tag-exam--${examKind(course.examType).toLowerCase().replace(/\s/g, '-')}`}>
-              {course.examType.split(/[:.]/)[0]}
+              {examLabel(course.examType)}
             </span>
           )}
           {course.noLaptops && (

@@ -21,6 +21,7 @@ export default function CalendarBlock({
   cols = 1,
   conflict,
   onClick,
+  onOpen,
 }) {
   const { color } = course
   const left = `calc(${(col / cols) * 100}% + 3px)`
@@ -61,6 +62,16 @@ export default function CalendarBlock({
   return (
     <div
       className={`cal-block${conflict ? ' conflict' : ''}`}
+      role="button"
+      tabIndex={0}
+      onClick={() => onOpen(course)}
+      onKeyDown={(e) => {
+        if (e.target !== e.currentTarget) return
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault()
+          onOpen(course)
+        }
+      }}
       style={{
         top,
         height,
@@ -75,7 +86,10 @@ export default function CalendarBlock({
       <button
         type="button"
         className="cal-block-remove"
-        onClick={() => onClick(course.id)}
+        onClick={(e) => {
+          e.stopPropagation()
+          onClick(course.id)
+        }}
         aria-label={`Remove ${course.title}`}
         title={`Remove ${course.title}`}
       >

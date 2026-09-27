@@ -2,31 +2,51 @@ import { DAYS } from '../data/courses'
 import { fmtTime, packDay } from '../utils/schedule'
 import CalendarBlock from './CalendarBlock'
 
-const DAY_START = 7 * 60 // 7:00 AM
+const EARLIEST_DEFAULT = 8 * 60 // 8:00 AM — no class in the catalogs starts earlier
 const DAY_END = 21 * 60 + 30 // 9:30 PM (a couple of evening classes run past 9)
 const PX_PER_MIN = 0.9
-const HEIGHT = (DAY_END - DAY_START) * PX_PER_MIN
+const WEEKEND = new Set(['Sat', 'Sun'])
 
-export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
-  // Hour grid lines from 8 AM to 9 PM.
+export default function WeeklyCalendar({ courses, conflicts, onRemove, onOpen }) {
+  // Weekends only get a column when a selected course actually meets then.
+  const visibleDays = DAYS.filter(
+    (d) => !WEEKEND.has(d) || courses.some((c) => c.meetings.some((m) => m.day === d)),
+  )
+
+  // Start at 8 AM, or earlier (on the hour) if a selected class starts before it.
+  const earliest = Math.min(
+    EARLIEST_DEFAULT,
+    ...courses.flatMap((c) => c.meetings.map((m) => m.start)),
+  )
+  const dayStart = Math.floor(earliest / 60) * 60
+  const height = (DAY_END - dayStart) * PX_PER_MIN
+
+  // Hour grid lines from the first hour to 9 PM.
   const hours = []
-  for (let h = DAY_START; h <= DAY_END; h += 60) hours.push(h)
+  for (let h = dayStart; h <= DAY_END; h += 60) hours.push(h)
 
   // Courses that can't be placed on the weekly grid (no fixed meeting time).
   const unplaced = courses.filter((c) => c.meetings.length === 0)
 
   return (
     <div className="calendar">
-      <div className="cal-grid" style={{ height: HEIGHT + 28 }}>
+      <div
+        className="cal-grid"
+        style={{
+          height: height + 28,
+          gridTemplateColumns: `54px repeat(${visibleDays.length}, 1fr)`,
+          '--cal-days': visibleDays.length,
+        }}
+      >
         {/* time gutter */}
         <div className="cal-gutter">
           <div className="cal-colhead" />
-          <div className="cal-gutter-body" style={{ height: HEIGHT }}>
+          <div className="cal-gutter-body" style={{ height }}>
             {hours.map((h) => (
               <div
                 key={h}
                 className="cal-hour-label"
-                style={{ top: (h - DAY_START) * PX_PER_MIN }}
+                style={{ top: (h - dayStart) * PX_PER_MIN }}
               >
                 {fmtTime(h)}
               </div>
@@ -35,15 +55,15 @@ export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
         </div>
 
         {/* day columns */}
-        {DAYS.map((day) => (
+        {visibleDays.map((day) => (
           <div key={day} className="cal-col">
             <div className="cal-colhead">{day}</div>
-            <div className="cal-col-body" style={{ height: HEIGHT }}>
+            <div className="cal-col-body" style={{ height }}>
               {hours.map((h) => (
                 <div
                   key={h}
                   className="cal-hour-line"
-                  style={{ top: (h - DAY_START) * PX_PER_MIN }}
+                  style={{ top: (h - dayStart) * PX_PER_MIN }}
                 />
               ))}
               {packDay(
@@ -53,19 +73,20 @@ export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
                     .map((m) => ({ course, meeting: m })),
                 ),
               ).map(({ course, meeting: m, col, cols }, i) => {
-                const top = (m.start - DAY_START) * PX_PER_MIN
-                const height = Math.max((m.end - m.start) * PX_PER_MIN, 22)
+                const top = (m.start - dayStart) * PX_PER_MIN
+                const blockHeight = Math.max((m.end - m.start) * PX_PER_MIN, 22)
                 return (
                   <CalendarBlock
                     key={`${course.id}-${day}-${i}`}
                     course={course}
                     meeting={m}
                     top={top}
-                    height={height}
+                    height={blockHeight}
                     col={col}
                     cols={cols}
                     conflict={conflicts.has(course.id)}
                     onClick={onRemove}
+                    onOpen={onOpen}
                   />
                 )
               })}
@@ -84,7 +105,14 @@ export default function WeeklyCalendar({ courses, conflicts, onRemove }) {
                   className="swatch"
                   style={{ background: c.color.bg, borderColor: c.color.border }}
                 />
-                <span className="cal-unplaced-title">{c.title}</span>
+                <button
+                  type="button"
+                  className="cal-unplaced-title"
+                  onClick={() => onOpen(c)}
+                  title="View course details"
+                >
+                  {c.title}
+                </button>
                 <span className="muted">
                   {' '}
                   — {c.asyncCourse ? 'arranged / async' : c.daysRaw || 'TBA'}

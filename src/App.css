@@ -750,10 +750,16 @@
   gap: 1px;
   box-shadow: var(--shadow-sm);
   transition: transform 0.06s, filter 0.12s;
+  cursor: pointer;
 }
 .cal-block:hover {
   filter: brightness(0.97);
   transform: translateY(-1px);
+  z-index: 5;
+}
+.cal-block:focus-visible {
+  outline: 2px solid var(--accent-deep);
+  outline-offset: 2px;
   z-index: 5;
 }
 .cal-block.conflict {
@@ -878,8 +884,18 @@
   font-size: 0.85rem;
 }
 .cal-unplaced-title {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
   font-weight: 700;
   color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.cal-unplaced-title:hover {
+  color: var(--accent-deep);
+  text-decoration: underline;
 }
 .cal-unplaced-remove {
   flex: none;
@@ -1049,6 +1065,73 @@
   border-top: 1px dashed var(--line);
   padding-top: 10px;
   line-height: 1.4;
+}
+
+/* ---------- Course details + disclaimer modals ---------- */
+.details-nolaptop {
+  background: #fbe9e9;
+  color: #a8453f;
+}
+.details-notes {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+.details-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+.details-secondary,
+.details-remove,
+.disclaimer-ok {
+  border-radius: 999px;
+  padding: 8px 16px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.details-secondary {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--accent-deep);
+}
+.details-secondary:hover {
+  border-color: var(--accent);
+}
+.details-remove {
+  border: 1px solid var(--line);
+  background: var(--bg-panel);
+  color: var(--warn);
+}
+.details-remove:hover {
+  background: var(--warn-soft);
+  border-color: var(--warn);
+}
+.disclaimer h2 {
+  font-size: 1.2rem;
+  padding-right: 28px;
+  margin-bottom: 10px;
+}
+.disclaimer p {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.disclaimer-ok {
+  border: none;
+  background: var(--accent-deep);
+  color: #fff;
+  padding: 9px 22px;
+}
+.disclaimer-ok:hover {
+  filter: brightness(1.08);
 }
 
 /* ---------- Prerequisites modal ---------- */
@@ -1251,6 +1334,18 @@
   color: var(--ink-soft);
   opacity: 0.6;
 }
+.footer-link {
+  border: none;
+  background: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-link:hover {
+  color: var(--accent-deep);
+}
 
 /* ---------- Responsive ---------- */
 
@@ -1321,7 +1416,8 @@
     -webkit-overflow-scrolling: touch;
   }
   .cal-grid {
-    min-width: 640px;
+    /* ~84px per visible day, so a 5-day week needs less sideways scroll. */
+    min-width: calc(54px + var(--cal-days, 7) * 84px);
   }
 }
 

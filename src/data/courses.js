@@ -46,6 +46,9 @@ export const CREDIT_OPTIONS = [
 export const CREDIT_MIN = CREDIT_OPTIONS[0]
 export const CREDIT_MAX = CREDIT_OPTIONS[CREDIT_OPTIONS.length - 1]
 
+// Short display label for an exam type: "Flex Exam: 80% ..." -> "Flex Exam".
+export const examLabel = (examType) => (examType || '').split(/[:.]/)[0]
+
 // Distinct exam-type "kinds" for filtering. The raw examType field is free
 // text (e.g. "Flex Exam: 80%..."), so we bucket by leading keyword.
 export function examKind(examType) {

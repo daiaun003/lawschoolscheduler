@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import PrereqSections, { hasPrereqs } from './PrereqSections'
 
 export default function PrereqsModal({ course, onClose }) {
   useEffect(() => {
@@ -9,7 +10,6 @@ export default function PrereqsModal({ course, onClose }) {
 
   if (!course) return null
   const { color, prereqs } = course
-  const { required, recommended, jdPriority } = prereqs
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -37,35 +37,9 @@ export default function PrereqsModal({ course, onClose }) {
           </div>
         </div>
 
-        {jdPriority && (
-          <div className="prereq-jd-row">
-            <span className="prereq-jd">JD Priority</span>
-          </div>
-        )}
+        <PrereqSections prereqs={prereqs} />
 
-        {required.length > 0 && (
-          <div className="prereq-section">
-            <h3 className="modal-subhead">Required</h3>
-            <ul className="prereq-list">
-              {required.map((item, i) => (
-                <li key={i} className="prereq-item prereq-required">{item}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {recommended.length > 0 && (
-          <div className="prereq-section">
-            <h3 className="modal-subhead">Helpful, not required</h3>
-            <ul className="prereq-list">
-              {recommended.map((item, i) => (
-                <li key={i} className="prereq-item prereq-recommended">{item}</li>
-              ))}
-            </ul>
-          </div>
-        )}
-
-        {!required.length && !recommended.length && !jdPriority && (
+        {!hasPrereqs(prereqs) && (
           <p className="muted" style={{ marginTop: 16 }}>No prerequisites for this course.</p>
         )}
       </div>
