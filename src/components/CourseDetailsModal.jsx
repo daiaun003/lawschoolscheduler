@@ -14,7 +14,7 @@ export default function CourseDetailsModal({ course, onClose, onRemove, onShowSe
   if (!course) return null
   const { color, prereqs } = course
   const notes = displayNotes(course)
-  const credits = Number(course.units)
+  const credits = course.units == null || course.units === '' ? NaN : Number(course.units)
 
   return (
     <div className="modal-overlay" onClick={onClose}>

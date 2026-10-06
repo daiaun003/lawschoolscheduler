@@ -31,14 +31,17 @@ export function meetingSummary(course) {
   if (course.meetings.length === 0) {
     return course.asyncCourse ? 'Arranged / async' : course.daysRaw || 'TBA'
   }
-  const days = [...new Set(course.meetings.map((m) => m.day))].join(', ')
-  // If all meetings share one time range, show it once; else show raw.
+  // If all meetings share one time range, show it once; otherwise list each
+  // day with its own time, e.g. "Fri 4:00–7:00 PM · Sat 10:00 AM–3:00 PM".
   const first = course.meetings[0]
   const sameTime = course.meetings.every(
     (m) => m.start === first.start && m.end === first.end,
   )
-  const time = sameTime ? fmtMeeting(first) : course.timesRaw
-  return `${days} · ${time}`
+  if (!sameTime) {
+    return course.meetings.map((m) => `${m.day} ${fmtMeetingCompact(m)}`).join(' · ')
+  }
+  const days = [...new Set(course.meetings.map((m) => m.day))].join(', ')
+  return `${days} · ${fmtMeeting(first)}`
 }
 
 // The course's notes, minus a note that only restates "No laptops" (the

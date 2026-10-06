@@ -5134,25 +5134,20 @@
     "fullTitle": "Patent Law (Section 1)",
     "section": 1,
     "professors": [
-      "Duffy, John F."
+      "Rowe, Elizabeth"
     ],
-    "daysRaw": "Mon, Wed, Thu",
-    "timesRaw": "1540-1700",
+    "daysRaw": "Tue, Thu",
+    "timesRaw": "1130-1320",
     "meetings": [
       {
-        "day": "Mon",
-        "start": 940,
-        "end": 1020
-      },
-      {
-        "day": "Wed",
-        "start": 940,
-        "end": 1020
+        "day": "Tue",
+        "start": 690,
+        "end": 800
       },
       {
         "day": "Thu",
-        "start": 940,
-        "end": 1020
+        "start": 690,
+        "end": 800
       }
     ],
     "units": 4,
@@ -7181,6 +7176,102 @@
     "enrollment": "",
     "classroom": "LAJC1",
     "examType": "Clinic",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": false,
+    "asyncCourse": false,
+    "sessions": []
+  },
+  {
+    "id": 173,
+    "title": "Reproductive Rights and Justice (SC)",
+    "fullTitle": "Reproductive Rights and Justice (SC) (Section 1)",
+    "section": 1,
+    "professors": [
+      "Cahn, Naomi R.",
+      "Donofrio, Gemma"
+    ],
+    "daysRaw": "Fri, February 19\nSat, February 20\nSun, February 21",
+    "timesRaw": "Fri, 1600-1900\nSat, 1000-1500\nSun, 1030-1430",
+    "meetings": [
+      {
+        "day": "Fri",
+        "start": 960,
+        "end": 1140
+      },
+      {
+        "day": "Sat",
+        "start": 600,
+        "end": 900
+      },
+      {
+        "day": "Sun",
+        "start": 630,
+        "end": 870
+      }
+    ],
+    "units": 1,
+    "enrollment": "",
+    "classroom": "WB121",
+    "examType": "Paper",
+    "notes": "",
+    "noLaptops": false,
+    "prereqs": {
+      "required": [],
+      "recommended": [],
+      "jdPriority": false,
+      "raw": ""
+    },
+    "shortCourse": true,
+    "asyncCourse": false,
+    "sessions": [
+      {
+        "wd": "Fri",
+        "m": 2,
+        "d": 19,
+        "iso": "2027-02-19"
+      },
+      {
+        "wd": "Sat",
+        "m": 2,
+        "d": 20,
+        "iso": "2027-02-20"
+      },
+      {
+        "wd": "Sun",
+        "m": 2,
+        "d": 21,
+        "iso": "2027-02-21"
+      }
+    ]
+  },
+  {
+    "id": 174,
+    "title": "International Law in Crisis",
+    "fullTitle": "International Law in Crisis (Section 1)",
+    "section": 1,
+    "professors": [
+      "Butler, Jay"
+    ],
+    "daysRaw": "Wed",
+    "timesRaw": "0900-1100",
+    "meetings": [
+      {
+        "day": "Wed",
+        "start": 540,
+        "end": 660
+      }
+    ],
+    "units": 3,
+    "enrollment": "",
+    "classroom": "WB127",
+    "examType": "Paper",
     "notes": "",
     "noLaptops": false,
     "prereqs": {
