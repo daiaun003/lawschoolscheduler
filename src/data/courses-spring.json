@@ -822,16 +822,16 @@
     "professors": [
       "Setear, John K."
     ],
-    "daysRaw": "Wed, Fri",
+    "daysRaw": "Mon, Wed",
     "timesRaw": "1000-1120",
     "meetings": [
       {
-        "day": "Wed",
+        "day": "Mon",
         "start": 600,
         "end": 680
       },
       {
-        "day": "Fri",
+        "day": "Wed",
         "start": 600,
         "end": 680
       }
